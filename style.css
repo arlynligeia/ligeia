@@ -1,1 +1,388 @@
+body {
+    background-color: #000;
+    background-image:
+        linear-gradient(to right, rgba(0, 255, 70, 0.35) 0%, rgba(0, 255, 70, 0) 20%),
+        linear-gradient(to left,  rgba(0, 255, 70, 0.35) 0%, rgba(0, 255, 70, 0) 20%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+}
+/* ======================================
+   RESPONSIVE — FONDO
+====================================== */
+@media (max-width: 768px) {
+    body {
+        background-color: #000;
+        background-image:
+            linear-gradient(to right, rgba(0, 255, 70, 0.35) 0%, rgba(0, 255, 70, 0) 20%),
+            linear-gradient(to left,  rgba(0, 255, 70, 0.35) 0%, rgba(0, 255, 70, 0) 20%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+
+
+
+/* ======================================
+   MENÚ PC — VERDE HACKER
+====================================== */
+.menu {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 40px 0px 40px;
+}
+/* LOGO */
+.menu-logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.menu-logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+body.home .menu-logo {
+    display: none;
+}
+body.is-section .menu-logo {
+    display: flex;
+}
+/* BOTONES */
+.menu-nav {
+    display: inline-block;
+    text-align: center;
+}
+.menu-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+.menu-nav li {
+    position: relative;
+}
+.menu-nav a {
+    position: relative;
+    display: block;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background:
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 2px,
+            rgba(0, 255, 70, 0.06) 2px,
+            rgba(0, 255, 70, 0.06) 4px
+        );
+    border: 2px solid #00FF46;
+    color: #00FF46;
+    box-shadow:
+        0 0 5px #00FF46,
+        inset 0 0 5px rgba(0, 255, 70, 0.3);
+}
+.menu-nav a:hover {
+    background: rgba(0, 255, 70, 0.1);
+    color: #00FF46;
+    transform: translateY(-2px);
+    box-shadow:
+        0 0 15px #00FF46,
+        0 0 25px #00FF46,
+        inset 0 0 10px rgba(0, 255, 70, 0.5);
+    text-shadow: 0 0 10px #00FF46;
+}
+.menu-nav a::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #00FF46;
+    box-shadow: 0 0 5px #00FF46;
+    transition: all 0.3s ease;
+}
+.menu-nav a:hover::after {
+    box-shadow:
+        0 0 10px #00FF46,
+        0 0 20px #00FF46;
+}
+/* ======================================
+   RESPONSIVE — OCULTAR EN MOBILE
+====================================== */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+
+/* ======================================
+   MENÚ MOBILE — VERDE HACKER
+====================================== */
+.menu-mobile {
+    display: none;
+}
+@media (max-width: 768px) {
+    .menu-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px;
+        box-sizing: border-box;
+    }
+    /* BOTÓN HAMBURGUESA */
+    .menu-mobile-toggle {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1001;
+        border-radius: 8px;
+        padding: 12px 10px;
+        gap: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background:
+            repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 255, 70, 0.06) 2px,
+                rgba(0, 255, 70, 0.06) 4px
+            );
+        border: 2px solid #00FF46;
+        box-shadow:
+            0 0 5px #00FF46,
+            inset 0 0 5px rgba(0, 255, 70, 0.3);
+    }
+    .menu-mobile-toggle span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #00FF46;
+        transition: all 0.3s ease;
+    }
+    .menu-mobile-toggle:hover {
+        background: rgba(0, 255, 70, 0.1);
+        transform: translateY(-2px);
+        box-shadow:
+            0 0 15px #00FF46,
+            0 0 25px #00FF46,
+            inset 0 0 10px rgba(0, 255, 70, 0.5);
+    }
+    .menu-mobile-toggle::after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #00FF46;
+        box-shadow: 0 0 5px #00FF46;
+        transition: all 0.3s ease;
+    }
+    .menu-mobile-toggle:hover::after {
+        box-shadow:
+            0 0 10px #00FF46,
+            0 0 20px #00FF46;
+    }
+    /* OVERLAY — verde oscuro hacker */
+    .menu-mobile-nav {
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background:
+            radial-gradient(circle at center, #002810 0%, #000 80%);
+        display: none;
+    }
+    .menu-mobile-nav.active {
+        display: block;
+    }
+    .menu-mobile-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-mobile-nav li {
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 255, 70, 0.4);
+        padding: 12px 0;
+    }
+    .menu-mobile-nav li:last-child {
+        border-bottom: none;
+    }
+    .menu-mobile-nav a {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0 20px;
+        display: block;
+        color: #00FF46;
+    }
+    /* LOGO */
+    .menu-mobile-logo {
+        display: flex;
+        align-items: center;
+    }
+    .menu-mobile-logo img {
+        height: 50px;
+        width: auto;
+        display: block;
+    }
+}
+
+/* ======================================
+   SUBMENUS PC — VERDE HACKER
+====================================== */
+.menu-nav .submenu {
+    position: absolute;
+    display: none;
+    top: 40px;
+    right: 0;
+    list-style: none;
+    background: #001a08 !important;
+    z-index: 1000;
+    border: 2px solid #00FF46 !important;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    box-shadow:
+        0 0 10px rgba(0, 255, 70, 0.5),
+        inset 0 0 8px rgba(0, 255, 70, 0.15);
+}
+
+/* Mostrar submenú al hacer hover sobre el <li> padre */
+.menu-nav li:hover > .submenu {
+    display: block;
+}
+
+/* --- ELEMENTOS DEL SUBMENÚ --- */
+.menu-nav .submenu li {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-nav .submenu li a {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    color: #00FF46 !important;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.menu-nav .submenu li a:hover {
+    background: rgba(0, 255, 70, 0.15) !important;
+    color: #00FF46 !important;
+    padding-left: 20px;
+    text-shadow: 0 0 8px #00FF46;
+}
+
+/* --- LÍNEA VERDE ANIMADA --- */
+.menu-nav .submenu li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #00FF46 !important;
+    box-shadow: 0 0 8px #00FF46;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.menu-nav .submenu li:hover::before {
+    transform: scaleX(1);
+}
+
+/* --- Separadores entre items --- */
+.menu-nav .submenu li:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 255, 70, 0.3) !important;
+}
+
+
+
+
+/* ======================================
+   LOGO PC
+====================================== */
+.logo {
+    background: transparent !important;
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+    padding: 250px 20px 20px 20px;
+}
+.logo img {
+    width: 90%;
+    box-sizing: border-box;
+    max-width: none;
+    height: auto;
+    display: inline-block;
+}
+body.is-section .logo {
+    display: none;
+}
+.logo.hidden {
+    display: none !important;
+}
+/* ======================================
+   RESPONSIVE — OCULTAR EN MOBILE
+====================================== */
+@media (max-width: 768px) {
+    .logo { display: none; }
+}
+
+
+
+
+
+
+
 
