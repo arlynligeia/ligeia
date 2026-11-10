@@ -16345,7 +16345,7 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: #2a0070 !important;
+    background: #000000 !important;
     margin-top: auto;
     padding: 30px;
 }
@@ -16377,7 +16377,7 @@ body.is-section .logo {
 .footer-brand-allrightreserved {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: #00FFFF !important;
+    color: #00FF41 !important;
     text-decoration: none;
     line-height: 1.5;
     margin: 20px 0 10px 0;
@@ -16398,7 +16398,7 @@ body.is-section .logo {
     z-index: 1;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: #00FFFF !important;
+    color: #00FF41 !important;
     text-decoration: none;
     line-height: 1.5;
     margin: 0 0 10px 0;
@@ -16413,7 +16413,7 @@ body.is-section .logo {
     top: 50%;
     width: 100%;
     height: 2px;
-    background: #00FFFF !important;
+    background: #00FF41 !important;
     transform: translateY(-50%);
     animation: strike 0.3s ease forwards;
 }
@@ -16434,7 +16434,7 @@ body.is-section .logo {
 .footer-socialmedia-icon {
     width: 25px;
     height: 25px;
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     transition: all 0.3s ease;
 }
 .footer-socialmedia-icon:hover {
@@ -16457,14 +16457,14 @@ body.is-section .logo {
     border-radius: 8px;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #00FFFF !important;
+    color: #00FF41 !important;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     margin: 0px;
     padding: 10px 20px;
-    border: 2px solid #00FFFF !important;
+    border: 2px solid #00FF41 !important;
     cursor: pointer;
     transition: all 0.3s ease;
     background:
@@ -16472,22 +16472,22 @@ body.is-section .logo {
             45deg,
             transparent,
             transparent 2px,
-            rgba(255, 255, 255, 0.05) 2px,
-            rgba(255, 255, 255, 0.05) 4px
+            rgba(0, 255, 65, 0.05) 2px,
+            rgba(0, 255, 65, 0.05) 4px
         ) !important;
     box-shadow:
-        0 0 5px #00FFFF,
-        inset 0 0 5px rgba(0, 255, 255, 0.3);
+        0 0 5px #00FF41,
+        inset 0 0 5px rgba(0, 255, 65, 0.3);
 }
 .footer-button-scrolltop:hover {
-    background: rgba(0, 255, 255, 0.1) !important;
-    color: #00FFFF !important;
+    background: rgba(0, 255, 65, 0.1) !important;
+    color: #00FF41 !important;
     transform: translateY(-2px);
     box-shadow:
-        0 0 15px #00FFFF,
-        0 0 25px #00FFFF,
-        inset 0 0 10px rgba(0, 255, 255, 0.5);
-    text-shadow: 0 0 10px #00FFFF;
+        0 0 15px #00FF41,
+        0 0 25px #00FF41,
+        inset 0 0 10px rgba(0, 255, 65, 0.5);
+    text-shadow: 0 0 10px #00FF41;
 }
 .footer-button-scrolltop::after {
     content: '';
@@ -16497,14 +16497,14 @@ body.is-section .logo {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #00FFFF;
-    box-shadow: 0 0 5px #00FFFF;
+    background: #00FF41;
+    box-shadow: 0 0 5px #00FF41;
     transition: all 0.3s ease;
 }
 .footer-button-scrolltop:hover::after {
     box-shadow:
-        0 0 10px #00FFFF,
-        0 0 20px #00FFFF;
+        0 0 10px #00FF41,
+        0 0 20px #00FF41;
 }
 /* CONTROL */
 .footer { display: block; }
@@ -16517,7 +16517,7 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: #2a0070 !important;
+        background: #000000 !important;
         padding: 20px;
         margin-top: auto;
     }
@@ -16546,7 +16546,7 @@ body.is-section .logo {
     .footer-brand-allrightreserved-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: #00FFFF !important;
+        color: #00FF41 !important;
         text-decoration: none;
         line-height: 1.5;
         margin: 0 0 10px 0;
@@ -16565,7 +16565,7 @@ body.is-section .logo {
         z-index: 1;
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: #00FFFF !important;
+        color: #00FF41 !important;
         text-decoration: none;
         line-height: 1.5;
         margin: 0 0 10px 0;
@@ -16584,7 +16584,7 @@ body.is-section .logo {
     .footer-socialmedia-icon-mobile {
         width: 20px;
         height: 20px;
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         transition: all 0.3s ease;
     }
     .footer-socialmedia-icon-mobile:hover {
@@ -16610,9 +16610,9 @@ body.is-section .logo {
         margin: 0px;
         padding: 10px 20px;
         background: transparent !important;
-        color: #00FFFF !important;
+        color: #00FF41 !important;
         text-decoration: none;
-        border: 2px solid #00FFFF !important;
+        border: 2px solid #00FF41 !important;
         cursor: pointer;
         transition: all 0.3s ease;
         background:
@@ -16620,22 +16620,22 @@ body.is-section .logo {
                 45deg,
                 transparent,
                 transparent 2px,
-                rgba(255, 255, 255, 0.05) 2px,
-                rgba(255, 255, 255, 0.05) 4px
+                rgba(0, 255, 65, 0.05) 2px,
+                rgba(0, 255, 65, 0.05) 4px
             ) !important;
         box-shadow:
-            0 0 5px #00FFFF,
-            inset 0 0 5px rgba(0, 255, 255, 0.3);
+            0 0 5px #00FF41,
+            inset 0 0 5px rgba(0, 255, 65, 0.3);
     }
     .footer-button-scrolltop-mobile:hover {
-        background: rgba(0, 255, 255, 0.1) !important;
-        color: #00FFFF !important;
+        background: rgba(0, 255, 65, 0.1) !important;
+        color: #00FF41 !important;
         transform: translateY(-2px);
         box-shadow:
-            0 0 15px #00FFFF,
-            0 0 25px #00FFFF,
-            inset 0 0 10px rgba(0, 255, 255, 0.5);
-        text-shadow: 0 0 10px #00FFFF;
+            0 0 15px #00FF41,
+            0 0 25px #00FF41,
+            inset 0 0 10px rgba(0, 255, 65, 0.5);
+        text-shadow: 0 0 10px #00FF41;
     }
     .footer-button-scrolltop-mobile::after {
         content: '';
@@ -16645,14 +16645,14 @@ body.is-section .logo {
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #00FFFF;
-        box-shadow: 0 0 5px #00FFFF;
+        background: #00FF41;
+        box-shadow: 0 0 5px #00FF41;
         transition: all 0.3s ease;
     }
     .footer-button-scrolltop-mobile:hover::after {
         box-shadow:
-            0 0 10px #00FFFF,
-            0 0 20px #00FFFF;
+            0 0 10px #00FF41,
+            0 0 20px #00FF41;
     }
     /* CONTROL */
     .footer { display: none; }
