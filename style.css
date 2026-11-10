@@ -13434,11 +13434,11 @@ body.is-section .logo {
 .contact-container-1 {
     position: relative;
     width: 600px;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 50px auto 50px auto;
     padding: 0px;
@@ -13447,11 +13447,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -13463,8 +13463,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #2a0070 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-radius: 0px;
     margin: 0px;
     padding: 15px;
@@ -13474,7 +13474,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -13483,7 +13483,7 @@ body.is-section .logo {
     padding: 0px;
 }
 .contact-title a {
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
 }
 /* BOTÓN - CERRAR */
@@ -13495,20 +13495,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 .contact-button-2 {
     display: flex;
@@ -13517,27 +13517,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 10px;
     transition: border-color 0.15s ease;
 }
 .contact-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .contact-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -13551,8 +13551,8 @@ body.is-section .logo {
 .contact-container-3 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -13561,11 +13561,11 @@ body.is-section .logo {
 .contact-container-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
     border-radius: 0px;
     margin: 0px;
     padding: 30px;
@@ -13582,7 +13582,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     margin: 0 0 5px 0;
 }
@@ -13594,19 +13594,19 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0px 0px 20px 0px;
     padding: 0px;
 }
 .contact-box:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 /* CAJAS CON TEXTOS */
 .contact-input,
@@ -13614,15 +13614,15 @@ body.is-section .logo {
     width: 100%;
     height: 40px;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: black !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-align: left;
     margin: 0px;
@@ -13630,10 +13630,10 @@ body.is-section .logo {
 }
 .contact-input:hover,
 .contact-textarea:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .contact-textarea {
     height: 150px;
@@ -13656,20 +13656,20 @@ body.is-section .logo {
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0A8;
+    border-left:   2px solid #FFE0A8;
+    border-right:  2px solid #FFB000;
+    border-bottom: 2px solid #FFB000;
     border-radius: 0px;
     margin: 0px auto 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button2-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #FFB000;
+    border-left-color:   #FFB000;
+    border-right-color:  #FFE0A8;
+    border-bottom-color: #FFE0A8;
 }
 .contact-button2-2 {
     display: block;
@@ -13677,32 +13677,32 @@ body.is-section .logo {
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    border-top:    2px solid #FFD98A;
+    border-left:   2px solid #FFD98A;
+    border-right:  2px solid #E69500;
+    border-bottom: 2px solid #E69500;
     border-radius: 0px;
     margin: 0 auto;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .contact-button2-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #E69500;
+    border-left-color:   #E69500;
+    border-right-color:  #FFD98A;
+    border-bottom-color: #FFD98A;
 }
 .contact-button2-text {
     display: block;
     width: auto;
     box-sizing: border-box;
     align-items: center;
-    background: #ff00a9 !important;
+    background: transparent !important;
     border: none;
     border-radius: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: white !important;
+    color: #FFB000 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -13716,7 +13716,7 @@ body.is-section .logo {
     filter: brightness(1.1);
 }
 /* ======================================
-   NOTIFICACIÓN - PC
+   NOTIFICACIÓN - PC (ROJO)
 ====================================== */
 .contact-notification-1 {
     position: fixed;
@@ -13727,11 +13727,11 @@ body.is-section .logo {
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     padding: 0px;
     opacity: 0;
@@ -13747,11 +13747,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -13763,8 +13763,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #ff00a9 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -13774,7 +13774,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -13783,15 +13783,15 @@ body.is-section .logo {
     padding: 0px;
 }
 .contact-notification-title a {
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
 .contact-notification-3 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -13800,11 +13800,11 @@ body.is-section .logo {
 .contact-notification-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
     border-radius: 0px;
     margin: 0px;
     padding: 20px;
@@ -13820,7 +13820,7 @@ body.is-section .logo {
 .contact-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: black !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -13834,20 +13834,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     margin: 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-notification-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
 }
 .contact-notification-button-2 {
     display: flex;
@@ -13856,27 +13856,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
 .contact-notification-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
 }
 .contact-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
@@ -13901,11 +13901,11 @@ body.is-section .logo {
 .contact-container-1-mobile {
     position: relative;
     width: 90%;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 80px auto 40px auto;
     padding: 0px;
@@ -13914,11 +13914,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -13930,8 +13930,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #2a0070 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-radius: 0px;
     margin: 0px;
     padding: 10px;
@@ -13941,7 +13941,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2rem;
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -13950,7 +13950,7 @@ body.is-section .logo {
     padding: 0px;
 }
 .contact-title-mobile a {
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
 }
 /* BOTÓN - CERRAR */
@@ -13962,20 +13962,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button-1-mobile:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 .contact-button-2-mobile {
     display: flex;
@@ -13984,27 +13984,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 10px;
     transition: border-color 0.15s ease;
 }
 .contact-button-2-mobile:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .contact-button-text-mobile {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -14018,8 +14018,8 @@ body.is-section .logo {
 .contact-container-3-mobile {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -14028,11 +14028,11 @@ body.is-section .logo {
 .contact-container-4-mobile {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
     border-radius: 0px;
     margin: 0px;
     padding: 20px;
@@ -14049,7 +14049,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     margin: 0 0 5px 0;
 }
@@ -14061,19 +14061,19 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0px 0px 20px 0px;
     padding: 0px;
 }
 .contact-box-mobile:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 /* CAJAS CON TEXTOS */
 .contact-input-mobile,
@@ -14081,15 +14081,15 @@ body.is-section .logo {
     width: 100%;
     height: 40px;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: black !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-align: left;
     margin: 0px;
@@ -14097,10 +14097,10 @@ body.is-section .logo {
 }
 .contact-input-mobile:hover,
 .contact-textarea-mobile:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .contact-textarea-mobile {
     height: 150px;
@@ -14123,20 +14123,20 @@ body.is-section .logo {
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0A8;
+    border-left:   2px solid #FFE0A8;
+    border-right:  2px solid #FFB000;
+    border-bottom: 2px solid #FFB000;
     border-radius: 0px;
     margin: 0px auto 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button2-1-mobile:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #FFB000;
+    border-left-color:   #FFB000;
+    border-right-color:  #FFE0A8;
+    border-bottom-color: #FFE0A8;
 }
 .contact-button2-2-mobile {
     display: block;
@@ -14144,32 +14144,32 @@ body.is-section .logo {
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    border-top:    2px solid #FFD98A;
+    border-left:   2px solid #FFD98A;
+    border-right:  2px solid #E69500;
+    border-bottom: 2px solid #E69500;
     border-radius: 0px;
     margin: 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button2-2-mobile:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #E69500;
+    border-left-color:   #E69500;
+    border-right-color:  #FFD98A;
+    border-bottom-color: #FFD98A;
 }
 .contact-button2-text-mobile {
     display: block;
     width: auto;
     box-sizing: border-box;
     align-items: center;
-    background: #ff00a9 !important;
+    background: transparent !important;
     border: none;
     border-radius: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: white !important;
+    color: #FFB000 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -14183,7 +14183,7 @@ body.is-section .logo {
     filter: brightness(1.1);
 }   
 /* ======================================
-   NOTIFICACIÓN - MOBILE
+   NOTIFICACIÓN - MOBILE (ROJO)
 ====================================== */
 .contact-notification-1-mobile {
     position: fixed;
@@ -14194,11 +14194,11 @@ body.is-section .logo {
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     padding: 0px;
     opacity: 0;
@@ -14214,11 +14214,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -14230,8 +14230,8 @@ body.is-section .logo {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    background: #ff00a9 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -14240,7 +14240,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -14248,15 +14248,15 @@ body.is-section .logo {
     margin: 0;
 }
 .contact-notification-title-mobile a {
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
 }
 /* CONTENIDO */
 .contact-notification-3-mobile {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -14265,17 +14265,17 @@ body.is-section .logo {
 .contact-notification-4-mobile {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
     border-radius: 0px;
     margin: 0px;
     padding: 20px;
 }
 /* NOTIFICACIÓN - INFORMACIÓN */
-.upcomingrelease-notification-information-mobile {
+.contact-notification-information-mobile {
     width: 100%;
     box-sizing: border-box;
     margin: 0px;
@@ -14284,7 +14284,7 @@ body.is-section .logo {
 .contact-notification-text-mobile {
     font-family: 'Share Tech Mono', monospace;
     font-size: 0.8rem;
-    color: black !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -14298,20 +14298,20 @@ body.is-section .logo {
     width: fit-content;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     margin: 0 auto;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .contact-notification-button-1-mobile:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
 }
 .contact-notification-button-2-mobile {
     display: flex;
@@ -14320,27 +14320,27 @@ body.is-section .logo {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: #d0aaff !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
 .contact-notification-button-2-mobile:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
 }
 .contact-notification-button-text-mobile {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
@@ -14359,35 +14359,17 @@ body.is-section .logo {
 .contact-notification-1-mobile { display: block; }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    TERMS AND CONDITIONS - PC
 ====================================== */
 .termsandconditions-container-1 {
     position: relative;
     width: 850px;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 50px auto 50px auto;
     padding: 0px;
@@ -14396,11 +14378,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -14412,8 +14394,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #2a0070 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-radius: 0px;
     margin: 0px;
     padding: 15px;
@@ -14422,7 +14404,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -14430,7 +14412,7 @@ body.is-section .logo {
     margin: 0;
 }
 .termsandconditions-title a {
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -14442,20 +14424,20 @@ body.is-section .logo {
     height: 40px;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .termsandconditions-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 .termsandconditions-button-2 {
     display: flex;
@@ -14464,27 +14446,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0;
     padding: 10px;
     transition: border-color 0.15s ease;
 }
 .termsandconditions-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .termsandconditions-close {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -14498,8 +14480,8 @@ body.is-section .logo {
 .termsandconditions-content-1 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -14508,11 +14490,11 @@ body.is-section .logo {
 .termsandconditions-content-2 {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
     border-radius: 0px;
     margin: 0px;
     padding: 30px;
@@ -14527,7 +14509,7 @@ body.is-section .logo {
 .termsandconditions-text-end {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
@@ -14537,7 +14519,7 @@ body.is-section .logo {
     margin-bottom: 0px;
 }
 /* ======================================
-   NOTIFICACIÓN - PC
+   NOTIFICACIÓN - PC (ROJO)
 ====================================== */
 .termsandconditions-notification-1 {
     position: fixed;
@@ -14548,11 +14530,11 @@ body.is-section .logo {
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     padding: 0px;
     opacity: 0;
@@ -14568,11 +14550,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -14584,8 +14566,8 @@ body.is-section .logo {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    background: #ff00a9 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -14594,7 +14576,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -14602,15 +14584,15 @@ body.is-section .logo {
     margin: 0;
 }
 .termsandconditions-notification-title a {
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
 .termsandconditions-notification-content-1 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -14619,11 +14601,11 @@ body.is-section .logo {
 .termsandconditions-notification-content-2 {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
     border-radius: 0px;
     margin: 0px;
     padding: 20px;
@@ -14632,7 +14614,7 @@ body.is-section .logo {
 .termsandconditions-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: black !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -14646,20 +14628,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     margin: 0 auto;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .termsandconditions-notification-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
 }
 .termsandconditions-notification-button-2 {
     display: flex;
@@ -14668,27 +14650,27 @@ body.is-section .logo {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: #d0aaff !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
 .termsandconditions-notification-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
 }
 .termsandconditions-notification-stay {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
@@ -14722,11 +14704,11 @@ body.is-section .logo {
         position: relative;
         width: 90%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 80px auto 40px auto;
         padding: 0px;
@@ -14735,11 +14717,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -14751,8 +14733,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #2a0070 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-radius: 0px;
         margin: 0px;
         padding: 10px;
@@ -14761,7 +14743,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -14769,7 +14751,7 @@ body.is-section .logo {
         margin: 0;
     }
     .termsandconditions-title-mobile a {
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -14782,20 +14764,20 @@ body.is-section .logo {
         height: 35px;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 0;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .termsandconditions-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #00B82E;
+        border-left-color:   #00B82E;
+        border-right-color:  #DFFFE4;
+        border-bottom-color: #DFFFE4;
     }
     .termsandconditions-button-2-mobile {
         position: relative;
@@ -14805,27 +14787,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0;
         padding: 10px;
         transition: border-color 0.15s ease;
     }
     .termsandconditions-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
     }
     .termsandconditions-close-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         line-height: 1;
@@ -14838,8 +14820,8 @@ body.is-section .logo {
     .termsandconditions-content-1-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -14849,11 +14831,11 @@ body.is-section .logo {
     .termsandconditions-content-2-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #3f00a8 !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #00B82E;
+        border-left:   2px solid #00B82E;
+        border-right:  2px solid #DFFFE4;
+        border-bottom: 2px solid #DFFFE4;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -14868,7 +14850,7 @@ body.is-section .logo {
     .termsandconditions-text-end-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1rem;
-        color: #00FF00 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         line-height: 1.5;
         text-align: left;
@@ -14878,7 +14860,7 @@ body.is-section .logo {
         margin-bottom: 0px;
     }
     /* ======================================
-       NOTIFICACIÓN
+       NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
     .termsandconditions-notification-container-1-mobile {
         position: fixed;
@@ -14889,11 +14871,11 @@ body.is-section .logo {
         width: 90%;
         max-width: 400px;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         padding: 0px;
         opacity: 0;
@@ -14909,11 +14891,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -14925,8 +14907,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #ff00a9 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-radius: 0px;
         margin: 0px;
         padding: 4px 12px;
@@ -14935,7 +14917,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -14943,15 +14925,15 @@ body.is-section .logo {
         margin: 0;
     }
     .termsandconditions-notification-title-mobile a {
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
     }
     /* CONTENIDO */
     .termsandconditions-notification-content-1-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -14960,11 +14942,11 @@ body.is-section .logo {
     .termsandconditions-notification-content-2-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #00FFFF !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #B3001F;
+        border-left:   2px solid #B3001F;
+        border-right:  2px solid #FFE0E0;
+        border-bottom: 2px solid #FFE0E0;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -14973,7 +14955,7 @@ body.is-section .logo {
     .termsandconditions-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: black !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
@@ -14987,20 +14969,20 @@ body.is-section .logo {
         width: fit-content;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         margin: 0 auto;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .termsandconditions-notification-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #B3001F;
+        border-left-color:   #B3001F;
+        border-right-color:  #FFE0E0;
+        border-bottom-color: #FFE0E0;
     }
     .termsandconditions-notification-button-2-mobile {
         display: flex;
@@ -15009,27 +14991,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0;
         padding: 10px 20px;
         transition: border-color 0.15s ease;
     }
     .termsandconditions-notification-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #FF3333;
+        border-left-color:   #FF3333;
+        border-right-color:  #FFB8B8;
+        border-bottom-color: #FFB8B8;
     }
     .termsandconditions-notification-stay-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         line-height: 1;
         cursor: pointer;
@@ -15061,11 +15043,11 @@ body.is-section .logo {
 .privacypolicy-container-1 {
     position: relative;
     width: 850px;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 50px auto 50px auto;
     padding: 0px;
@@ -15074,11 +15056,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -15090,8 +15072,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #2a0070 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-radius: 0px;
     margin: 0px;
     padding: 15px;
@@ -15100,7 +15082,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -15108,7 +15090,7 @@ body.is-section .logo {
     margin: 0;
 }
 .privacypolicy-title a {
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -15120,20 +15102,20 @@ body.is-section .logo {
     height: 40px;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .privacypolicy-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 .privacypolicy-button-2 {
     display: flex;
@@ -15142,27 +15124,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0;
     padding: 10px;
     transition: border-color 0.15s ease;
 }
 .privacypolicy-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .privacypolicy-close {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -15176,8 +15158,8 @@ body.is-section .logo {
 .privacypolicy-content-1 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -15186,11 +15168,11 @@ body.is-section .logo {
 .privacypolicy-content-2 {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
     border-radius: 0px;
     margin: 0px;
     padding: 30px;
@@ -15205,7 +15187,7 @@ body.is-section .logo {
 .privacypolicy-text-end {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
@@ -15215,7 +15197,7 @@ body.is-section .logo {
     margin-bottom: 0px;
 }
 /* ======================================
-   NOTIFICACIÓN - PC
+   NOTIFICACIÓN - PC (ROJO)
 ====================================== */
 .privacypolicy-notification-1 {
     position: fixed;
@@ -15226,11 +15208,11 @@ body.is-section .logo {
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     padding: 0px;
     opacity: 0;
@@ -15246,11 +15228,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -15262,8 +15244,8 @@ body.is-section .logo {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    background: #ff00a9 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -15272,7 +15254,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -15280,15 +15262,15 @@ body.is-section .logo {
     margin: 0;
 }
 .privacypolicy-notification-title a {
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
 .privacypolicy-notification-content-1 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -15297,11 +15279,11 @@ body.is-section .logo {
 .privacypolicy-notification-content-2 {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
     border-radius: 0px;
     margin: 0px;
     padding: 20px;
@@ -15310,7 +15292,7 @@ body.is-section .logo {
 .privacypolicy-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: black !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -15324,20 +15306,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     margin: 0 auto;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .privacypolicy-notification-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
 }
 .privacypolicy-notification-button-2 {
     display: flex;
@@ -15346,27 +15328,27 @@ body.is-section .logo {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: #d0aaff !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
 .privacypolicy-notification-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
 }
 .privacypolicy-notification-stay {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
@@ -15400,11 +15382,11 @@ body.is-section .logo {
         position: relative;
         width: 90%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 80px auto 40px auto;
         padding: 0px;
@@ -15413,11 +15395,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -15429,8 +15411,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #2a0070 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-radius: 0px;
         margin: 0px;
         padding: 10px;
@@ -15439,7 +15421,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -15447,7 +15429,7 @@ body.is-section .logo {
         margin: 0;
     }
     .privacypolicy-title-mobile a {
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -15460,20 +15442,20 @@ body.is-section .logo {
         height: 35px;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 0;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .privacypolicy-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #00B82E;
+        border-left-color:   #00B82E;
+        border-right-color:  #DFFFE4;
+        border-bottom-color: #DFFFE4;
     }
     .privacypolicy-button-2-mobile {
         position: relative;
@@ -15483,27 +15465,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0;
         padding: 10px;
         transition: border-color 0.15s ease;
     }
     .privacypolicy-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
     }
     .privacypolicy-close-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         line-height: 1;
@@ -15516,8 +15498,8 @@ body.is-section .logo {
     .privacypolicy-content-1-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -15527,11 +15509,11 @@ body.is-section .logo {
     .privacypolicy-content-2-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #3f00a8 !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #00B82E;
+        border-left:   2px solid #00B82E;
+        border-right:  2px solid #DFFFE4;
+        border-bottom: 2px solid #DFFFE4;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -15546,7 +15528,7 @@ body.is-section .logo {
     .privacypolicy-text-end-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1rem;
-        color: #00FF00 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         line-height: 1.5;
         text-align: left;
@@ -15556,7 +15538,7 @@ body.is-section .logo {
         margin-bottom: 0px;
     }
     /* ======================================
-       NOTIFICACIÓN
+       NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
     .privacypolicy-notification-container-1-mobile {
         position: fixed;
@@ -15567,11 +15549,11 @@ body.is-section .logo {
         width: 90%;
         max-width: 400px;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         padding: 0px;
         opacity: 0;
@@ -15587,11 +15569,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -15603,8 +15585,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #ff00a9 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-radius: 0px;
         margin: 0px;
         padding: 4px 12px;
@@ -15613,7 +15595,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -15621,15 +15603,15 @@ body.is-section .logo {
         margin: 0;
     }
     .privacypolicy-notification-title-mobile a {
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
     }
     /* CONTENIDO */
     .privacypolicy-notification-content-1-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -15638,11 +15620,11 @@ body.is-section .logo {
     .privacypolicy-notification-content-2-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #00FFFF !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #B3001F;
+        border-left:   2px solid #B3001F;
+        border-right:  2px solid #FFE0E0;
+        border-bottom: 2px solid #FFE0E0;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -15651,7 +15633,7 @@ body.is-section .logo {
     .privacypolicy-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: black !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
@@ -15665,20 +15647,20 @@ body.is-section .logo {
         width: fit-content;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         margin: 0 auto;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .privacypolicy-notification-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #B3001F;
+        border-left-color:   #B3001F;
+        border-right-color:  #FFE0E0;
+        border-bottom-color: #FFE0E0;
     }
     .privacypolicy-notification-button-2-mobile {
         display: flex;
@@ -15687,27 +15669,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0;
         padding: 10px 20px;
         transition: border-color 0.15s ease;
     }
     .privacypolicy-notification-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #FF3333;
+        border-left-color:   #FF3333;
+        border-right-color:  #FFB8B8;
+        border-bottom-color: #FFB8B8;
     }
     .privacypolicy-notification-stay-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         line-height: 1;
         cursor: pointer;
@@ -15739,11 +15721,11 @@ body.is-section .logo {
 .cookiepolicy-container-1 {
     position: relative;
     width: 850px;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 50px auto 50px auto;
     padding: 0px;
@@ -15752,11 +15734,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -15768,8 +15750,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #2a0070 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-radius: 0px;
     margin: 0px;
     padding: 15px;
@@ -15778,7 +15760,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -15786,7 +15768,7 @@ body.is-section .logo {
     margin: 0;
 }
 .cookiepolicy-title a {
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -15798,20 +15780,20 @@ body.is-section .logo {
     height: 40px;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .cookiepolicy-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 .cookiepolicy-button-2 {
     display: flex;
@@ -15820,27 +15802,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0;
     padding: 10px;
     transition: border-color 0.15s ease;
 }
 .cookiepolicy-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .cookiepolicy-close {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -15854,8 +15836,8 @@ body.is-section .logo {
 .cookiepolicy-content-1 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -15864,11 +15846,11 @@ body.is-section .logo {
 .cookiepolicy-content-2 {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
     border-radius: 0px;
     margin: 0px;
     padding: 30px;
@@ -15883,7 +15865,7 @@ body.is-section .logo {
 .cookiepolicy-text-end {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
@@ -15893,7 +15875,7 @@ body.is-section .logo {
     margin-bottom: 0px;
 }
 /* ======================================
-   NOTIFICACIÓN - PC
+   NOTIFICACIÓN - PC (ROJO)
 ====================================== */
 .cookiepolicy-notification-1 {
     position: fixed;
@@ -15904,11 +15886,11 @@ body.is-section .logo {
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     padding: 0px;
     opacity: 0;
@@ -15924,11 +15906,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -15940,8 +15922,8 @@ body.is-section .logo {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    background: #ff00a9 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -15950,7 +15932,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -15958,15 +15940,15 @@ body.is-section .logo {
     margin: 0;
 }
 .cookiepolicy-notification-title a {
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
 .cookiepolicy-notification-content-1 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -15975,11 +15957,11 @@ body.is-section .logo {
 .cookiepolicy-notification-content-2 {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
     border-radius: 0px;
     margin: 0px;
     padding: 20px;
@@ -15988,7 +15970,7 @@ body.is-section .logo {
 .cookiepolicy-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: black !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -16002,20 +15984,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     margin: 0 auto;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .cookiepolicy-notification-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
 }
 .cookiepolicy-notification-button-2 {
     display: flex;
@@ -16024,27 +16006,27 @@ body.is-section .logo {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: #d0aaff !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
 .cookiepolicy-notification-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
 }
 .cookiepolicy-notification-stay {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
@@ -16078,11 +16060,11 @@ body.is-section .logo {
         position: relative;
         width: 90%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 80px auto 40px auto;
         padding: 0px;
@@ -16091,11 +16073,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -16107,8 +16089,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #2a0070 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-radius: 0px;
         margin: 0px;
         padding: 10px;
@@ -16117,7 +16099,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -16125,7 +16107,7 @@ body.is-section .logo {
         margin: 0;
     }
     .cookiepolicy-title-mobile a {
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -16138,20 +16120,20 @@ body.is-section .logo {
         height: 35px;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 0;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .cookiepolicy-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #00B82E;
+        border-left-color:   #00B82E;
+        border-right-color:  #DFFFE4;
+        border-bottom-color: #DFFFE4;
     }
     .cookiepolicy-button-2-mobile {
         position: relative;
@@ -16161,27 +16143,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0;
         padding: 10px;
         transition: border-color 0.15s ease;
     }
     .cookiepolicy-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
     }
     .cookiepolicy-close-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         line-height: 1;
@@ -16194,8 +16176,8 @@ body.is-section .logo {
     .cookiepolicy-content-1-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -16205,11 +16187,11 @@ body.is-section .logo {
     .cookiepolicy-content-2-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #3f00a8 !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #00B82E;
+        border-left:   2px solid #00B82E;
+        border-right:  2px solid #DFFFE4;
+        border-bottom: 2px solid #DFFFE4;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -16224,7 +16206,7 @@ body.is-section .logo {
     .cookiepolicy-text-end-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1rem;
-        color: #00FF00 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         line-height: 1.5;
         text-align: left;
@@ -16234,7 +16216,7 @@ body.is-section .logo {
         margin-bottom: 0px;
     }
     /* ======================================
-       NOTIFICACIÓN
+       NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
     .cookiepolicy-notification-container-1-mobile {
         position: fixed;
@@ -16245,11 +16227,11 @@ body.is-section .logo {
         width: 90%;
         max-width: 400px;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         padding: 0px;
         opacity: 0;
@@ -16265,11 +16247,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -16281,8 +16263,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #ff00a9 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-radius: 0px;
         margin: 0px;
         padding: 4px 12px;
@@ -16291,7 +16273,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -16299,15 +16281,15 @@ body.is-section .logo {
         margin: 0;
     }
     .cookiepolicy-notification-title-mobile a {
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
     }
     /* CONTENIDO */
     .cookiepolicy-notification-content-1-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -16316,11 +16298,11 @@ body.is-section .logo {
     .cookiepolicy-notification-content-2-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #00FFFF !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #B3001F;
+        border-left:   2px solid #B3001F;
+        border-right:  2px solid #FFE0E0;
+        border-bottom: 2px solid #FFE0E0;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -16329,7 +16311,7 @@ body.is-section .logo {
     .cookiepolicy-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: black !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
@@ -16343,20 +16325,20 @@ body.is-section .logo {
         width: fit-content;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         margin: 0 auto;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .cookiepolicy-notification-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #B3001F;
+        border-left-color:   #B3001F;
+        border-right-color:  #FFE0E0;
+        border-bottom-color: #FFE0E0;
     }
     .cookiepolicy-notification-button-2-mobile {
         display: flex;
@@ -16365,27 +16347,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0;
         padding: 10px 20px;
         transition: border-color 0.15s ease;
     }
     .cookiepolicy-notification-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #FF3333;
+        border-left-color:   #FF3333;
+        border-right-color:  #FFB8B8;
+        border-bottom-color: #FFB8B8;
     }
     .cookiepolicy-notification-stay-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         line-height: 1;
         cursor: pointer;
@@ -16409,104 +16391,6 @@ body.is-section .logo {
 .cookiepolicy-title-mobile { font-size: 1.3rem; }
 .cookiepolicy-text-mobile { font-size: 0.8rem; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===== BARRA FIJA ETHEREAL LOOP ===== */
-.ethereal-loop-bar {
-    position: fixed;
-    right: 20px;              /* separación del borde derecho */
-    bottom: 20px;             /* separación del borde inferior */
-    z-index: 9999;            /* por encima de todo, incluido el footer */
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 8px 14px;
-    background: rgba(0, 0, 0, 0.55);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 999px;
-    color: #fff;
-    font-family: inherit;
-    font-size: 13px;
-    letter-spacing: 0.05em;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
-    transition: opacity 0.3s ease;
-}
-
-.ethereal-loop-title {
-    font-weight: 600;
-    white-space: nowrap;
-}
-
-.ethereal-loop-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    padding: 0;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 50%;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.ethereal-loop-btn:hover {
-    background: rgba(255, 255, 255, 0.15);
-    transform: scale(1.08);
-}
-
-.ethereal-loop-icon {
-    width: 16px;
-    height: 16px;
-}
-
-/* En móvil, que no estorbe: más pequeña y pegada */
-@media (max-width: 600px) {
-    .ethereal-loop-bar {
-        right: 10px;
-        bottom: 10px;
-        padding: 6px 10px;
-        font-size: 11px;
-    }
-    .ethereal-loop-title {
-        display: none; /* opcional: oculta el texto en pantallas muy pequeñas */
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ======================================
    FOOTER PC
