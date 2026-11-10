@@ -37,7 +37,7 @@ body {
     flex-shrink: 0;
 }
 .menu-logo img {
-    width: 200px;
+    width: 150px;
     height: auto;
     display: block;
 }
@@ -347,7 +347,7 @@ body.is-section .menu-logo {
     padding: 250px 20px 20px 20px;
 }
 .logo img {
-    width: 60%;
+    width: 50%;
     box-sizing: border-box;      
     max-width: none;
     height: auto;
@@ -1364,23 +1364,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    COLLABORATIONS - PC
 ====================================== */
@@ -1390,8 +1373,8 @@ body.is-section .logo {
     background: transparent !important;
     border-top:    2px solid #ffffff;
     border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-right:  2px solid #00FF41;
+    border-bottom: 2px solid #00FF41;
     border-radius: 0px;
     margin: 50px auto 50px auto;
     padding: 0px;
@@ -1400,10 +1383,10 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -1412,7 +1395,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border: 4px solid #d0aaff;
+    border: 4px solid #00FF41;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -1420,9 +1403,9 @@ body.is-section .logo {
 .collaborations-container-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
+    background: #00FF41 !important;
+    border-top:    2px solid #00FF41;
+    border-left:   2px solid #00FF41;
     border-right:  2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
     border-radius: 0px;
@@ -1434,7 +1417,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #2a0070 !important;
+    color: #000000 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -1468,16 +1451,16 @@ body.is-section .logo {
     background: transparent !important;
     border-top:    2px solid #ffffff;
     border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-right:  2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
     border-radius: 0px;
     margin: 0px auto;  
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .collaborations-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
+    border-top-color:    #FFD700;
+    border-left-color:   #FFD700;
     border-right-color:  #ffffff;
     border-bottom-color: #ffffff;
 }
@@ -1487,32 +1470,32 @@ body.is-section .logo {
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    border-top:    2px solid #FFF5B8;
+    border-left:   2px solid #FFF5B8;
+    border-right:  2px solid #FFC400;
+    border-bottom: 2px solid #FFC400;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .collaborations-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #FFC400;
+    border-left-color:   #FFC400;
+    border-right-color:  #FFF5B8;
+    border-bottom-color: #FFF5B8;
 }
 .collaborations-button-text {
     display: block;
     width: auto;
     box-sizing: border-box;
     align-items: center;
-    background: #ff00a9 !important;
+    background: #FFD700 !important;
     border: none;
     border-radius: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: white !important;
+    color: #000000 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -1538,8 +1521,8 @@ body.is-section .logo {
         background: transparent !important;
         border-top:    2px solid #ffffff;
         border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-right:  2px solid #00FF41;
+        border-bottom: 2px solid #00FF41;
         border-radius: 0px;
         margin: 40px auto 40px auto;
         padding: 0px;
@@ -1548,10 +1531,10 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -1560,7 +1543,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border: 4px solid #d0aaff;
+        border: 4px solid #00FF41;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -1568,9 +1551,9 @@ body.is-section .logo {
     .collaborations-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #00FFFF !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
+        background: #00FF41 !important;
+        border-top:    2px solid #00FF41;
+        border-left:   2px solid #00FF41;
         border-right:  2px solid #ffffff;
         border-bottom: 2px solid #ffffff;
         border-radius: 0px;
@@ -1582,7 +1565,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1.5rem;
-        color: #2a0070 !important;
+        color: #000000 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
@@ -1616,16 +1599,16 @@ body.is-section .logo {
         background: transparent !important;
         border-top:    2px solid #ffffff;
         border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-right:  2px solid #FFD700;
+        border-bottom: 2px solid #FFD700;
         border-radius: 0px;
         margin: 0px auto;
         padding: 0px;
         transition: border-color 0.15s ease;
     }
     .collaborations-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
+        border-top-color:    #FFD700;
+        border-left-color:   #FFD700;
         border-right-color:  #ffffff;
         border-bottom-color: #ffffff;
     }
@@ -1635,32 +1618,32 @@ body.is-section .logo {
         box-sizing: border-box;
         align-items: center;
         background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        border-top:    2px solid #FFF5B8;
+        border-left:   2px solid #FFF5B8;
+        border-right:  2px solid #FFC400;
+        border-bottom: 2px solid #FFC400;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
         transition: border-color 0.15s ease;
     }
     .collaborations-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #FFC400;
+        border-left-color:   #FFC400;
+        border-right-color:  #FFF5B8;
+        border-bottom-color: #FFF5B8;
     }
     .collaborations-button-text-mobile {
         display: block;
         width: auto;
         box-sizing: border-box;
         align-items: center;
-        background: #ff00a9 !important;
+        background: #FFD700 !important;
         border: none;
         border-radius: 0px;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: white !important;
+        color: #000000 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
@@ -1685,6 +1668,12 @@ body.is-section .logo {
     .collaborations-title-mobile { font-size: 1.3rem; }
     .collaborations-text-mobile { font-size: 0.8rem; }
 }
+
+
+
+
+
+
 
 
 
