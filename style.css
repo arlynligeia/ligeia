@@ -5730,7 +5730,184 @@ body.is-section .logo {
 }
 
 
-
+/* ======================================
+   LEGALDATA - PC
+====================================== */
+.legaldata-container-1 {
+    position: relative;
+    width: 550px;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
+    border-radius: 0px;
+    margin: 50px auto 50px auto;
+    padding: 0px;
+}
+.legaldata-container-2 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.legaldata-container-3 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.legaldata-container-4 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 30px;
+}
+/* TÍTULO */
+.legaldata-title {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+}
+/* INFORMACIÓN */
+.legaldata-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+.legaldata-text {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.25rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+.legaldata-text {
+    margin-bottom: 0px;
+}
+/* CONTROL */
+.legaldata-container-1 { display: block; }
+.legaldata-container-1-mobile { display: none; }
+/* ======================================
+   LEGALDATA - MOBILE
+====================================== */
+@media (max-width: 768px) {
+    .legaldata-container-1-mobile {
+        position: relative;
+        width: 90%;
+        background: #000000 !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
+        border-radius: 0px;
+        margin: 40px auto 40px auto;
+        padding: 0px;
+    }
+    .legaldata-container-2-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .legaldata-container-3-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .legaldata-container-4-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #00B82E;
+        border-left:   2px solid #00B82E;
+        border-right:  2px solid #DFFFE4;
+        border-bottom: 2px solid #DFFFE4;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 20px;
+    }
+    /* TÍTULO */
+    .legaldata-title-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1.5rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0px 0px 5px 0px;
+        padding: 0px;
+    }
+    /* INFORMACIÓN */
+    .legaldata-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px 0px 10px 0px;
+        padding: 0px;
+    }
+    .legaldata-text-mobile {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 1.05rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0px;
+        padding: 0px;
+    }
+    .legaldata-text-mobile {
+        margin-bottom: 0px;
+    }
+    /* CONTROL */
+    .legaldata-container-1 { display: none; }
+    .legaldata-container-1-mobile { display: block; }
+}
+@media (max-width: 360px) {
+    .legaldata-title-mobile { font-size: 1.5rem; }
+    .legaldata-text-mobile { font-size: 1rem; }
+}
+@media (max-width: 320px) {
+    .legaldata-title-mobile { font-size: 1.3rem; }
+    .legaldata-text-mobile { font-size: 0.8rem; }
+}
 
 
 
