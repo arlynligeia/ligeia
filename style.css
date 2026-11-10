@@ -626,10 +626,7 @@ body.is-section .logo {
     justify-content: space-between;
     align-items: center;
     background: #000000 !important;
-    border-top:    4px solid #A8FFB8;
-    border-left:  4px solid #A8FFB8;
-    border-right:  4px solid #00FF41;
-    border-bottom: 4px solid #00FF41;
+    border: 4px solid #00FF41;
     border-radius: 0px;
     margin: 0px;
     padding: 15px;
@@ -658,8 +655,8 @@ body.is-section .logo {
     height: 40px;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #A8FFB8;
-    border-left:   2px solid #A8FFB8;
+    border-top:    2px solid #7CFF9E;
+    border-left:   2px solid #7CFF9E;
     border-right:  2px solid #00FF41;
     border-bottom: 2px solid #00FF41;
     border-radius: 0px;
@@ -668,10 +665,10 @@ body.is-section .logo {
     transition: border-color 0.15s ease;
 }
 .upcomingrelease-button-1:hover {
-    border-top-color:    #7CFF9E;
-    border-left-color:   #7CFF9E;
-    border-right-color:  #33FF66;
-    border-bottom-color: #33FF66;
+    border-top-color:    #00FF41;
+    border-left-color:   #00FF41;
+    border-right-color:  #7CFF9E;
+    border-bottom-color: #7CFF9E;
 }
 .upcomingrelease-button-2 {
     display: flex;
@@ -681,8 +678,8 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #7CFF9E;
-    border-left:   2px solid #7CFF9E;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
     border-right:  2px solid #33FF66;
     border-bottom: 2px solid #33FF66;
     border-radius: 0px;
@@ -693,8 +690,8 @@ body.is-section .logo {
 .upcomingrelease-button-2:hover {
     border-top-color:    #33FF66;
     border-left-color:   #33FF66;
-    border-right-color:  #7CFF9E;
-    border-bottom-color: #7CFF9E;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .upcomingrelease-button-text {
     display: block;
@@ -715,10 +712,8 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
-    border-top:    none;
-    border-left:  4px solid #00FF41;
-    border-right:  4px solid #00FF41;
-    border-bottom: 4px solid #00FF41;
+    border: 4px solid #00FF41;
+    border-top: none;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -727,10 +722,10 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
-    border-top:    2px solid #33FF66;
-    border-left:   2px solid #33FF66;
-    border-right:  2px solid #A8FFB8;
-    border-bottom: 2px solid #A8FFB8;
+    border-top:    2px solid #00FF41;
+    border-left:   2px solid #00FF41;
+    border-right:  2px solid #7CFF9E;
+    border-bottom: 2px solid #7CFF9E;
     border-radius: 0px;
     margin: 0px;
     padding: 30px;
@@ -757,10 +752,10 @@ body.is-section .logo {
     width: 100%;
     height: auto;
     display: block;
-    border-top:    2px solid #A8FFB8;
-    border-left:   2px solid #A8FFB8;
-    border-right:  2px solid #33FF66;
-    border-bottom: 2px solid #33FF66;
+    border-top:    2px solid #00FF41;
+    border-left:   2px solid #00FF41;
+    border-right:  2px solid #7CFF9E;
+    border-bottom: 2px solid #7CFF9E;
     border-radius: 0px;
 }
 /* COLUMNA 2 - TEXTO */
@@ -803,7 +798,7 @@ body.is-section .logo {
     overflow-wrap: break-word;
 }
 /* ======================================
-   NOTIFICACIÓN - PC (ROJO PELIGRO)
+   NOTIFICACIÓN - PC (ROJO)
 ====================================== */
 .upcomingrelease-notification-1 {
     position: fixed;
@@ -815,8 +810,8 @@ body.is-section .logo {
     max-width: 400px;
     box-sizing: border-box;
     background: #000000 !important;
-    border-top:    2px solid #FF8A8A;
-    border-left:   2px solid #FF8A8A;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
     border-right:  2px solid #FF0033;
     border-bottom: 2px solid #FF0033;
     border-radius: 0px;
@@ -835,8 +830,8 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
-    border-top:    2px solid #FFB8B8;
-    border-left:   2px solid #FFB8B8;
+    border-top:    2px solid #FF8A8A;
+    border-left:   2px solid #FF8A8A;
     border-right:  2px solid #FF3333;
     border-bottom: 2px solid #FF3333;
     border-radius: 0px;
@@ -851,10 +846,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
-    border-top:    4px solid #FFB8B8;
-    border-left:  4px solid #FFB8B8;
-    border-right:  4px solid #FF0033;
-    border-bottom: 4px solid #FF0033;
+    border: 4px solid #FF0033;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -879,10 +871,8 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
-    border-top:    none;
-    border-left:  4px solid #FF0033;
-    border-right:  4px solid #FF0033;
-    border-bottom: 4px solid #FF0033;
+    border: 4px solid #FF0033;
+    border-top: none;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -891,8 +881,8 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
-    border-top:    2px solid #FF3333;
-    border-left:   2px solid #FF3333;
+    border-top:    2px solid #FF0033;
+    border-left:   2px solid #FF0033;
     border-right:  2px solid #FFB8B8;
     border-bottom: 2px solid #FFB8B8;
     border-radius: 0px;
@@ -923,8 +913,8 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #FF8A8A;
-    border-left:   2px solid #FF8A8A;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
     border-right:  2px solid #FF0033;
     border-bottom: 2px solid #FF0033;
     border-radius: 0px;
@@ -935,8 +925,8 @@ body.is-section .logo {
 .upcomingrelease-notification-button-1:hover {
     border-top-color:    #FF0033;
     border-left-color:   #FF0033;
-    border-right-color:  #FF8A8A;
-    border-bottom-color: #FF8A8A;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
 }
 .upcomingrelease-notification-button-2 {
     display: flex;
@@ -946,8 +936,8 @@ body.is-section .logo {
     height: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #FFB8B8;
-    border-left:   2px solid #FFB8B8;
+    border-top:    2px solid #FF8A8A;
+    border-left:   2px solid #FF8A8A;
     border-right:  2px solid #FF3333;
     border-bottom: 2px solid #FF3333;
     border-radius: 0px;
@@ -958,8 +948,8 @@ body.is-section .logo {
 .upcomingrelease-notification-button-2:hover {
     border-top-color:    #FF3333;
     border-left-color:   #FF3333;
-    border-right-color:  #FFB8B8;
-    border-bottom-color: #FFB8B8;
+    border-right-color:  #FF8A8A;
+    border-bottom-color: #FF8A8A;
 }
 .upcomingrelease-notification-button-text {
     display: block;
@@ -1030,10 +1020,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    4px solid #A8FFB8;
-        border-left:  4px solid #A8FFB8;
-        border-right:  4px solid #00FF41;
-        border-bottom: 4px solid #00FF41;
+        border: 4px solid #00FF41;
         border-radius: 0px;
         margin: 0px;
         padding: 10px;
@@ -1063,8 +1050,8 @@ body.is-section .logo {
         height: 35px;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #A8FFB8;
-        border-left:   2px solid #A8FFB8;
+        border-top:    2px solid #7CFF9E;
+        border-left:   2px solid #7CFF9E;
         border-right:  2px solid #00FF41;
         border-bottom: 2px solid #00FF41;
         border-radius: 0px;
@@ -1073,10 +1060,10 @@ body.is-section .logo {
         transition: border-color 0.15s ease;
     }
     .upcomingrelease-button-1-mobile:hover {
-        border-top-color:    #7CFF9E;
-        border-left-color:   #7CFF9E;
-        border-right-color:  #33FF66;
-        border-bottom-color: #33FF66;
+        border-top-color:    #00FF41;
+        border-left-color:   #00FF41;
+        border-right-color:  #7CFF9E;
+        border-bottom-color: #7CFF9E;
     }
     .upcomingrelease-button-2-mobile {
         position: relative;
@@ -1087,8 +1074,8 @@ body.is-section .logo {
         height: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #7CFF9E;
-        border-left:   2px solid #7CFF9E;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
         border-right:  2px solid #33FF66;
         border-bottom: 2px solid #33FF66;
         border-radius: 0px;
@@ -1099,8 +1086,8 @@ body.is-section .logo {
     .upcomingrelease-button-2-mobile:hover {
         border-top-color:    #33FF66;
         border-left-color:   #33FF66;
-        border-right-color:  #7CFF9E;
-        border-bottom-color: #7CFF9E;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
     }
     .upcomingrelease-button-text-mobile {
         display: block;
@@ -1120,10 +1107,8 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    none;
-        border-left:  4px solid #00FF41;
-        border-right:  4px solid #00FF41;
-        border-bottom: 4px solid #00FF41;
+        border: 4px solid #00FF41;
+        border-top: none;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -1132,10 +1117,10 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    2px solid #33FF66;
-        border-left:   2px solid #33FF66;
-        border-right:  2px solid #A8FFB8;
-        border-bottom: 2px solid #A8FFB8;
+        border-top:    2px solid #00FF41;
+        border-left:   2px solid #00FF41;
+        border-right:  2px solid #7CFF9E;
+        border-bottom: 2px solid #7CFF9E;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -1150,10 +1135,10 @@ body.is-section .logo {
         width: 100%;
         height: auto;
         display: block;
-        border-top:    2px solid #A8FFB8;
-        border-left:   2px solid #A8FFB8;
-        border-right:  2px solid #33FF66;
-        border-bottom: 2px solid #33FF66;
+        border-top:    2px solid #00FF41;
+        border-left:   2px solid #00FF41;
+        border-right:  2px solid #7CFF9E;
+        border-bottom: 2px solid #7CFF9E;
         border-radius: 0px;
     }   
     /* INFORMACIÓN */
@@ -1194,7 +1179,7 @@ body.is-section .logo {
         margin: 0px;
     }
   /* ======================================
-       NOTIFICACIÓN MOBILE (ROJO PELIGRO)
+       NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
     .upcomingrelease-notification-1-mobile {
         position: fixed;
@@ -1206,8 +1191,8 @@ body.is-section .logo {
         max-width: 400px;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    2px solid #FF8A8A;
-        border-left:   2px solid #FF8A8A;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
         border-right:  2px solid #FF0033;
         border-bottom: 2px solid #FF0033;
         border-radius: 0px;
@@ -1226,8 +1211,8 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    2px solid #FFB8B8;
-        border-left:   2px solid #FFB8B8;
+        border-top:    2px solid #FF8A8A;
+        border-left:   2px solid #FF8A8A;
         border-right:  2px solid #FF3333;
         border-bottom: 2px solid #FF3333;
         border-radius: 0px;
@@ -1242,10 +1227,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    4px solid #FFB8B8;
-        border-left:  4px solid #FFB8B8;
-        border-right:  4px solid #FF0033;
-        border-bottom: 4px solid #FF0033;
+        border: 4px solid #FF0033;
         border-radius: 0px;
         margin: 0px;
         padding: 4px 12px;
@@ -1270,10 +1252,8 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    none;
-        border-left:  4px solid #FF0033;
-        border-right:  4px solid #FF0033;
-        border-bottom: 4px solid #FF0033;
+        border: 4px solid #FF0033;
+        border-top: none;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -1282,8 +1262,8 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
-        border-top:    2px solid #FF3333;
-        border-left:   2px solid #FF3333;
+        border-top:    2px solid #FF0033;
+        border-left:   2px solid #FF0033;
         border-right:  2px solid #FFB8B8;
         border-bottom: 2px solid #FFB8B8;
         border-radius: 0px;
@@ -1314,8 +1294,8 @@ body.is-section .logo {
         width: fit-content;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #FF8A8A;
-        border-left:   2px solid #FF8A8A;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
         border-right:  2px solid #FF0033;
         border-bottom: 2px solid #FF0033;
         border-radius: 0px;
@@ -1326,8 +1306,8 @@ body.is-section .logo {
     .upcomingrelease-notification-button-1-mobile:hover {
         border-top-color:    #FF0033;
         border-left-color:   #FF0033;
-        border-right-color:  #FF8A8A;
-        border-bottom-color: #FF8A8A;
+        border-right-color:  #FFB8B8;
+        border-bottom-color: #FFB8B8;
     }
     .upcomingrelease-notification-button-2-mobile {
         display: flex;
@@ -1337,8 +1317,8 @@ body.is-section .logo {
         height: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #FFB8B8;
-        border-left:   2px solid #FFB8B8;
+        border-top:    2px solid #FF8A8A;
+        border-left:   2px solid #FF8A8A;
         border-right:  2px solid #FF3333;
         border-bottom: 2px solid #FF3333;
         border-radius: 0px;
@@ -1349,8 +1329,8 @@ body.is-section .logo {
     .upcomingrelease-notification-button-2-mobile:hover {
         border-top-color:    #FF3333;
         border-left-color:   #FF3333;
-        border-right-color:  #FFB8B8;
-        border-bottom-color: #FFB8B8;
+        border-right-color:  #FF8A8A;
+        border-bottom-color: #FF8A8A;
     }
     .upcomingrelease-notification-button-text-mobile {
         display: block;
@@ -1383,7 +1363,6 @@ body.is-section .logo {
 .upcomingrelease-title-mobile { font-size: 1.3rem; }
 .upcomingrelease-text-mobile { font-size: 0.8rem; }
 }
-
 
 
 
