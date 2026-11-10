@@ -16370,7 +16370,7 @@ body.is-section .logo {
 .footer-brand-logo img {
     max-width: 100%;
     box-sizing: border-box;
-    width: 450px;
+    width: 350px;
     height: auto;
     display: inline-block;
 }
@@ -16539,7 +16539,7 @@ body.is-section .logo {
     .footer-brand-logo-mobile img {
         max-width: 100%;
         box-sizing: border-box;
-        width: 250px;
+        width: 150px;
         height: auto;
         display: inline-block;
     }
