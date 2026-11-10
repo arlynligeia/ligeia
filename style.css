@@ -84,21 +84,21 @@ body.is-section .menu-logo {
             rgba(255, 255, 255, 0.05) 2px,
             rgba(255, 255, 255, 0.05) 4px
         );
-    border: 2px solid #00FFFF;
-    color: #00FFFF;
+    border: 2px solid #00FF41;
+    color: #00FF41;
     box-shadow:
-        0 0 5px #00FFFF,
-        inset 0 0 5px rgba(0, 255, 255, 0.3);
+        0 0 5px #00FF41,
+        inset 0 0 5px rgba(0, 255, 65, 0.3);
 }
 .menu-nav a:hover {
-    background: rgba(0, 255, 255, 0.1);
-    color: #00FFFF;
+    background: rgba(0, 255, 65, 0.1);
+    color: #00FF41;
     transform: translateY(-2px);
     box-shadow:
-        0 0 15px #00FFFF,
-        0 0 25px #00FFFF,
-        inset 0 0 10px rgba(0, 255, 255, 0.5);
-    text-shadow: 0 0 10px #00FFFF;
+        0 0 15px #00FF41,
+        0 0 25px #00FF41,
+        inset 0 0 10px rgba(0, 255, 65, 0.5);
+    text-shadow: 0 0 10px #00FF41;
 }
 .menu-nav a::after {
     content: '';
@@ -108,14 +108,14 @@ body.is-section .menu-logo {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #00FFFF;
-    box-shadow: 0 0 5px #00FFFF;
+    background: #00FF41;
+    box-shadow: 0 0 5px #00FF41;
     transition: all 0.3s ease;
 }
 .menu-nav a:hover::after {
     box-shadow:
-        0 0 10px #00FFFF,
-        0 0 20px #00FFFF;
+        0 0 10px #00FF41,
+        0 0 20px #00FF41;
 }
 /* ======================================
    RESPONSIVE — OCULTAR EN MOBILE
@@ -168,25 +168,25 @@ body.is-section .menu-logo {
                 rgba(255, 255, 255, 0.05) 2px,
                 rgba(255, 255, 255, 0.05) 4px
             );
-        border: 2px solid #00FFFF;
+        border: 2px solid #00FF41;
         box-shadow:
-            0 0 5px #00FFFF,
-            inset 0 0 5px rgba(0, 255, 255, 0.3);
+            0 0 5px #00FF41,
+            inset 0 0 5px rgba(0, 255, 65, 0.3);
     }
     .menu-mobile-toggle span {
         display: block;
         width: 25px;
         height: 3px;
-        background: #00FFFF;
+        background: #00FF41;
         transition: all 0.3s ease;
     }
     .menu-mobile-toggle:hover {
-        background: rgba(0, 255, 255, 0.1);
+        background: rgba(0, 255, 65, 0.1);
         transform: translateY(-2px);
         box-shadow:
-            0 0 15px #00FFFF,
-            0 0 25px #00FFFF,
-            inset 0 0 10px rgba(0, 255, 255, 0.5);
+            0 0 15px #00FF41,
+            0 0 25px #00FF41,
+            inset 0 0 10px rgba(0, 255, 65, 0.5);
     }
     .menu-mobile-toggle::after {
         content: '';
@@ -196,14 +196,14 @@ body.is-section .menu-logo {
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #00FFFF;
-        box-shadow: 0 0 5px #00FFFF;
+        background: #00FF41;
+        box-shadow: 0 0 5px #00FF41;
         transition: all 0.3s ease;
     }
     .menu-mobile-toggle:hover::after {
         box-shadow:
-            0 0 10px #00FFFF,
-            0 0 20px #00FFFF;
+            0 0 10px #00FF41,
+            0 0 20px #00FF41;
     }
     /* OVERLAY */
     .menu-mobile-nav {
@@ -213,7 +213,7 @@ body.is-section .menu-logo {
         height: 100%;
         top: 0;
         left: 0;
-        background: #2a0070;
+        background: #001a00;
         display: none;
     }
     .menu-mobile-nav.active {
@@ -231,7 +231,7 @@ body.is-section .menu-logo {
     }
     .menu-mobile-nav li {
         text-align: center;
-        border-bottom: 1px solid #FF66CC;
+        border-bottom: 1px solid #00FF41;
         padding: 12px 0;
     }
     .menu-mobile-nav li:last-child {
@@ -244,7 +244,7 @@ body.is-section .menu-logo {
         text-transform: uppercase;
         padding: 0 20px;
         display: block;
-        color: #00FFFF;
+        color: #00FF41;
     }
     /* LOGO */
     .menu-mobile-logo {
@@ -257,6 +257,7 @@ body.is-section .menu-logo {
         display: block;
     }
 }
+
 
 /* ======================================
    SUBMENUS PC
@@ -333,6 +334,8 @@ body.is-section .menu-logo {
     border-bottom: 1px solid white !important;
 }
 
+
+
 /* ======================================
    LOGO PC
 ====================================== */
@@ -362,222 +365,6 @@ body.is-section .logo {
 @media (max-width: 768px) {
     .logo { display: none; }
 }
-
-
-
-
-
-
-
-
-
-/* ===== MARCO FIJO DE CUADRADOS GLITCH — arlynligeia.com ===== */
-
-.al-frame {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;   /* no bloquea clics */
-  z-index: 9999;          /* siempre encima del contenido */
-}
-
-.al-frame__block {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  background: transparent;
-  image-rendering: pixelated;
-}
-
-/* Arriba: columnas verticales fucsia + celeste */
-.al-frame__block--tl {
-  top: 0; left: 0;
-  box-shadow:
-    0px 0px 0 #ff00a9,
-    16px 0px 0 #00ffff,
-    0px 16px 0 #00ffff,
-    16px 16px 0 #ff00a9,
-    0px 32px 0 #ff00a9,
-    16px 48px 0 #00ffff,
-    32px 48px 0 #ff00a9,
-    0px 64px 0 #00ffff,
-    16px 64px 0 #ff00a9,
-    0px 80px 0 #ff00a9,
-    16px 80px 0 #00ffff,
-    16px 96px 0 #ff00a9,
-    0px 112px 0 #00ffff,
-    0px 128px 0 #ff00a9,
-    16px 128px 0 #00ffff,
-    0px 144px 0 #00ffff;
-  filter: drop-shadow(0 0 3px rgba(255,0,169,.55)) drop-shadow(0 0 3px rgba(0,255,255,.45));
-}
-.al-frame__block--tr {
-  top: 0; right: 0;
-  box-shadow:
-    0px 0px 0 #ff00a9,
-    -16px 0px 0 #00ffff,
-    0px 16px 0 #00ffff,
-    -16px 16px 0 #ff00a9,
-    0px 32px 0 #ff00a9,
-    -16px 48px 0 #00ffff,
-    -32px 48px 0 #ff00a9,
-    0px 64px 0 #00ffff,
-    -16px 64px 0 #ff00a9,
-    0px 80px 0 #ff00a9,
-    -16px 80px 0 #00ffff,
-    -16px 96px 0 #ff00a9,
-    0px 112px 0 #00ffff,
-    0px 128px 0 #ff00a9,
-    -16px 128px 0 #00ffff,
-    0px 144px 0 #00ffff;
-  filter: drop-shadow(0 0 3px rgba(255,0,169,.55)) drop-shadow(0 0 3px rgba(0,255,255,.45));
-}
-
-/* Abajo: filas horizontales verde + celeste */
-.al-frame__block--bl {
-  bottom: 0; left: 0;
-  box-shadow:
-    0px 0px 0 #00ff00,
-    16px 0px 0 #00ffff,
-    48px 0px 0 #00ffff,
-    64px 0px 0 #00ff00,
-    96px 0px 0 #00ffff,
-    128px 0px 0 #00ff00,
-    0px -16px 0 #00ffff,
-    16px -16px 0 #00ff00,
-    48px -16px 0 #00ff00,
-    64px -16px 0 #00ffff,
-    96px -16px 0 #00ff00,
-    128px -16px 0 #00ffff,
-    0px -32px 0 #00ff00,
-    32px -32px 0 #00ffff,
-    80px -32px 0 #00ff00,
-    144px -32px 0 #00ffff;
-  filter: drop-shadow(0 0 3px rgba(0,255,0,.55)) drop-shadow(0 0 3px rgba(0,255,255,.45));
-}
-.al-frame__block--br {
-  bottom: 0; right: 0;
-  box-shadow:
-    0px 0px 0 #00ff00,
-    -16px 0px 0 #00ffff,
-    -48px 0px 0 #00ffff,
-    -64px 0px 0 #00ff00,
-    -96px 0px 0 #00ffff,
-    -128px 0px 0 #00ff00,
-    0px -16px 0 #00ffff,
-    -16px -16px 0 #00ff00,
-    -48px -16px 0 #00ff00,
-    -64px -16px 0 #00ffff,
-    -96px -16px 0 #00ff00,
-    -128px -16px 0 #00ffff,
-    0px -32px 0 #00ff00,
-    -32px -32px 0 #00ffff,
-    -80px -32px 0 #00ff00,
-    -144px -32px 0 #00ffff;
-  filter: drop-shadow(0 0 3px rgba(0,255,0,.55)) drop-shadow(0 0 3px rgba(0,255,255,.45));
-}
-
-/* Móvil: un poco más pequeños */
-@media (max-width: 600px) {
-  .al-frame__block {
-    width: 6px;
-    height: 6px;
-  }
-  .al-frame__block--tl {
-    box-shadow:
-      0px 0px 0 #ff00a9,
-      6px 0px 0 #00ffff,
-      0px 6px 0 #00ffff,
-      6px 6px 0 #ff00a9,
-      0px 12px 0 #ff00a9,
-      6px 18px 0 #00ffff,
-      12px 18px 0 #ff00a9,
-      0px 24px 0 #00ffff,
-      6px 24px 0 #ff00a9,
-      0px 30px 0 #ff00a9,
-      6px 30px 0 #00ffff,
-      6px 36px 0 #ff00a9,
-      0px 42px 0 #00ffff,
-      0px 48px 0 #ff00a9,
-      6px 48px 0 #00ffff,
-      0px 54px 0 #00ffff;
-  }
-  .al-frame__block--tr {
-    box-shadow:
-      0px 0px 0 #ff00a9,
-      -6px 0px 0 #00ffff,
-      0px 6px 0 #00ffff,
-      -6px 6px 0 #ff00a9,
-      0px 12px 0 #ff00a9,
-      -6px 18px 0 #00ffff,
-      -12px 18px 0 #ff00a9,
-      0px 24px 0 #00ffff,
-      -6px 24px 0 #ff00a9,
-      0px 30px 0 #ff00a9,
-      -6px 30px 0 #00ffff,
-      -6px 36px 0 #ff00a9,
-      0px 42px 0 #00ffff,
-      0px 48px 0 #ff00a9,
-      -6px 48px 0 #00ffff,
-      0px 54px 0 #00ffff;
-  }
-  .al-frame__block--bl {
-    box-shadow:
-      0px 0px 0 #00ff00,
-      6px 0px 0 #00ffff,
-      18px 0px 0 #00ffff,
-      24px 0px 0 #00ff00,
-      36px 0px 0 #00ffff,
-      48px 0px 0 #00ff00,
-      0px -6px 0 #00ffff,
-      6px -6px 0 #00ff00,
-      18px -6px 0 #00ff00,
-      24px -6px 0 #00ffff,
-      36px -6px 0 #00ff00,
-      48px -6px 0 #00ffff,
-      0px -12px 0 #00ff00,
-      12px -12px 0 #00ffff,
-      30px -12px 0 #00ff00,
-      54px -12px 0 #00ffff;
-  }
-  .al-frame__block--br {
-    box-shadow:
-      0px 0px 0 #00ff00,
-      -6px 0px 0 #00ffff,
-      -18px 0px 0 #00ffff,
-      -24px 0px 0 #00ff00,
-      -36px 0px 0 #00ffff,
-      -48px 0px 0 #00ff00,
-      0px -6px 0 #00ffff,
-      -6px -6px 0 #00ff00,
-      -18px -6px 0 #00ff00,
-      -24px -6px 0 #00ffff,
-      -36px -6px 0 #00ff00,
-      -48px -6px 0 #00ffff,
-      0px -12px 0 #00ff00,
-      -12px -12px 0 #00ffff,
-      -30px -12px 0 #00ff00,
-      -54px -12px 0 #00ffff;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -626,8 +413,8 @@ body.is-section .logo {
     transition: background 0.15s ease, border-color 0.15s ease;
 }
 .home-icon:hover {
-    background: rgba(0, 255, 255, 0.15);
-    border-color: #00FFFF;
+    background: rgba(0, 255, 65, 0.15);
+    border-color: #00FF41;
 }
 .home-link {
     display: block;
@@ -648,7 +435,7 @@ body.is-section .logo {
     position: relative;
     width: 64px;
     height: 48px;
-    background: #00B8B8;
+    background: #00B828;
     clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
     transition: filter 0.15s ease;
 }
@@ -656,7 +443,7 @@ body.is-section .logo {
     content: "";
     position: absolute;
     inset: 0;
-    background: #00FFFF;
+    background: #00FF41;
     clip-path: polygon(2px 5px, 4px 2px, 23px 2px, 27px 6px, 59px 6px, 62px 9px, 62px 46px, 2px 46px);
 }
 .home-folder::after {
@@ -667,9 +454,9 @@ body.is-section .logo {
     width: 60px;
     height: 32px;
     box-sizing: border-box;
-    background: #A8FFFF;
-    border-top: 2px solid #00B8B8;
-    box-shadow: inset 2px 2px 0 #FFFFFF, inset -2px -2px 0 #7FFFD4;
+    background: #A8FFB8;
+    border-top: 2px solid #00B828;
+    box-shadow: inset 2px 2px 0 #FFFFFF, inset -2px -2px 0 #7FFF8A;
 }
 .home-link:hover .home-folder {
     filter: brightness(1.2);
@@ -679,7 +466,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.8rem;
-    color: #00FFFF !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -734,8 +521,8 @@ body.is-section .logo {
         transition: background 0.15s ease, border-color 0.15s ease;
     }
     .home-icon-mobile:hover {
-        background: rgba(0, 255, 255, 0.15);
-        border-color: #00FFFF;
+        background: rgba(0, 255, 65, 0.15);
+        border-color: #00FF41;
     }
     .home-link-mobile {
         display: block;
@@ -755,7 +542,7 @@ body.is-section .logo {
         position: relative;
         width: 64px;
         height: 48px;
-        background: #00B8B8;       
+        background: #00B828;       
         margin: -6px -8px;
         clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
         transform: scale(0.75);
@@ -765,7 +552,7 @@ body.is-section .logo {
         content: "";
         position: absolute;
         inset: 0;
-        background: #00FFFF;
+        background: #00FF41;
         clip-path: polygon(2px 5px, 4px 2px, 23px 2px, 27px 6px, 59px 6px, 62px 9px, 62px 46px, 2px 46px);
     }
     .home-folder-mobile::after {
@@ -776,9 +563,9 @@ body.is-section .logo {
         width: 60px;
         height: 32px;
         box-sizing: border-box;
-        background: #A8FFFF;
-        border-top: 2px solid #00B8B8;
-        box-shadow: inset 2px 2px 0 #FFFFFF, inset -2px -2px 0 #7FFFD4;
+        background: #A8FFB8;
+        border-top: 2px solid #00B828;
+        box-shadow: inset 2px 2px 0 #FFFFFF, inset -2px -2px 0 #7FFF8A;
     }
     .home-link-mobile:hover .home-folder-mobile {
         filter: brightness(1.2);
@@ -787,7 +574,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 0.6rem;
-        color: #00FFFF !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
@@ -811,8 +598,8 @@ body.is-section .logo {
     background: transparent !important;
     border-top:    2px solid #ffffff;
     border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-right:  2px solid #00FF41;
+    border-bottom: 2px solid #00FF41;
     border-radius: 0px;
     margin: 50px auto 50px auto;
     padding: 0px;
@@ -822,10 +609,10 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -837,8 +624,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #2a0070 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #00FF41;
     border-radius: 0px;
     margin: 0px;
     padding: 15px;
@@ -847,7 +634,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -855,7 +642,7 @@ body.is-section .logo {
     margin: 0;
 }
 .upcomingrelease-title a {
-    color: #ff00a9 !important;
+    color: #00FF41 !important;
     text-decoration: none;
 }
 /* BOTÓN - CERRAR */
@@ -869,16 +656,16 @@ body.is-section .logo {
     background: transparent !important;
     border-top:    2px solid #ffffff;
     border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-right:  2px solid #00FF41;
+    border-bottom: 2px solid #00FF41;
     border-radius: 0px;
     margin: 0;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .upcomingrelease-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
+    border-top-color:    #00FF41;
+    border-left-color:   #00FF41;
     border-right-color:  #ffffff;
     border-bottom-color: #ffffff;
 }
@@ -889,27 +676,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #00FF41;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0;
     padding: 10px;
     transition: border-color 0.15s ease;
 }
 .upcomingrelease-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .upcomingrelease-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #000000 !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -924,7 +711,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border: 4px solid #d0aaff;
+    border: 4px solid #00FF41;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -933,9 +720,9 @@ body.is-section .logo {
 .upcomingrelease-container-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #00FF41;
+    border-left:   2px solid #00FF41;
     border-right:  2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
     border-radius: 0px;
@@ -964,8 +751,8 @@ body.is-section .logo {
     width: 100%;
     height: auto;
     display: block;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
+    border-top:    2px solid #00FF41;
+    border-left:   2px solid #00FF41;
     border-right:  2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
     border-radius: 0px;
@@ -980,7 +767,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.5rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -991,7 +778,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Doto', sans-serif;
     font-size: 1.4rem;
-    color: #ffffff !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -1001,7 +788,7 @@ body.is-section .logo {
 .upcomingrelease-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
@@ -1024,8 +811,8 @@ body.is-section .logo {
     background: transparent !important;
     border-top:    2px solid #ffffff;
     border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-right:  2px solid #00FF41;
+    border-bottom: 2px solid #00FF41;
     border-radius: 0px;
     padding: 0px;
     opacity: 0;
@@ -1042,10 +829,10 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -1057,8 +844,8 @@ body.is-section .logo {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    background: #ff00a9 !important;
-    border: 4px solid #d0aaff;
+    background: #00FF41 !important;
+    border: 4px solid #00FF41;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -1067,7 +854,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #000000 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -1075,7 +862,7 @@ body.is-section .logo {
     margin: 0;
 }
 .upcomingrelease-notification-title a {
-    color: #2a0070 !important;
+    color: #000000 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
@@ -1083,7 +870,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border: 4px solid #d0aaff;
+    border: 4px solid #00FF41;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -1092,9 +879,9 @@ body.is-section .logo {
 .upcomingrelease-notification-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
+    background: #00FF41 !important;
+    border-top:    2px solid #00FF41;
+    border-left:   2px solid #00FF41;
     border-right:  2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
     border-radius: 0px;
@@ -1111,7 +898,7 @@ body.is-section .logo {
 .upcomingrelease-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: black !important;
+    color: #000000 !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -1127,16 +914,16 @@ body.is-section .logo {
     background: transparent !important;
     border-top:    2px solid #ffffff;
     border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-right:  2px solid #00FF41;
+    border-bottom: 2px solid #00FF41;
     border-radius: 0px;
     margin: 0 auto;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .upcomingrelease-notification-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
+    border-top-color:    #00FF41;
+    border-left-color:   #00FF41;
     border-right-color:  #ffffff;
     border-bottom-color: #ffffff;
 }
@@ -1147,27 +934,27 @@ body.is-section .logo {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    background: #d0aaff !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #00FF41 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
 .upcomingrelease-notification-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .upcomingrelease-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #000000 !important;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
@@ -1205,8 +992,8 @@ body.is-section .logo {
         background: transparent !important;
         border-top:    2px solid #ffffff;
         border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-right:  2px solid #00FF41;
+        border-bottom: 2px solid #00FF41;
         border-radius: 0px;
         margin: 40px auto 40px auto;
         padding: 0px;
@@ -1216,10 +1003,10 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -1231,8 +1018,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #2a0070 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #00FF41;
         border-radius: 0px;
         margin: 0px;
         padding: 10px;
@@ -1241,7 +1028,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -1249,7 +1036,7 @@ body.is-section .logo {
         margin: 0;
     }
     .upcomingrelease-title-mobile a {
-        color: #ff00a9 !important;
+        color: #00FF41 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -1264,16 +1051,16 @@ body.is-section .logo {
         background: transparent !important;
         border-top:    2px solid #ffffff;
         border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-right:  2px solid #00FF41;
+        border-bottom: 2px solid #00FF41;
         border-radius: 0px;
         margin: 0;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .upcomingrelease-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
+        border-top-color:    #00FF41;
+        border-left-color:   #00FF41;
         border-right-color:  #ffffff;
         border-bottom-color: #ffffff;
     }
@@ -1285,27 +1072,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #00FF41;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0;
         padding: 10px;
         transition: border-color 0.15s ease;
     }
     .upcomingrelease-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
     }
     .upcomingrelease-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #000000 !important;
         text-decoration: none;
         text-transform: uppercase;
         line-height: 1;
@@ -1319,7 +1106,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border: 4px solid #d0aaff;
+        border: 4px solid #00FF41;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -1328,9 +1115,9 @@ body.is-section .logo {
     .upcomingrelease-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #3f00a8 !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #00FF41;
+        border-left:   2px solid #00FF41;
         border-right:  2px solid #ffffff;
         border-bottom: 2px solid #ffffff;
         border-radius: 0px;
@@ -1347,8 +1134,8 @@ body.is-section .logo {
         width: 100%;
         height: auto;
         display: block;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
+        border-top:    2px solid #00FF41;
+        border-left:   2px solid #00FF41;
         border-right:  2px solid #ffffff;
         border-bottom: 2px solid #ffffff;
         border-radius: 0px;
@@ -1363,7 +1150,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Share Tech Mono', monospace;
         font-size: 1.3rem;
-        color: #00FF00 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
@@ -1374,7 +1161,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Doto', sans-serif;
         font-size: 1.2rem;
-        color: #ffffff !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
@@ -1384,7 +1171,7 @@ body.is-section .logo {
     .upcomingrelease-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1rem;
-        color: #00FF00 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         line-height: 1.5;
         text-align: left;
@@ -1405,8 +1192,8 @@ body.is-section .logo {
         background: transparent !important;
         border-top:    2px solid #ffffff;
         border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-right:  2px solid #00FF41;
+        border-bottom: 2px solid #00FF41;
         border-radius: 0px;
         padding: 0px;
         opacity: 0;
@@ -1423,10 +1210,10 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -1438,8 +1225,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #ff00a9 !important;
-        border: 4px solid #d0aaff;
+        background: #00FF41 !important;
+        border: 4px solid #00FF41;
         border-radius: 0px;
         margin: 0px;
         padding: 4px 12px;
@@ -1448,7 +1235,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #000000 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -1456,7 +1243,7 @@ body.is-section .logo {
         margin: 0;
     }
     .upcomingrelease-notification-title-mobile a {
-        color: #2a0070 !important;
+        color: #000000 !important;
         text-decoration: none;
     }
     /* NOTIFICACIÓN - CONTENIDO */
@@ -1464,7 +1251,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
-        border: 4px solid #d0aaff;
+        border: 4px solid #00FF41;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -1473,9 +1260,9 @@ body.is-section .logo {
     .upcomingrelease-notification-4-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #00FFFF !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
+        background: #00FF41 !important;
+        border-top:    2px solid #00FF41;
+        border-left:   2px solid #00FF41;
         border-right:  2px solid #ffffff;
         border-bottom: 2px solid #ffffff;
         border-radius: 0px;
@@ -1492,7 +1279,7 @@ body.is-section .logo {
     .upcomingrelease-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: black !important;
+        color: #000000 !important;
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
@@ -1508,16 +1295,16 @@ body.is-section .logo {
         background: transparent !important;
         border-top:    2px solid #ffffff;
         border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-right:  2px solid #00FF41;
+        border-bottom: 2px solid #00FF41;
         border-radius: 0px;
         margin: 0 auto;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .upcomingrelease-notification-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
+        border-top-color:    #00FF41;
+        border-left-color:   #00FF41;
         border-right-color:  #ffffff;
         border-bottom-color: #ffffff;
     }
@@ -1528,27 +1315,27 @@ body.is-section .logo {
         width: 100%;
         height: 100%;
         box-sizing: border-box;
-        background: #d0aaff !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #00FF41 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0;
         padding: 10px 20px;
         transition: border-color 0.15s ease;
     }
     .upcomingrelease-notification-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
     }
     .upcomingrelease-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #000000 !important;
         text-transform: uppercase;
         line-height: 1;
         cursor: pointer;
@@ -1575,6 +1362,23 @@ body.is-section .logo {
 .upcomingrelease-title-mobile { font-size: 1.3rem; }
 .upcomingrelease-text-mobile { font-size: 0.8rem; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
