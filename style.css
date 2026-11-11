@@ -15183,19 +15183,91 @@ body.is-section .logo {
     position: relative;
     z-index: 1;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     margin: 0 0 10px 0;
 }
 .footer-socialmedia-icon {
-    width: 25px;
-    height: 25px;
-    color: #00FF41 !important;
-    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    width: 104px;
+    height: 104px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px dotted transparent;
+    margin: 0px;
+    padding: 0px;
+    transition: background 0.15s ease, border-color 0.15s ease;
 }
 .footer-socialmedia-icon:hover {
-    transform: scale(1.2);
+    background: rgba(0, 255, 65, 0.15);
+    border-color: #00FF41;
+}
+.footer-socialmedia-link {
+    display: block;
+    background: transparent !important;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-socialmedia-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+}
+/* DIBUJO DE CARPETA */
+.footer-socialmedia-folder {
+    display: block;
+    position: relative;
+    width: 64px;
+    height: 48px;
+    background: #00B828;
+    clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
+    transition: filter 0.15s ease;
+}
+.footer-socialmedia-folder::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #00FF41;
+    clip-path: polygon(2px 5px, 4px 2px, 23px 2px, 27px 6px, 59px 6px, 62px 9px, 62px 46px, 2px 46px);
+}
+.footer-socialmedia-folder::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 2px;
+    width: 60px;
+    height: 32px;
+    box-sizing: border-box;
+    background: #A8FFB8;
+    border-top: 2px solid #00B828;
+    box-shadow: inset 2px 2px 0 #FFFFFF, inset -2px -2px 0 #7FFF8A;
+}
+.footer-socialmedia-link:hover .footer-socialmedia-folder {
+    filter: brightness(1.2);
+}
+/* TEXTO */
+.footer-socialmedia-text {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.8rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    white-space: nowrap;
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
 }
 /* BOTÓN SCROLL TOP */
 .footer-button {
@@ -15333,19 +15405,90 @@ body.is-section .logo {
         position: relative;
         z-index: 1;
         display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
-        gap: 10px;
+        align-items: flex-end;
+        gap: 5px;
         margin: 0 0 10px 0;
     }
     .footer-socialmedia-icon-mobile {
-        width: 20px;
-        height: 20px;
-        color: #00FF41 !important;
-        transition: all 0.3s ease;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80px;
+        height: 80px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: 1px dotted transparent;
+        margin: 0px;
+        padding: 0px;
+        transition: background 0.15s ease, border-color 0.15s ease;
     }
     .footer-socialmedia-icon-mobile:hover {
-        transform: scale(1.2);
+        background: rgba(0, 255, 65, 0.15);
+        border-color: #00FF41;
+    }
+    .footer-socialmedia-link-mobile {
+        display: block;
+        background: transparent !important;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer-socialmedia-link-mobile::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        cursor: pointer;
+    }
+    .footer-socialmedia-folder-mobile {
+        display: block;
+        position: relative;
+        width: 64px;
+        height: 48px;
+        background: #00B828;
+        margin: -6px -8px;
+        clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
+        transform: scale(0.75);
+        transition: filter 0.15s ease;
+    }
+    .footer-socialmedia-folder-mobile::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: #00FF41;
+        clip-path: polygon(2px 5px, 4px 2px, 23px 2px, 27px 6px, 59px 6px, 62px 9px, 62px 46px, 2px 46px);
+    }
+    .footer-socialmedia-folder-mobile::after {
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: 2px;
+        width: 60px;
+        height: 32px;
+        box-sizing: border-box;
+        background: #A8FFB8;
+        border-top: 2px solid #00B828;
+        box-shadow: inset 2px 2px 0 #FFFFFF, inset -2px -2px 0 #7FFF8A;
+    }
+    .footer-socialmedia-link-mobile:hover .footer-socialmedia-folder-mobile {
+        filter: brightness(1.2);
+    }
+    .footer-socialmedia-text-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.6rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.5;
+        white-space: nowrap;
+        margin: 5px 0px 0px 0px;
+        padding: 0px;
     }
     /* BOTÓN SCROLL TOP */
     .footer-button-mobile {
