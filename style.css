@@ -2531,6 +2531,9 @@ body.is-section .logo {
 .letsworktogether-notification-information { display: block; }
 .letsworktogether-notification-information-mobile { display: none; }
 
+.letsworktogether-notification-button-2 { display: block; }
+.letsworktogether-notification-button-2-mobile { display: none; }
+
 .letsworktogether-window-notification-1 { display: block; }
 .letsworktogether-window-notification-1-mobile { display: none; }
 
@@ -3316,11 +3319,12 @@ body.is-section .logo {
 .letsworktogether-notification-information { display: none; }
 .letsworktogether-notification-information-mobile { display: block; }
 
+.letsworktogether-notification-button-2 { display: none; }
+.letsworktogether-notification-button-2-mobile { display: block; }
+
 .letsworktogether-window-notification-1 { display: none; }
 .letsworktogether-window-notification-1-mobile { display: block; }
 }
-
-
 
 @media (max-width: 360px) {
     .letsworktogether-title-mobile { font-size: 1.5rem; }
