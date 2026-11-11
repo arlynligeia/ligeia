@@ -11257,27 +11257,27 @@ body.is-section .logo {
 .contact-topic.is-visible {
     display: block !important;
 }
-/* BOTONES TIKTOK / YOUTUBE */
+/* BOTÓN SUBMIT — MORADO */
 .contact-button2-1 {
     display: block;
     width: fit-content;
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #FFE0A8;
-    border-left:   2px solid #FFE0A8;
-    border-right:  2px solid #FFB000;
-    border-bottom: 2px solid #FFB000;
+    border-top:    2px solid #B57CFF;
+    border-left:   2px solid #B57CFF;
+    border-right:  2px solid #7D29E9;
+    border-bottom: 2px solid #7D29E9;
     border-radius: 0px;
     margin: 0px auto 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button2-1:hover {
-    border-top-color:    #FFB000;
-    border-left-color:   #FFB000;
-    border-right-color:  #FFE0A8;
-    border-bottom-color: #FFE0A8;
+    border-top-color:    #7D29E9;
+    border-left-color:   #7D29E9;
+    border-right-color:  #B57CFF;
+    border-bottom-color: #B57CFF;
 }
 .contact-button2-2 {
     display: block;
@@ -11285,20 +11285,20 @@ body.is-section .logo {
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #FFD98A;
-    border-left:   2px solid #FFD98A;
-    border-right:  2px solid #E69500;
-    border-bottom: 2px solid #E69500;
+    border-top:    2px solid #D9B8FF;
+    border-left:   2px solid #D9B8FF;
+    border-right:  2px solid #A855F7;
+    border-bottom: 2px solid #A855F7;
     border-radius: 0px;
     margin: 0 auto;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .contact-button2-2:hover {
-    border-top-color:    #E69500;
-    border-left-color:   #E69500;
-    border-right-color:  #FFD98A;
-    border-bottom-color: #FFD98A;
+    border-top-color:    #A855F7;
+    border-left-color:   #A855F7;
+    border-right-color:  #D9B8FF;
+    border-bottom-color: #D9B8FF;
 }
 .contact-button2-text {
     display: block;
@@ -11310,7 +11310,7 @@ body.is-section .logo {
     border-radius: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #FFB000 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -11724,27 +11724,27 @@ body.is-section .logo {
 .contact-topic-mobile.is-visible {
     display: block !important;
 }   
-/* BOTON SUMMIT */
+/* BOTÓN SUBMIT MOBILE — MORADO */
 .contact-button2-1-mobile {
     display: block;
     width: fit-content;
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #FFE0A8;
-    border-left:   2px solid #FFE0A8;
-    border-right:  2px solid #FFB000;
-    border-bottom: 2px solid #FFB000;
+    border-top:    2px solid #B57CFF;
+    border-left:   2px solid #B57CFF;
+    border-right:  2px solid #7D29E9;
+    border-bottom: 2px solid #7D29E9;
     border-radius: 0px;
     margin: 0px auto 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button2-1-mobile:hover {
-    border-top-color:    #FFB000;
-    border-left-color:   #FFB000;
-    border-right-color:  #FFE0A8;
-    border-bottom-color: #FFE0A8;
+    border-top-color:    #7D29E9;
+    border-left-color:   #7D29E9;
+    border-right-color:  #B57CFF;
+    border-bottom-color: #B57CFF;
 }
 .contact-button2-2-mobile {
     display: block;
@@ -11752,20 +11752,20 @@ body.is-section .logo {
     box-sizing: border-box;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #FFD98A;
-    border-left:   2px solid #FFD98A;
-    border-right:  2px solid #E69500;
-    border-bottom: 2px solid #E69500;
+    border-top:    2px solid #D9B8FF;
+    border-left:   2px solid #D9B8FF;
+    border-right:  2px solid #A855F7;
+    border-bottom: 2px solid #A855F7;
     border-radius: 0px;
     margin: 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .contact-button2-2-mobile:hover {
-    border-top-color:    #E69500;
-    border-left-color:   #E69500;
-    border-right-color:  #FFD98A;
-    border-bottom-color: #FFD98A;
+    border-top-color:    #A855F7;
+    border-left-color:   #A855F7;
+    border-right-color:  #D9B8FF;
+    border-bottom-color: #D9B8FF;
 }
 .contact-button2-text-mobile {
     display: block;
@@ -11777,7 +11777,7 @@ body.is-section .logo {
     border-radius: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #FFB000 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
