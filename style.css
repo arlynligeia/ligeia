@@ -2516,11 +2516,17 @@ body.is-section .logo {
 /* ======================================
    CONTROL
 ====================================== */
+/* ======================================
+   CONTROL
+====================================== */
 .letsworktogether-container-1 { display: block; }
+.letsworktogether-container-3 { display: block; }
+.letsworktogether-container-4 { display: block; }
 .letsworktogether-container-1-mobile { display: none; }
 .letsworktogether-notification-1 { display: block; }
 .letsworktogether-notification-1-mobile { display: none; }
-
+.letsworktogether-window-notification-1 { display: block; }
+.letsworktogether-window-notification-1-mobile { display: none; }
 /* ======================================
    LET'S WORK TOGETHER - MOBILE
 ====================================== */
@@ -3288,11 +3294,19 @@ body.is-section .logo {
         filter: brightness(1.1);
     }
     /* CONTROL */
+        /* ======================================
+       CONTROL
+    ====================================== */
     .letsworktogether-container-1 { display: none; }
+    .letsworktogether-container-3 { display: none; }
+    .letsworktogether-container-4 { display: none; }
     .letsworktogether-container-1-mobile { display: block; }
     .letsworktogether-notification-1 { display: none; }
     .letsworktogether-notification-1-mobile { display: block; }
+    .letsworktogether-window-notification-1 { display: none; }
+    .letsworktogether-window-notification-1-mobile { display: block; }
 }
+
 @media (max-width: 360px) {
     .letsworktogether-title-mobile { font-size: 1.5rem; }
     .letsworktogether-text-mobile { font-size: 1rem; }
