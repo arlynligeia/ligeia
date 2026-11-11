@@ -6563,16 +6563,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    LEGALDATA - PC
 ====================================== */
@@ -6626,7 +6616,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -6711,7 +6701,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1.5rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
@@ -6798,7 +6788,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -6806,7 +6796,7 @@ body.is-section .logo {
     margin: 0;
 }
 .founder-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -7180,7 +7170,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -7188,7 +7178,7 @@ body.is-section .logo {
         margin: 0;
     }
     .founder-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -7503,18 +7493,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    CREATIVE WORLDS - PC
 ====================================== */
@@ -7561,7 +7539,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -7570,7 +7548,7 @@ body.is-section .logo {
     padding: 0px;
 }
 .creativeworlds-framecontainer-container-bar-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -8060,7 +8038,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -8069,7 +8047,7 @@ body.is-section .logo {
     padding: 0px;    
 }
 .creativeworlds-title-mobile a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }    
 /* BOTÓN - CERRAR */
@@ -8482,33 +8460,17 @@ body.is-section .logo {
 .creativeworlds-notificationcontent-mobile { display: block; }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    FASHION - PC
 ====================================== */
 .fashion-container-1 {
     position: relative;
     width: 850px;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 50px auto 50px auto;
     padding: 0px;
@@ -8517,11 +8479,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -8533,8 +8495,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #2a0070 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-radius: 0px;
     margin: 0px;
     padding: 15px;
@@ -8544,7 +8506,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #ff00a9 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -8553,7 +8515,7 @@ body.is-section .logo {
     padding: 0px;
 }
 .fashion-title a {
-    color: #ff00a9 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN - CERRAR */
@@ -8565,20 +8527,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
     border-radius: 0px;
     margin: 0;
     padding: 0;
     transition: border-color 0.15s ease;
 }
 .fashion-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
 }
 .fashion-button-2 {
     display: flex;
@@ -8587,27 +8549,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
     border-radius: 0px;
     margin: 0;
     padding: 10px;
     transition: border-color 0.15s ease;
 }
 .fashion-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
 }
 .fashion-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -8621,8 +8583,8 @@ body.is-section .logo {
 .fashion-container-3 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -8631,11 +8593,11 @@ body.is-section .logo {
 .fashion-container-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
     border-radius: 0px;
     margin: 0px;
     padding: 30px;
@@ -8651,7 +8613,7 @@ body.is-section .logo {
 .fashion-text-end {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: #00FF00 !important;
+    color: #00FF41 !important;
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
@@ -8661,7 +8623,7 @@ body.is-section .logo {
     margin-bottom: 0px;
 }
 /* ======================================
-   NOTIFICACIÓN - PC
+   NOTIFICACIÓN - PC (ROJO)
 ====================================== */
 .fashion-notification-1 {
     position: fixed;
@@ -8672,11 +8634,11 @@ body.is-section .logo {
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     padding: 0px;
     opacity: 0;
@@ -8692,11 +8654,11 @@ body.is-section .logo {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -8708,8 +8670,8 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #ff00a9 !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
@@ -8719,7 +8681,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -8728,15 +8690,15 @@ body.is-section .logo {
     padding: 0px;
 }
 .fashion-notification-title a {
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
 .fashion-notification-3 {
     width: 100%;
     box-sizing: border-box;
-    background: transparent !important;
-    border: 4px solid #d0aaff;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
     border-top: none;
     border-radius: 0px;
     margin: 0px;
@@ -8745,11 +8707,11 @@ body.is-section .logo {
 .fashion-notification-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #00FFFF !important;
-    border-top:    2px solid #8a55f0;
-    border-left:   2px solid #8a55f0;
-    border-right:  2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
     border-radius: 0px;
     margin: 0px;
     padding: 20px;
@@ -8765,7 +8727,7 @@ body.is-section .logo {
 .fashion-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: black !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -8779,20 +8741,20 @@ body.is-section .logo {
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-top:    2px solid #ffffff;
-    border-left:   2px solid #ffffff;
-    border-right:  2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
     border-radius: 0px;
     margin: 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .fashion-notification-button-1:hover {
-    border-top-color:    #8a55f0;
-    border-left-color:   #8a55f0;
-    border-right-color:  #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
 }
 .fashion-notification-button-2 {
     display: flex;
@@ -8801,27 +8763,27 @@ body.is-section .logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #d0aaff !important;
-    border-top:    2px solid #e6ccff;
-    border-left:   2px solid #e6ccff;
-    border-right:  2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
     border-radius: 0px;
     margin: 0px;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
 .fashion-notification-button-2:hover {
-    border-top-color:    #b388ff;
-    border-left-color:   #b388ff;
-    border-right-color:  #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
 }
 .fashion-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
-    color: #2a0070 !important;
+    color: #FF0033 !important;
     text-transform: uppercase;
     line-height: 1;
     cursor: pointer;
@@ -8846,11 +8808,11 @@ body.is-section .logo {
         position: relative;
         width: 90%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 80px auto 40px auto;
         padding: 0px;
@@ -8859,11 +8821,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -8875,8 +8837,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #2a0070 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-radius: 0px;
         margin: 0px;
         padding: 10px;
@@ -8886,7 +8848,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #ff00a9 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -8895,7 +8857,7 @@ body.is-section .logo {
         padding: 0px;
     }
     .fashion-title-mobile a {
-        color: #ff00a9 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
     /* BOTÓN - CERRAR */
@@ -8908,20 +8870,20 @@ body.is-section .logo {
         justify-content: center;
         align-items: center;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
         border-radius: 0px;
         margin: 0;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .fashion-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #00B82E;
+        border-left-color:   #00B82E;
+        border-right-color:  #DFFFE4;
+        border-bottom-color: #DFFFE4;
     }
     .fashion-button-2-mobile {
         position: relative;
@@ -8931,27 +8893,27 @@ body.is-section .logo {
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
-        background: #d0aaff;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
         border-radius: 0px;
         margin: 0;
         padding: 10px;
         transition: border-color 0.15s ease;
     }
     .fashion-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
     }
     .fashion-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         text-transform: uppercase;
         line-height: 1;
@@ -8964,8 +8926,8 @@ body.is-section .logo {
     .fashion-container-3-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -8974,11 +8936,11 @@ body.is-section .logo {
     .fashion-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #3f00a8 !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #00B82E;
+        border-left:   2px solid #00B82E;
+        border-right:  2px solid #DFFFE4;
+        border-bottom: 2px solid #DFFFE4;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -8994,7 +8956,7 @@ body.is-section .logo {
     .fashion-text-end-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1rem;
-        color: #00FF00 !important;
+        color: #00FF41 !important;
         text-decoration: none;
         line-height: 1.5;
         text-align: left;
@@ -9004,7 +8966,7 @@ body.is-section .logo {
         margin-bottom: 0px;
     }
     /* ======================================
-       NOTIFICACIÓN
+       NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
     .fashion-notification-1-mobile {
         position: fixed;
@@ -9015,11 +8977,11 @@ body.is-section .logo {
         width: 90%;
         max-width: 400px;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        background: #000000 !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         padding: 0px;
         opacity: 0;
@@ -9035,11 +8997,11 @@ body.is-section .logo {
         position: relative;
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #000000 !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
@@ -9051,8 +9013,8 @@ body.is-section .logo {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        background: #ff00a9 !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-radius: 0px;
         margin: 0px;
         padding: 4px 12px;
@@ -9062,7 +9024,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -9071,15 +9033,15 @@ body.is-section .logo {
         padding: 0px;
     }
     .fashion-notification-title-mobile a {
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-decoration: none;
     }
     /* CONTENIDO */
     .fashion-notification-3-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: transparent !important;
-        border: 4px solid #d0aaff;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
         border-top: none;
         border-radius: 0px;
         margin: 0px;
@@ -9088,11 +9050,11 @@ body.is-section .logo {
     .fashion-notification-4-mobile {
         width: 100%;
         box-sizing: border-box;
-        background: #00FFFF !important;
-        border-top:    2px solid #8a55f0;
-        border-left:   2px solid #8a55f0;
-        border-right:  2px solid #ffffff;
-        border-bottom: 2px solid #ffffff;
+        background: #000000 !important;
+        border-top:    2px solid #B3001F;
+        border-left:   2px solid #B3001F;
+        border-right:  2px solid #FFE0E0;
+        border-bottom: 2px solid #FFE0E0;
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
@@ -9110,7 +9072,7 @@ body.is-section .logo {
     .fashion-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: black !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
@@ -9124,20 +9086,20 @@ body.is-section .logo {
         justify-content: center;
         align-items: center;
         background: transparent !important;
-        border-top:    2px solid #ffffff;
-        border-left:   2px solid #ffffff;
-        border-right:  2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
         border-radius: 0px;
         margin: 0 auto;
         padding: 0;
         transition: border-color 0.15s ease;
     }
     .fashion-notification-button-1-mobile:hover {
-        border-top-color:    #8a55f0;
-        border-left-color:   #8a55f0;
-        border-right-color:  #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color:    #B3001F;
+        border-left-color:   #B3001F;
+        border-right-color:  #FFE0E0;
+        border-bottom-color: #FFE0E0;
     }
     .fashion-notification-button-2-mobile {
         display: flex;
@@ -9146,27 +9108,27 @@ body.is-section .logo {
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
-        background: #d0aaff !important;
-        border-top:    2px solid #e6ccff;
-        border-left:   2px solid #e6ccff;
-        border-right:  2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: transparent !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
         border-radius: 0px;
         margin: 0;
         padding: 10px 20px;
         transition: border-color 0.15s ease;
     }
     .fashion-notification-button-2-mobile:hover {
-        border-top-color:    #b388ff;
-        border-left-color:   #b388ff;
-        border-right-color:  #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color:    #FF3333;
+        border-left-color:   #FF3333;
+        border-right-color:  #FFB8B8;
+        border-bottom-color: #FFB8B8;
     }
     .fashion-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #2a0070 !important;
+        color: #FF0033 !important;
         text-transform: uppercase;
         line-height: 1;
         cursor: pointer;
@@ -9184,14 +9146,1372 @@ body.is-section .logo {
 }
 
 
+/* ======================================
+   JEWELRY - PC
+====================================== */
+.jewelry-container-1 {
+    position: relative;
+    width: 850px;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
+    border-radius: 0px;
+    margin: 50px auto 50px auto;
+    padding: 0px;
+}
+.jewelry-container-2 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* BARRA */
+.jewelry-bar {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 15px;
+}
+/* TÍTULO */
+.jewelry-title {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #7D29E9 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+.jewelry-title a {
+    color: #7D29E9 !important;
+    text-decoration: none;
+}
+/* BOTÓN - CERRAR */
+.jewelry-button-1 {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+    transition: border-color 0.15s ease;
+}
+.jewelry-button-1:hover {
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
+}
+.jewelry-button-2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
+    border-radius: 0px;
+    margin: 0;
+    padding: 10px;
+    transition: border-color 0.15s ease;
+}
+.jewelry-button-2:hover {
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
+}
+.jewelry-button-text {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+    transition: filter 0.15s ease;
+}
+.jewelry-button-text:hover {
+    filter: brightness(1.1);
+}
+/* CONTENIDO */
+.jewelry-container-3 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
+    border-top: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.jewelry-container-4 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 30px;
+}
+/* INFORMACIÓN */
+.jewelry-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.jewelry-text,
+.jewelry-text-end {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.25rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+.jewelry-text-end {
+    margin-bottom: 0px;
+}
+/* ======================================
+   NOTIFICACIÓN - PC (ROJO)
+====================================== */
+.jewelry-notification-1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    z-index: 9999;
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
+    border-radius: 0px;
+    padding: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.jewelry-notification-1.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto;
+}
+.jewelry-notification-2 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* NOTIFICACIÓN - BARRA */
+.jewelry-notification-bar {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 4px 12px;
+}
+/* NOTIFICACIÓN - TÍTULO */
+.jewelry-notification-title {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #FF0033 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
+}
+.jewelry-notification-title a {
+    color: #FF0033 !important;
+    text-decoration: none;
+}
+/* NOTIFICACIÓN - CONTENIDO */
+.jewelry-notification-3 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
+    border-top: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.jewelry-notification-4 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 20px;
+}
+/* NOTIFICACIÓN - INFORMACIÓN */
+.jewelry-notification-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* NOTIFICACIÓN - TEXTO */
+.jewelry-notification-text {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    color: #FF0033 !important;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+/* NOTIFICACIÓN - BOTÓN PERMANECER */
+.jewelry-notification-button-1 {
+    display: flex;
+    width: fit-content;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
+    border-radius: 0px;
+    margin: 0px auto;
+    padding: 0px;
+    transition: border-color 0.15s ease;
+}
+.jewelry-notification-button-1:hover {
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
+}
+.jewelry-notification-button-2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 10px 20px;
+    transition: border-color 0.15s ease;
+}
+.jewelry-notification-button-2:hover {
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
+}
+.jewelry-notification-button-text {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #FF0033 !important;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+    transition: filter 0.15s ease;
+}
+.jewelry-notification-button-text:hover {
+    filter: brightness(1.1);
+}
+/* ======================================
+   CONTROL
+====================================== */
+.jewelry-container-1 { display: block; }
+.jewelry-container-1-mobile { display: none; }
+
+.jewelry-notification-1 { display: block; }
+.jewelry-notification-1-mobile { display: none; }
+/* ======================================
+   JEWELRY - RESPONSIVE
+====================================== */
+@media (max-width: 768px) {
+    .jewelry-container-1-mobile {
+        position: relative;
+        width: 90%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
+        border-radius: 0px;
+        margin: 80px auto 40px auto;
+        padding: 0px;
+    }
+    .jewelry-container-2-mobile {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* BARRA */
+    .jewelry-bar-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 10px;
+    }
+    /* TÍTULO */
+    .jewelry-title-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2rem;
+        color: #7D29E9 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 1.3;
+        margin: 0px;
+        padding: 0px;
+    }
+    .jewelry-title-mobile a {
+        color: #7D29E9 !important;
+        text-decoration: none;
+    }
+    /* BOTÓN - CERRAR */
+    .jewelry-button-1-mobile {
+        position: relative;
+        display: flex;
+        width: 35px;
+        height: 35px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
+        border-radius: 0px;
+        margin: 0;
+        padding: 0;
+        transition: border-color 0.15s ease;
+    }
+    .jewelry-button-1-mobile:hover {
+        border-top-color:    #00B82E;
+        border-left-color:   #00B82E;
+        border-right-color:  #DFFFE4;
+        border-bottom-color: #DFFFE4;
+    }
+    .jewelry-button-2-mobile {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
+        border-radius: 0px;
+        margin: 0;
+        padding: 10px;
+        transition: border-color 0.15s ease;
+    }
+    .jewelry-button-2-mobile:hover {
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
+    }
+    .jewelry-button-text-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 1;
+        transition: filter 0.15s ease;
+    }
+    .jewelry-button-text-mobile:hover {
+        filter: brightness(1.1);
+    }
+    /* CONTENIDO */
+    .jewelry-container-3-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
+        border-top: none;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .jewelry-container-4-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #00B82E;
+        border-left:   2px solid #00B82E;
+        border-right:  2px solid #DFFFE4;
+        border-bottom: 2px solid #DFFFE4;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 20px;
+    }
+    /* INFORMACIÓN */
+    .jewelry-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .jewelry-text-mobile,
+    .jewelry-text-end-mobile {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 1rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        line-height: 1.5;
+        text-align: left;
+        margin: 0 0 10px 0;
+    }
+    .jewelry-text-end-mobile {
+        margin-bottom: 0px;
+    }
+    /* ======================================
+       NOTIFICACIÓN MOBILE (ROJO)
+    ====================================== */
+    .jewelry-notification-1-mobile {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.9);
+        z-index: 9999;
+        width: 90%;
+        max-width: 400px;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
+        border-radius: 0px;
+        padding: 0px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .jewelry-notification-1-mobile.show {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        pointer-events: auto;
+    }
+    .jewelry-notification-2-mobile {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* NOTIFICACIÓN - BARRA */
+    .jewelry-notification-bar-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 4px 12px;
+    }
+    /* NOTIFICACIÓN - TÍTULO */
+    .jewelry-notification-title-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        color: #FF0033 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 1.3;
+        margin: 0px;
+        padding: 0px;
+    }
+    .jewelry-notification-title-mobile a {
+        color: #FF0033 !important;
+        text-decoration: none;
+    }
+    /* CONTENIDO */
+    .jewelry-notification-3-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
+        border-top: none;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .jewelry-notification-4-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #B3001F;
+        border-left:   2px solid #B3001F;
+        border-right:  2px solid #FFE0E0;
+        border-bottom: 2px solid #FFE0E0;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 20px;
+    }
+    /* NOTIFICACIÓN - INFORMACIÓN */
+    .jewelry-notification-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* TEXTO */
+    .jewelry-notification-text-mobile {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.8rem;
+        color: #FF0033 !important;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0 0 10px 0;
+    }
+    /* BOTÓN - PERMANECER */
+    .jewelry-notification-button-1-mobile {
+        display: flex;
+        width: fit-content;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
+        border-radius: 0px;
+        margin: 0 auto;
+        padding: 0;
+        transition: border-color 0.15s ease;
+    }
+    .jewelry-notification-button-1-mobile:hover {
+        border-top-color:    #B3001F;
+        border-left-color:   #B3001F;
+        border-right-color:  #FFE0E0;
+        border-bottom-color: #FFE0E0;
+    }
+    .jewelry-notification-button-2-mobile {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
+        border-radius: 0px;
+        margin: 0;
+        padding: 10px 20px;
+        transition: border-color 0.15s ease;
+    }
+    .jewelry-notification-button-2-mobile:hover {
+        border-top-color:    #FF3333;
+        border-left-color:   #FF3333;
+        border-right-color:  #FFB8B8;
+        border-bottom-color: #FFB8B8;
+    }
+    .jewelry-notification-button-text-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        color: #FF0033 !important;
+        text-transform: uppercase;
+        line-height: 1;
+        cursor: pointer;
+        transition: filter 0.15s ease;
+    }
+    .jewelry-notification-button-text-mobile:hover {
+        filter: brightness(1.1);
+    }
+    /* CONTROL */
+    .jewelry-container-1 { display: none; }
+    .jewelry-container-1-mobile { display: block; }
+    
+    .jewelry-notification-1 { display: none; }
+    .jewelry-notification-1-mobile { display: block; }
+}
 
 
+/* ======================================
+   ART - PC
+====================================== */
+.art-container-1 {
+    position: relative;
+    width: 850px;
+    background: #000000 !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
+    border-radius: 0px;
+    margin: 50px auto 50px auto;
+    padding: 0px;
+}
+.art-container-2 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* BARRA */
+.art-bar {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 15px;
+}
+/* TÍTULO */
+.art-title {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #7D29E9 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+.art-title a {
+    color: #7D29E9 !important;
+    text-decoration: none;
+}
+/* BOTÓN - CERRAR */
+.art-button-1 {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #DFFFE4;
+    border-left:   2px solid #DFFFE4;
+    border-right:  2px solid #00B82E;
+    border-bottom: 2px solid #00B82E;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+    transition: border-color 0.15s ease;
+}
+.art-button-1:hover {
+    border-top-color:    #00B82E;
+    border-left-color:   #00B82E;
+    border-right-color:  #DFFFE4;
+    border-bottom-color: #DFFFE4;
+}
+.art-button-2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #A8FFB8;
+    border-left:   2px solid #A8FFB8;
+    border-right:  2px solid #33FF66;
+    border-bottom: 2px solid #33FF66;
+    border-radius: 0px;
+    margin: 0;
+    padding: 10px;
+    transition: border-color 0.15s ease;
+}
+.art-button-2:hover {
+    border-top-color:    #33FF66;
+    border-left-color:   #33FF66;
+    border-right-color:  #A8FFB8;
+    border-bottom-color: #A8FFB8;
+}
+.art-button-text {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+    transition: filter 0.15s ease;
+}
+.art-button-text:hover {
+    filter: brightness(1.1);
+}
+/* CONTENIDO */
+.art-container-3 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border: 4px solid #7CFF9E;
+    border-top: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.art-container-4 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #00B82E;
+    border-left:   2px solid #00B82E;
+    border-right:  2px solid #DFFFE4;
+    border-bottom: 2px solid #DFFFE4;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 30px;
+}
+/* INFORMACIÓN */
+.art-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.art-text,
+.art-text-end {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.25rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+.art-text-end {
+    margin-bottom: 0px;
+}
+/* ======================================
+   NOTIFICACIÓN - PC (ROJO)
+====================================== */
+.art-notification-1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    z-index: 9999;
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
+    border-radius: 0px;
+    padding: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.art-notification-1.show {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto;
+}
+.art-notification-2 {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* NOTIFICACIÓN - BARRA */
+.art-notification-bar {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 4px 12px;
+}
+/* NOTIFICACIÓN - TÍTULO */
+.art-notification-title {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: #FF0033 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
+}
+.art-notification-title a {
+    color: #FF0033 !important;
+    text-decoration: none;
+}
+/* NOTIFICACIÓN - CONTENIDO */
+.art-notification-3 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border: 4px solid #FF8A8A;
+    border-top: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.art-notification-4 {
+    width: 100%;
+    box-sizing: border-box;
+    background: #000000 !important;
+    border-top:    2px solid #B3001F;
+    border-left:   2px solid #B3001F;
+    border-right:  2px solid #FFE0E0;
+    border-bottom: 2px solid #FFE0E0;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 20px;
+}
+/* NOTIFICACIÓN - INFORMACIÓN */
+.art-notification-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* NOTIFICACIÓN - TEXTO */
+.art-notification-text {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    color: #FF0033 !important;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+/* NOTIFICACIÓN - BOTÓN PERMANECER */
+.art-notification-button-1 {
+    display: flex;
+    width: fit-content;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #FFE0E0;
+    border-left:   2px solid #FFE0E0;
+    border-right:  2px solid #B3001F;
+    border-bottom: 2px solid #B3001F;
+    border-radius: 0px;
+    margin: 0px auto;
+    padding: 0px;
+    transition: border-color 0.15s ease;
+}
+.art-notification-button-1:hover {
+    border-top-color:    #B3001F;
+    border-left-color:   #B3001F;
+    border-right-color:  #FFE0E0;
+    border-bottom-color: #FFE0E0;
+}
+.art-notification-button-2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background: transparent !important;
+    border-top:    2px solid #FFB8B8;
+    border-left:   2px solid #FFB8B8;
+    border-right:  2px solid #FF3333;
+    border-bottom: 2px solid #FF3333;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 10px 20px;
+    transition: border-color 0.15s ease;
+}
+.art-notification-button-2:hover {
+    border-top-color:    #FF3333;
+    border-left-color:   #FF3333;
+    border-right-color:  #FFB8B8;
+    border-bottom-color: #FFB8B8;
+}
+.art-notification-button-text {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #FF0033 !important;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+    transition: filter 0.15s ease;
+}
+.art-notification-button-text:hover {
+    filter: brightness(1.1);
+}
+/* ======================================
+   CONTROL
+====================================== */
+.art-container-1 { display: block; }
+.art-container-1-mobile { display: none; }
 
-
-
-
-
-
+.art-notification-1 { display: block; }
+.art-notification-1-mobile { display: none; }
+/* ======================================
+   ART - RESPONSIVE
+====================================== */
+@media (max-width: 768px) {
+    .art-container-1-mobile {
+        position: relative;
+        width: 90%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
+        border-radius: 0px;
+        margin: 80px auto 40px auto;
+        padding: 0px;
+    }
+    .art-container-2-mobile {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* BARRA */
+    .art-bar-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 10px;
+    }
+    /* TÍTULO */
+    .art-title-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 2rem;
+        color: #7D29E9 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 1.3;
+        margin: 0px;
+        padding: 0px;
+    }
+    .art-title-mobile a {
+        color: #7D29E9 !important;
+        text-decoration: none;
+    }
+    /* BOTÓN - CERRAR */
+    .art-button-1-mobile {
+        position: relative;
+        display: flex;
+        width: 35px;
+        height: 35px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #DFFFE4;
+        border-left:   2px solid #DFFFE4;
+        border-right:  2px solid #00B82E;
+        border-bottom: 2px solid #00B82E;
+        border-radius: 0px;
+        margin: 0;
+        padding: 0;
+        transition: border-color 0.15s ease;
+    }
+    .art-button-1-mobile:hover {
+        border-top-color:    #00B82E;
+        border-left-color:   #00B82E;
+        border-right-color:  #DFFFE4;
+        border-bottom-color: #DFFFE4;
+    }
+    .art-button-2-mobile {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #A8FFB8;
+        border-left:   2px solid #A8FFB8;
+        border-right:  2px solid #33FF66;
+        border-bottom: 2px solid #33FF66;
+        border-radius: 0px;
+        margin: 0;
+        padding: 10px;
+        transition: border-color 0.15s ease;
+    }
+    .art-button-2-mobile:hover {
+        border-top-color:    #33FF66;
+        border-left-color:   #33FF66;
+        border-right-color:  #A8FFB8;
+        border-bottom-color: #A8FFB8;
+    }
+    .art-button-text-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 1;
+        transition: filter 0.15s ease;
+    }
+    .art-button-text-mobile:hover {
+        filter: brightness(1.1);
+    }
+    /* CONTENIDO */
+    .art-container-3-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #7CFF9E;
+        border-top: none;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .art-container-4-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #00B82E;
+        border-left:   2px solid #00B82E;
+        border-right:  2px solid #DFFFE4;
+        border-bottom: 2px solid #DFFFE4;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 20px;
+    }
+    /* INFORMACIÓN */
+    .art-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .art-text-mobile,
+    .art-text-end-mobile {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 1rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        line-height: 1.5;
+        text-align: left;
+        margin: 0 0 10px 0;
+    }
+    .art-text-end-mobile {
+        margin-bottom: 0px;
+    }
+    /* ======================================
+       NOTIFICACIÓN MOBILE (ROJO)
+    ====================================== */
+    .art-notification-1-mobile {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.9);
+        z-index: 9999;
+        width: 90%;
+        max-width: 400px;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
+        border-radius: 0px;
+        padding: 0px;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .art-notification-1-mobile.show {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+        pointer-events: auto;
+    }
+    .art-notification-2-mobile {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* NOTIFICACIÓN - BARRA */
+    .art-notification-bar-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 4px 12px;
+    }
+    /* NOTIFICACIÓN - TÍTULO */
+    .art-notification-title-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        color: #FF0033 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 1.3;
+        margin: 0px;
+        padding: 0px;
+    }
+    .art-notification-title-mobile a {
+        color: #FF0033 !important;
+        text-decoration: none;
+    }
+    /* CONTENIDO */
+    .art-notification-3-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border: 4px solid #FF8A8A;
+        border-top: none;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .art-notification-4-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        background: #000000 !important;
+        border-top:    2px solid #B3001F;
+        border-left:   2px solid #B3001F;
+        border-right:  2px solid #FFE0E0;
+        border-bottom: 2px solid #FFE0E0;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 20px;
+    }
+    /* NOTIFICACIÓN - INFORMACIÓN */
+    .art-notification-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* TEXTO */
+    .art-notification-text-mobile {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.8rem;
+        color: #FF0033 !important;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0 0 10px 0;
+    }
+    /* BOTÓN - PERMANECER */
+    .art-notification-button-1-mobile {
+        display: flex;
+        width: fit-content;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #FFE0E0;
+        border-left:   2px solid #FFE0E0;
+        border-right:  2px solid #B3001F;
+        border-bottom: 2px solid #B3001F;
+        border-radius: 0px;
+        margin: 0 auto;
+        padding: 0;
+        transition: border-color 0.15s ease;
+    }
+    .art-notification-button-1-mobile:hover {
+        border-top-color:    #B3001F;
+        border-left-color:   #B3001F;
+        border-right-color:  #FFE0E0;
+        border-bottom-color: #FFE0E0;
+    }
+    .art-notification-button-2-mobile {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border-top:    2px solid #FFB8B8;
+        border-left:   2px solid #FFB8B8;
+        border-right:  2px solid #FF3333;
+        border-bottom: 2px solid #FF3333;
+        border-radius: 0px;
+        margin: 0;
+        padding: 10px 20px;
+        transition: border-color 0.15s ease;
+    }
+    .art-notification-button-2-mobile:hover {
+        border-top-color:    #FF3333;
+        border-left-color:   #FF3333;
+        border-right-color:  #FFB8B8;
+        border-bottom-color: #FFB8B8;
+    }
+    .art-notification-button-text-mobile {
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        color: #FF0033 !important;
+        text-transform: uppercase;
+        line-height: 1;
+        cursor: pointer;
+        transition: filter 0.15s ease;
+    }
+    .art-notification-button-text-mobile:hover {
+        filter: brightness(1.1);
+    }
+    /* CONTROL */
+    .art-container-1 { display: none; }
+    .art-container-1-mobile { display: block; }
+    
+    .art-notification-1 { display: none; }
+    .art-notification-1-mobile { display: block; }
+}
 
 
 /* ======================================
@@ -9716,45 +11036,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    CONTACT
 ====================================== */
@@ -9801,7 +11082,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -9810,7 +11091,7 @@ body.is-section .logo {
     padding: 0px;
 }
 .contact-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN - CERRAR */
@@ -10268,7 +11549,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -10277,7 +11558,7 @@ body.is-section .logo {
     padding: 0px;
 }
 .contact-title-mobile a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN - CERRAR */
@@ -10685,6 +11966,15 @@ body.is-section .logo {
 .contact-notification-1 { display: none; }
 .contact-notification-1-mobile { display: block; }
 }
+
+
+
+
+
+
+
+
+
 
 /* ======================================
    TERMS AND CONDITIONS - PC
