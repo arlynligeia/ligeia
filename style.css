@@ -3851,33 +3851,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    ABOUT LIGEIA - PC
 ====================================== */
@@ -3923,7 +3896,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -3931,7 +3904,7 @@ body.is-section .logo {
     margin: 0;
 }
 .aboutligeia-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -4262,7 +4235,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -4270,7 +4243,7 @@ body.is-section .logo {
         margin: 0;
     }
     .aboutligeia-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -4555,6 +4528,7 @@ body.is-section .logo {
 .aboutligeia-text-mobile { font-size: 0.8rem; }
 }
 
+
 /* ======================================
    PURPOSE - PC
 ====================================== */
@@ -4600,7 +4574,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -4608,7 +4582,7 @@ body.is-section .logo {
     margin: 0;
 }
 .purpose-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -4939,7 +4913,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -4947,7 +4921,7 @@ body.is-section .logo {
         margin: 0;
     }
     .purpose-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -5278,7 +5252,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -5286,7 +5260,7 @@ body.is-section .logo {
     margin: 0;
 }
 .mission-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -5617,7 +5591,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -5625,7 +5599,7 @@ body.is-section .logo {
         margin: 0;
     }
     .mission-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -5956,7 +5930,7 @@ body.is-section .logo {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -5964,7 +5938,7 @@ body.is-section .logo {
     margin: 0;
 }
 .vision-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
 /* BOTÓN CERRAR */
@@ -6295,7 +6269,7 @@ body.is-section .logo {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
@@ -6303,7 +6277,7 @@ body.is-section .logo {
         margin: 0;
     }
     .vision-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
        /* BOTÓN CERRAR */
@@ -6587,6 +6561,16 @@ body.is-section .logo {
 .vision-title-mobile { font-size: 1.3rem; }
 .vision-text-mobile { font-size: 0.8rem; }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
