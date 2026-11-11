@@ -12,7 +12,7 @@ body {
 ====================================== */
 @media (max-width: 768px) {
     body {
-        background-image: url("assets/ARLYN LIGEIA. Background MOBILE.png");
+        background-image: url("assets/ALCP. Fondo.png");
     }
 }
 
@@ -15094,6 +15094,7 @@ body.is-section .logo {
 .cookiepolicy-text-mobile { font-size: 0.8rem; }
 }
 
+
 /* ======================================
    FOOTER PC
 ====================================== */
@@ -15126,7 +15127,7 @@ body.is-section .logo {
 .footer-brand-logo img {
     max-width: 100%;
     box-sizing: border-box;
-    width: 350px;
+    width: 250px;
     height: auto;
     display: inline-block;
 }
@@ -15295,7 +15296,7 @@ body.is-section .logo {
     .footer-brand-logo-mobile img {
         max-width: 100%;
         box-sizing: border-box;
-        width: 150px;
+        width: 50px;
         height: auto;
         display: inline-block;
     }
