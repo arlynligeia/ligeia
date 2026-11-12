@@ -6718,6 +6718,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px;
@@ -6736,6 +6737,31 @@ body.is-section .logo {
 }
 .brandstructure-ligeia img {
     width: 250px;
+}
+/* TEXTOS DE LOS LOGOS */
+.brandstructure-arlynligeia-text,
+.brandstructure-ligeia-text {
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.85rem;
+    color: #00FF41 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin: 12px 0px 0px 0px;
+    padding: 0px;
+}
+/* CONECTOR */
+.brandstructure-connector {
+    display: block;
+    width: 2px;
+    height: 40px;
+    background: linear-gradient(180deg, #00FF41, #7D29E9);
+    box-shadow: 0 0 6px rgba(0, 255, 65, 0.6);
+    margin: 0px;
+    padding: 0px;
 }
 /* ======================================
    NOTIFICACIÓN - PC (ROJO)
@@ -7073,6 +7099,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0px;
@@ -7088,6 +7115,31 @@ body.is-section .logo {
         border: none;
         border-radius: 0px;
         margin: 0 auto;
+    }
+    /* TEXTOS DE LOS LOGOS */
+    .brandstructure-arlynligeia-text-mobile,
+    .brandstructure-ligeia-text-mobile {
+        display: block;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.75rem;
+        color: #00FF41 !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        margin: 10px 0px 0px 0px;
+        padding: 0px;
+    }
+    /* CONECTOR */
+    .brandstructure-connector-mobile {
+        display: block;
+        width: 2px;
+        height: 30px;
+        background: linear-gradient(180deg, #00FF41, #7D29E9);
+        box-shadow: 0 0 6px rgba(0, 255, 65, 0.6);
+        margin: 0px;
+        padding: 0px;
     }
     /* ======================================
        NOTIFICACIÓN MOBILE (ROJO)
@@ -7263,7 +7315,6 @@ body.is-section .logo {
 @media (max-width: 320px) {
 .brandstructure-title-mobile { font-size: 1.3rem; }
 }
-
 
 
 
