@@ -6736,7 +6736,7 @@ body.is-section .logo {
     margin: 0 auto;
 }
 .brandstructure-ligeia img {
-    width: 250px;
+    width: 200px;
 }
 /* TEXTOS DE LOS LOGOS */
 .brandstructure-arlynligeia-text,
@@ -7116,6 +7116,9 @@ body.is-section .logo {
         border-radius: 0px;
         margin: 0 auto;
     }
+  .brandstructure-ligeia-mobile img {
+        width: 150px;
+  }
     /* TEXTOS DE LOS LOGOS */
     .brandstructure-arlynligeia-text-mobile,
     .brandstructure-ligeia-text-mobile {
