@@ -766,8 +766,8 @@ document.addEventListener('DOMContentLoaded', function () {
 ====================================== */
 document.addEventListener('DOMContentLoaded', function () {
     const closeBtn        = document.getElementById('fashion-button-close');
-    const notification    = document.getElementById('notification-fashion');
-    const notificationBtn = document.getElementById('button-fashion-stay');
+    const notification    = document.getElementById('fashion-notification');
+    const notificationBtn = document.getElementById('fashion-button-stay');
 
     if (closeBtn && notification && notificationBtn) {
         // Al hacer clic en la X → mostrar notificación
@@ -781,13 +781,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
 /* ======================================
    SCRIPT: NOTIFICACIÓN FASHION - MOBILE
 ====================================== */
 document.addEventListener('DOMContentLoaded', function () {
     const closeBtnMobile        = document.getElementById('fashion-button-close-mobile');
-    const notificationMobile    = document.getElementById('notification-fashion-mobile');
-    const notificationBtnMobile = document.getElementById('button-fashion-stay-mobile');
+    const notificationMobile    = document.getElementById('fashion-notification-mobile');
+    const notificationBtnMobile = document.getElementById('fashion-button-stay-mobile');
 
     if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
         // Al hacer clic en la X → mostrar notificación
@@ -801,8 +802,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
-
 
 
 
