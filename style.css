@@ -1959,7 +1959,6 @@ body.is-section .logo {
 .letsworktogether-button2-text:hover {
     filter: brightness(1.1);
 }
-
 /* ======================================
    SEPARADOR
 ====================================== */
@@ -2510,31 +2509,21 @@ body.is-section .logo {
 .letsworktogether-window-notification-button-text:hover {
     filter: brightness(1.1);
 }
-
-/* ======================================
-   CONTROL
-====================================== */
 /* ======================================
    CONTROL
 ====================================== */
 .letsworktogether-container-1 { display: block; }
 .letsworktogether-container-1-mobile { display: none; }
-
 .letsworktogether-notification-1 { display: block; }
 .letsworktogether-notification-1-mobile { display: none; }
-
 .letsworktogether-notification-bar { display: block; }
 .letsworktogether-notification-bar-mobile { display: none; }
-
 .letsworktogether-notification-information { display: block; }
 .letsworktogether-notification-information-mobile { display: none; }
-
 .letsworktogether-notification-button-2 { display: block; }
 .letsworktogether-notification-button-2-mobile { display: none; }
-
 .letsworktogether-window-notification-1 { display: block; }
 .letsworktogether-window-notification-1-mobile { display: none; }
-
 /* ======================================
    LET'S WORK TOGETHER - MOBILE
 ====================================== */
@@ -3310,20 +3299,15 @@ body.is-section .logo {
 
 .letsworktogether-notification-1 { display: none; }
 .letsworktogether-notification-1-mobile { display: block; }
-
 .letsworktogether-notification-bar { display: none; }
 .letsworktogether-notification-bar-mobile { display: block; }
-
 .letsworktogether-notification-information { display: none; }
 .letsworktogether-notification-information-mobile { display: block; }
-
 .letsworktogether-notification-button-2 { display: none; }
 .letsworktogether-notification-button-2-mobile { display: block; }
-
 .letsworktogether-window-notification-1 { display: none; }
 .letsworktogether-window-notification-1-mobile { display: block; }
 }
-
 @media (max-width: 360px) {
     .letsworktogether-title-mobile { font-size: 1.5rem; }
     .letsworktogether-text-mobile { font-size: 1rem; }
@@ -6040,6 +6024,7 @@ body.is-section .logo {
     .purpose-notification-button-2 { display: none; }
     .purpose-notification-button-2-mobile { display: block; }
 }
+
 
 /* ======================================
    MISSION - PC
