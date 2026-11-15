@@ -1,5 +1,5 @@
 body {
-    background-image: url("LIGEIA. 01 SW - Background.png");
+    background-image: url("LIGEIA. 08 SW - Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 ====================================== */
 @media (max-width: 768px) {
     body {
-        background-image: url("assets/LIGEIA. 01 SW - Background.png");
+        background-image: url("LIGEIA. 08 SW - Background.png");
     }
 }
 
@@ -344,7 +344,7 @@ body.is-section .menu-logo {
     display: block;
     text-align: center;
     margin: 50px 0;
-    padding: 250px 20px 20px 20px;
+    padding: 300px 20px 20px 20px;
 }
 .logo img {
     width: 50%;
