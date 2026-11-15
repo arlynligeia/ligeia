@@ -7428,6 +7428,7 @@ body.is-section .logo {
     .vision-notification-button-2-mobile { display: block; }
 }
 
+
 /* ======================================
    BRAND STRUCTURE - PC
 ====================================== */
@@ -7531,7 +7532,7 @@ body.is-section .logo {
     border-right-color:  #A8FFB8;
     border-bottom-color: #A8FFB8;
 }
-.brandstructure-close {
+.brandstructure-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -7542,11 +7543,11 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.brandstructure-close:hover {
+.brandstructure-button-text:hover {
     filter: brightness(1.1);
 }
 /* CONTENIDO */
-.brandstructure-content-1 {
+.brandstructure-container-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -7556,7 +7557,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.brandstructure-content-2 {
+.brandstructure-container-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -7924,7 +7925,7 @@ body.is-section .logo {
         border-right-color:  #A8FFB8;
         border-bottom-color: #A8FFB8;
     }
-    .brandstructure-close-mobile {
+    .brandstructure-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -7934,11 +7935,11 @@ body.is-section .logo {
         line-height: 1;
         transition: filter 0.15s ease;
     }
-    .brandstructure-close-mobile:hover {
+    .brandstructure-button-text-mobile:hover {
         filter: brightness(1.1);
     }
     /* CONTENIDO 1 */
-    .brandstructure-content-1-mobile {
+    .brandstructure-container-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -7949,7 +7950,7 @@ body.is-section .logo {
         padding: 0px;
     }
     /* CONTENIDO 2 */
-    .brandstructure-content-2-mobile {
+    .brandstructure-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -8389,26 +8390,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    FOUNDER - PC
 ====================================== */
@@ -8512,7 +8493,7 @@ body.is-section .logo {
     border-right-color:  #A8FFB8;
     border-bottom-color: #A8FFB8;
 }
-.founder-close {
+.founder-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -8523,11 +8504,11 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.founder-close:hover {
+.founder-button-text:hover {
     filter: brightness(1.1);
 }
 /* CONTENIDO */
-.founder-content-1 {
+.founder-container-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -8537,7 +8518,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.founder-content-2 {
+.founder-container-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -8681,7 +8662,7 @@ body.is-section .logo {
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
-.founder-notification-content-1 {
+.founder-notification-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -8691,7 +8672,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.founder-notification-content-2 {
+.founder-notification-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -8703,6 +8684,13 @@ body.is-section .logo {
     margin: 0px;
     padding: 20px;
 }
+/* NOTIFICACIÓN - INFORMACIÓN */
+.founder-notification-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 /* NOTIFICACIÓN - TEXTO */
 .founder-notification-text {
     font-family: 'Share Tech Mono', monospace;
@@ -8711,7 +8699,7 @@ body.is-section .logo {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
 }
 /* NOTIFICACIÓN - BOTÓN PERMANECER */
 .founder-notification-button-1 {
@@ -8759,7 +8747,7 @@ body.is-section .logo {
     border-right-color:  #FFB8B8;
     border-bottom-color: #FFB8B8;
 }
-.founder-notification-stay {
+.founder-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
@@ -8769,31 +8757,36 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.founder-notification-stay:hover {
+.founder-notification-button-text:hover {
     filter: brightness(1.1);
 }
 /* ======================================
    CONTROL
 ====================================== */
 .founder-container-1 { display: block; }
-.founder-content-2 { display: block; }
 .founder-container-1-mobile { display: none; }
+.founder-notification-1 { display: block; }
+.founder-notification-1-mobile { display: none; }
+.founder-notification-bar { display: block; }
 .founder-notification-bar-mobile { display: none; }
-.founder-notification-content-2-mobile { display: none; }
+.founder-notification-information { display: block; }
+.founder-notification-information-mobile { display: none; }
+.founder-notification-button-2 { display: block; }
+.founder-notification-button-2-mobile { display: none; }
 /* ======================================
    MOVIL RESPONSIVE: FOUNDER
 ====================================== */
 @media (min-width: 800px) and (max-width: 1024px) {
-.founder-container-1 {
-    width: 90%;
-}
+    .founder-container-1 {
+        width: 90%;
+    }
 }
 @media (max-width: 834px) {
-.founder-title { font-size: 2.3rem; }
-.founder-text { font-size: 1.05rem; }
+    .founder-title { font-size: 2.3rem; }
+    .founder-text { font-size: 1.05rem; }
 }
 @media (max-width: 768px) {
- .founder-container-1-mobile {
+    .founder-container-1-mobile {
         position: relative;
         width: 90%;
         box-sizing: border-box;
@@ -8847,7 +8840,7 @@ body.is-section .logo {
         color: #7D29E9 !important;
         text-decoration: none;
     }
-       /* BOTÓN CERRAR */
+    /* BOTÓN CERRAR */
     .founder-button-1-mobile {
         position: relative;
         display: flex;
@@ -8896,7 +8889,7 @@ body.is-section .logo {
         border-right-color:  #A8FFB8;
         border-bottom-color: #A8FFB8;
     }
-    .founder-close-mobile {
+    .founder-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -8906,11 +8899,11 @@ body.is-section .logo {
         line-height: 1;
         transition: filter 0.15s ease;
     }
-    .founder-close-mobile:hover {
+    .founder-button-text-mobile:hover {
         filter: brightness(1.1);
     }
     /* CONTENIDO 1 */
-    .founder-content-1-mobile {
+    .founder-container-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -8921,7 +8914,7 @@ body.is-section .logo {
         padding: 0px;
     }
     /* CONTENIDO 2 */
-    .founder-content-2-mobile {
+    .founder-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -8932,7 +8925,7 @@ body.is-section .logo {
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
-    }    
+    }
     /* CONTENEDOR: IMAGEN */
     .founder-image-mobile {
         width: 100%;
@@ -8948,7 +8941,7 @@ body.is-section .logo {
         border-right:  2px solid #DFFFE4;
         border-bottom: 2px solid #DFFFE4;
         border-radius: 0px;
-    }   
+    }
     /* CONTENEDOR: INFORMACIÓN */
     .founder-information-mobile {
         width: 100%;
@@ -8981,7 +8974,7 @@ body.is-section .logo {
     .founder-text-end-mobile {
         margin-bottom: 0px;
     }
- /* ======================================
+    /* ======================================
        NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
     .founder-notification-1-mobile {
@@ -9051,7 +9044,7 @@ body.is-section .logo {
         text-decoration: none;
     }
     /* CONTENIDO */
-    .founder-notification-content-1-mobile {
+    .founder-notification-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -9061,7 +9054,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    .founder-notification-content-2-mobile {
+    .founder-notification-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -9073,6 +9066,13 @@ body.is-section .logo {
         margin: 0px;
         padding: 20px;
     }
+    /* NOTIFICACIÓN - INFORMACIÓN */
+    .founder-notification-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
     /* TEXTO */
     .founder-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
@@ -9081,9 +9081,9 @@ body.is-section .logo {
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
     }
-       /* BOTÓN PERMANECER */
+    /* BOTÓN PERMANECER */
     .founder-notification-button-1-mobile {
         display: flex;
         justify-content: center;
@@ -9129,7 +9129,7 @@ body.is-section .logo {
         border-right-color:  #FFB8B8;
         border-bottom-color: #FFB8B8;
     }
-    .founder-notification-stay-mobile {
+    .founder-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -9139,24 +9139,32 @@ body.is-section .logo {
         cursor: pointer;
         transition: filter 0.15s ease;
     }
-    .founder-notification-stay-mobile:hover {
+    .founder-notification-button-text-mobile:hover {
         filter: brightness(1.1);
     }
     /* CONTROL */
     .founder-container-1 { display: none; }
-    .founder-content-2 { display: none; }
     .founder-container-1-mobile { display: block; }
+    .founder-notification-1 { display: none; }
+    .founder-notification-1-mobile { display: block; }
+    .founder-notification-bar { display: none; }
     .founder-notification-bar-mobile { display: block; }
-    .founder-notification-content-2-mobile { display: block; }
+    .founder-notification-information { display: none; }
+    .founder-notification-information-mobile { display: block; }
+    .founder-notification-button-2 { display: none; }
+    .founder-notification-button-2-mobile { display: block; }
 }
 @media (max-width: 360px) {
-.founder-title-mobile { font-size: 1.5rem; }
-.founder-text-mobile { font-size: 1rem; }
+    .founder-title-mobile { font-size: 1.5rem; }
+    .founder-text-mobile { font-size: 1rem; }
 }
 @media (max-width: 320px) {
-.founder-title-mobile { font-size: 1.3rem; }
-.founder-text-mobile { font-size: 0.8rem; }
+    .founder-title-mobile { font-size: 1.3rem; }
+    .founder-text-mobile { font-size: 0.8rem; }
 }
+
+
+
 
 
 
