@@ -124,7 +124,6 @@ body.is-section .menu-logo {
         display: none;
     }
 }
-
 /* ======================================
    MENÚ MOBILE
 ====================================== */
@@ -257,17 +256,6 @@ body.is-section .menu-logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    LOGO PC
 ====================================== */
@@ -279,11 +267,11 @@ body.is-section .menu-logo {
     padding: 300px 20px 20px 20px;
 }
 .logo img {
-    width: 50%;
-    box-sizing: border-box;      
-    max-width: none;
-    height: auto;
     display: inline-block;
+    width: auto;
+    height: 230px;
+    box-sizing: border-box;      
+    max-width: none;       
 }
 body.is-section .logo {
     display: none;
@@ -294,9 +282,15 @@ body.is-section .logo {
 /* ======================================
    RESPONSIVE — OCULTAR EN MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .logo { display: none; }
 }
+
+
+
+
+
+
 
 
 
