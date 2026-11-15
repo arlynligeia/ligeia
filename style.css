@@ -15723,7 +15723,7 @@ body.is-section .logo {
     max-width: 100%;
     box-sizing: border-box;
     width: auto;
-    height: 150px;
+    height: 100px;
     display: inline-block;
 }
 .footer-brand-allrightreserved {
@@ -15964,7 +15964,7 @@ body.is-section .logo {
         max-width: 100%;
         box-sizing: border-box;
         width: auto;
-        height: 120px;
+        height: 100px;
         display: inline-block;
     }
     .footer-brand-allrightreserved-mobile {
