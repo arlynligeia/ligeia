@@ -13609,7 +13609,7 @@ body.is-section .logo {
 
 
 /* ======================================
-   TERMS AND CONDITIONS - PC
+   TERMSANDCONDITIONS - PC
 ====================================== */
 .termsandconditions-container-1 {
     position: relative;
@@ -13649,29 +13649,31 @@ body.is-section .logo {
     margin: 0px;
     padding: 15px;
 }
+/* TÍTULO */
 .termsandconditions-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.6;
-    margin: 0;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
 }
 .termsandconditions-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
-/* BOTÓN CERRAR */
+/* BOTÓN - CERRAR */
 .termsandconditions-button-1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 40px;
     height: 40px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background: transparent !important;
     border-top:    2px solid #DFFFE4;
     border-left:   2px solid #DFFFE4;
@@ -13711,7 +13713,7 @@ body.is-section .logo {
     border-right-color:  #A8FFB8;
     border-bottom-color: #A8FFB8;
 }
-.termsandconditions-close {
+.termsandconditions-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -13722,11 +13724,11 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.termsandconditions-close:hover {
+.termsandconditions-button-text:hover {
     filter: brightness(1.1);
 }
 /* CONTENIDO */
-.termsandconditions-content-1 {
+.termsandconditions-container-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -13736,7 +13738,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.termsandconditions-content-2 {
+.termsandconditions-container-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -13753,6 +13755,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
 .termsandconditions-text,
 .termsandconditions-text-end {
@@ -13811,16 +13814,17 @@ body.is-section .logo {
 /* NOTIFICACIÓN - BARRA */
 .termsandconditions-notification-bar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
     background: #000000 !important;
     border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
 }
+/* NOTIFICACIÓN - TÍTULO */
 .termsandconditions-notification-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
@@ -13829,15 +13833,16 @@ body.is-section .logo {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.4;
-    margin: 0;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
 }
 .termsandconditions-notification-title a {
     color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
-.termsandconditions-notification-content-1 {
+.termsandconditions-notification-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -13847,7 +13852,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.termsandconditions-notification-content-2 {
+.termsandconditions-notification-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -13859,6 +13864,13 @@ body.is-section .logo {
     margin: 0px;
     padding: 20px;
 }
+/* NOTIFICACIÓN - INFORMACIÓN */
+.termsandconditions-notification-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 /* NOTIFICACIÓN - TEXTO */
 .termsandconditions-notification-text {
     font-family: 'Share Tech Mono', monospace;
@@ -13867,7 +13879,7 @@ body.is-section .logo {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
 }
 /* NOTIFICACIÓN - BOTÓN PERMANECER */
 .termsandconditions-notification-button-1 {
@@ -13882,8 +13894,8 @@ body.is-section .logo {
     border-right:  2px solid #B3001F;
     border-bottom: 2px solid #B3001F;
     border-radius: 0px;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px;
     transition: border-color 0.15s ease;
 }
 .termsandconditions-notification-button-1:hover {
@@ -13894,18 +13906,18 @@ body.is-section .logo {
 }
 .termsandconditions-notification-button-2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background: transparent !important;
     border-top:    2px solid #FFB8B8;
     border-left:   2px solid #FFB8B8;
     border-right:  2px solid #FF3333;
     border-bottom: 2px solid #FF3333;
     border-radius: 0px;
-    margin: 0;
+    margin: 0px;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
@@ -13915,7 +13927,7 @@ body.is-section .logo {
     border-right-color:  #FFB8B8;
     border-bottom-color: #FFB8B8;
 }
-.termsandconditions-notification-stay {
+.termsandconditions-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
@@ -13925,29 +13937,25 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.termsandconditions-notification-stay:hover {
+.termsandconditions-notification-button-text:hover {
     filter: brightness(1.1);
 }
 /* ======================================
    CONTROL
 ====================================== */
 .termsandconditions-container-1 { display: block; }
-.termsandconditions-content-2 { display: block; }
 .termsandconditions-container-1-mobile { display: none; }
+.termsandconditions-notification-1 { display: block; }
+.termsandconditions-notification-1-mobile { display: none; }
+.termsandconditions-notification-bar { display: block; }
 .termsandconditions-notification-bar-mobile { display: none; }
-.termsandconditions-notification-content-2-mobile { display: none; }
+.termsandconditions-notification-information { display: block; }
+.termsandconditions-notification-information-mobile { display: none; }
+.termsandconditions-notification-button-2 { display: block; }
+.termsandconditions-notification-button-2-mobile { display: none; }
 /* ======================================
-   TERMS AND CONDITIONS - RESPONSIVE
+   TERMSANDCONDITIONS - RESPONSIVE
 ====================================== */
-@media (min-width: 800px) and (max-width: 1024px) {
-.termsandconditions-container-1 {
-    width: 90%;
-}
-}
-@media (max-width: 834px) {
-.termsandconditions-title { font-size: 2.3rem; }
-.termsandconditions-text { font-size: 1.05rem; }
-}
 @media (max-width: 768px) {
     .termsandconditions-container-1-mobile {
         position: relative;
@@ -13988,30 +13996,32 @@ body.is-section .logo {
         margin: 0px;
         padding: 10px;
     }
+    /* TÍTULO */
     .termsandconditions-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
         line-height: 1.3;
-        margin: 0;
+        margin: 0px;
+        padding: 0px;
     }
     .termsandconditions-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
-       /* BOTÓN CERRAR */
+    /* BOTÓN - CERRAR */
     .termsandconditions-button-1-mobile {
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 35px;
         height: 35px;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #DFFFE4;
         border-left:   2px solid #DFFFE4;
@@ -14031,11 +14041,11 @@ body.is-section .logo {
     .termsandconditions-button-2-mobile {
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #A8FFB8;
         border-left:   2px solid #A8FFB8;
@@ -14052,7 +14062,7 @@ body.is-section .logo {
         border-right-color:  #A8FFB8;
         border-bottom-color: #A8FFB8;
     }
-    .termsandconditions-close-mobile {
+    .termsandconditions-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -14062,11 +14072,11 @@ body.is-section .logo {
         line-height: 1;
         transition: filter 0.15s ease;
     }
-    .termsandconditions-close-mobile:hover {
+    .termsandconditions-button-text-mobile:hover {
         filter: brightness(1.1);
     }
-    /* CONTENIDO 1 */
-    .termsandconditions-content-1-mobile {
+    /* CONTENIDO */
+    .termsandconditions-container-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14076,8 +14086,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    /* CONTENIDO 2 */
-    .termsandconditions-content-2-mobile {
+    .termsandconditions-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14094,6 +14103,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         margin: 0px;
+        padding: 0px;
     }
     .termsandconditions-text-mobile,
     .termsandconditions-text-end-mobile {
@@ -14111,7 +14121,7 @@ body.is-section .logo {
     /* ======================================
        NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
-    .termsandconditions-notification-container-1-mobile {
+    .termsandconditions-notification-1-mobile {
         position: fixed;
         top: 50%;
         left: 50%;
@@ -14131,12 +14141,12 @@ body.is-section .logo {
         pointer-events: none;
         transition: opacity 0.3s ease, transform 0.3s ease;
     }
-    .termsandconditions-notification-container-1-mobile.show {
+    .termsandconditions-notification-1-mobile.show {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
         pointer-events: auto;
     }
-    .termsandconditions-notification-container-2-mobile {
+    .termsandconditions-notification-2-mobile {
         position: relative;
         width: 100%;
         box-sizing: border-box;
@@ -14149,7 +14159,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    /* BARRA */
+    /* NOTIFICACIÓN - BARRA */
     .termsandconditions-notification-bar-mobile {
         display: flex;
         justify-content: space-between;
@@ -14162,6 +14172,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 4px 12px;
     }
+    /* NOTIFICACIÓN - TÍTULO */
     .termsandconditions-notification-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
@@ -14170,15 +14181,16 @@ body.is-section .logo {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.4;
-        margin: 0;
+        line-height: 1.3;
+        margin: 0px;
+        padding: 0px;
     }
     .termsandconditions-notification-title-mobile a {
         color: #FF0033 !important;
         text-decoration: none;
     }
     /* CONTENIDO */
-    .termsandconditions-notification-content-1-mobile {
+    .termsandconditions-notification-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14188,7 +14200,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    .termsandconditions-notification-content-2-mobile {
+    .termsandconditions-notification-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14200,6 +14212,13 @@ body.is-section .logo {
         margin: 0px;
         padding: 20px;
     }
+    /* NOTIFICACIÓN - INFORMACIÓN */
+    .termsandconditions-notification-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
     /* TEXTO */
     .termsandconditions-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
@@ -14208,15 +14227,15 @@ body.is-section .logo {
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
     }
-       /* BOTÓN PERMANECER */
+    /* BOTÓN - PERMANECER */
     .termsandconditions-notification-button-1-mobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: fit-content;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #FFE0E0;
         border-left:   2px solid #FFE0E0;
@@ -14235,11 +14254,11 @@ body.is-section .logo {
     }
     .termsandconditions-notification-button-2-mobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #FFB8B8;
         border-left:   2px solid #FFB8B8;
@@ -14256,7 +14275,7 @@ body.is-section .logo {
         border-right-color:  #FFB8B8;
         border-bottom-color: #FFB8B8;
     }
-    .termsandconditions-notification-stay-mobile {
+    .termsandconditions-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -14266,28 +14285,25 @@ body.is-section .logo {
         cursor: pointer;
         transition: filter 0.15s ease;
     }
-    .termsandconditions-notification-stay-mobile:hover {
+    .termsandconditions-notification-button-text-mobile:hover {
         filter: brightness(1.1);
     }
     /* CONTROL */
     .termsandconditions-container-1 { display: none; }
-    .termsandconditions-content-2 { display: none; }
     .termsandconditions-container-1-mobile { display: block; }
+    .termsandconditions-notification-1 { display: none; }
+    .termsandconditions-notification-1-mobile { display: block; }
+    .termsandconditions-notification-bar { display: none; }
     .termsandconditions-notification-bar-mobile { display: block; }
-    .termsandconditions-notification-content-2-mobile { display: block; }
-}
-@media (max-width: 360px) {
-.termsandconditions-title-mobile { font-size: 1.5rem; }
-.termsandconditions-text-mobile { font-size: 1rem; }
-}
-@media (max-width: 320px) {
-.termsandconditions-title-mobile { font-size: 1.3rem; }
-.termsandconditions-text-mobile { font-size: 0.8rem; }
+    .termsandconditions-notification-information { display: none; }
+    .termsandconditions-notification-information-mobile { display: block; }
+    .termsandconditions-notification-button-2 { display: none; }
+    .termsandconditions-notification-button-2-mobile { display: block; }
 }
 
 
 /* ======================================
-   PRIVACY POLICY - PC
+   PRIVACYPOLICY - PC
 ====================================== */
 .privacypolicy-container-1 {
     position: relative;
@@ -14327,29 +14343,31 @@ body.is-section .logo {
     margin: 0px;
     padding: 15px;
 }
+/* TÍTULO */
 .privacypolicy-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.6;
-    margin: 0;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
 }
 .privacypolicy-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
-/* BOTÓN CERRAR */
+/* BOTÓN - CERRAR */
 .privacypolicy-button-1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 40px;
     height: 40px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background: transparent !important;
     border-top:    2px solid #DFFFE4;
     border-left:   2px solid #DFFFE4;
@@ -14389,7 +14407,7 @@ body.is-section .logo {
     border-right-color:  #A8FFB8;
     border-bottom-color: #A8FFB8;
 }
-.privacypolicy-close {
+.privacypolicy-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -14400,11 +14418,11 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.privacypolicy-close:hover {
+.privacypolicy-button-text:hover {
     filter: brightness(1.1);
 }
 /* CONTENIDO */
-.privacypolicy-content-1 {
+.privacypolicy-container-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -14414,7 +14432,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.privacypolicy-content-2 {
+.privacypolicy-container-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -14431,6 +14449,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
 .privacypolicy-text,
 .privacypolicy-text-end {
@@ -14489,16 +14508,17 @@ body.is-section .logo {
 /* NOTIFICACIÓN - BARRA */
 .privacypolicy-notification-bar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
     background: #000000 !important;
     border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
 }
+/* NOTIFICACIÓN - TÍTULO */
 .privacypolicy-notification-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
@@ -14507,15 +14527,16 @@ body.is-section .logo {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.4;
-    margin: 0;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
 }
 .privacypolicy-notification-title a {
     color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
-.privacypolicy-notification-content-1 {
+.privacypolicy-notification-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -14525,7 +14546,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.privacypolicy-notification-content-2 {
+.privacypolicy-notification-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -14537,6 +14558,13 @@ body.is-section .logo {
     margin: 0px;
     padding: 20px;
 }
+/* NOTIFICACIÓN - INFORMACIÓN */
+.privacypolicy-notification-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 /* NOTIFICACIÓN - TEXTO */
 .privacypolicy-notification-text {
     font-family: 'Share Tech Mono', monospace;
@@ -14545,7 +14573,7 @@ body.is-section .logo {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
 }
 /* NOTIFICACIÓN - BOTÓN PERMANECER */
 .privacypolicy-notification-button-1 {
@@ -14560,8 +14588,8 @@ body.is-section .logo {
     border-right:  2px solid #B3001F;
     border-bottom: 2px solid #B3001F;
     border-radius: 0px;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px;
     transition: border-color 0.15s ease;
 }
 .privacypolicy-notification-button-1:hover {
@@ -14572,18 +14600,18 @@ body.is-section .logo {
 }
 .privacypolicy-notification-button-2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background: transparent !important;
     border-top:    2px solid #FFB8B8;
     border-left:   2px solid #FFB8B8;
     border-right:  2px solid #FF3333;
     border-bottom: 2px solid #FF3333;
     border-radius: 0px;
-    margin: 0;
+    margin: 0px;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
@@ -14593,7 +14621,7 @@ body.is-section .logo {
     border-right-color:  #FFB8B8;
     border-bottom-color: #FFB8B8;
 }
-.privacypolicy-notification-stay {
+.privacypolicy-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
@@ -14603,29 +14631,25 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.privacypolicy-notification-stay:hover {
+.privacypolicy-notification-button-text:hover {
     filter: brightness(1.1);
 }
 /* ======================================
    CONTROL
 ====================================== */
 .privacypolicy-container-1 { display: block; }
-.privacypolicy-content-2 { display: block; }
 .privacypolicy-container-1-mobile { display: none; }
+.privacypolicy-notification-1 { display: block; }
+.privacypolicy-notification-1-mobile { display: none; }
+.privacypolicy-notification-bar { display: block; }
 .privacypolicy-notification-bar-mobile { display: none; }
-.privacypolicy-notification-content-2-mobile { display: none; }
+.privacypolicy-notification-information { display: block; }
+.privacypolicy-notification-information-mobile { display: none; }
+.privacypolicy-notification-button-2 { display: block; }
+.privacypolicy-notification-button-2-mobile { display: none; }
 /* ======================================
-   PRIVACY POLICY - RESPONSIVE
+   PRIVACYPOLICY - RESPONSIVE
 ====================================== */
-@media (min-width: 800px) and (max-width: 1024px) {
-.privacypolicy-container-1 {
-    width: 90%;
-}
-}
-@media (max-width: 834px) {
-.privacypolicy-title { font-size: 2.3rem; }
-.privacypolicy-text { font-size: 1.05rem; }
-}
 @media (max-width: 768px) {
     .privacypolicy-container-1-mobile {
         position: relative;
@@ -14666,30 +14690,32 @@ body.is-section .logo {
         margin: 0px;
         padding: 10px;
     }
+    /* TÍTULO */
     .privacypolicy-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
         line-height: 1.3;
-        margin: 0;
+        margin: 0px;
+        padding: 0px;
     }
     .privacypolicy-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
-       /* BOTÓN CERRAR */
+    /* BOTÓN - CERRAR */
     .privacypolicy-button-1-mobile {
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 35px;
         height: 35px;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #DFFFE4;
         border-left:   2px solid #DFFFE4;
@@ -14709,11 +14735,11 @@ body.is-section .logo {
     .privacypolicy-button-2-mobile {
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #A8FFB8;
         border-left:   2px solid #A8FFB8;
@@ -14730,7 +14756,7 @@ body.is-section .logo {
         border-right-color:  #A8FFB8;
         border-bottom-color: #A8FFB8;
     }
-    .privacypolicy-close-mobile {
+    .privacypolicy-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -14740,11 +14766,11 @@ body.is-section .logo {
         line-height: 1;
         transition: filter 0.15s ease;
     }
-    .privacypolicy-close-mobile:hover {
+    .privacypolicy-button-text-mobile:hover {
         filter: brightness(1.1);
     }
-    /* CONTENIDO 1 */
-    .privacypolicy-content-1-mobile {
+    /* CONTENIDO */
+    .privacypolicy-container-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14754,8 +14780,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    /* CONTENIDO 2 */
-    .privacypolicy-content-2-mobile {
+    .privacypolicy-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14772,6 +14797,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         margin: 0px;
+        padding: 0px;
     }
     .privacypolicy-text-mobile,
     .privacypolicy-text-end-mobile {
@@ -14789,7 +14815,7 @@ body.is-section .logo {
     /* ======================================
        NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
-    .privacypolicy-notification-container-1-mobile {
+    .privacypolicy-notification-1-mobile {
         position: fixed;
         top: 50%;
         left: 50%;
@@ -14809,12 +14835,12 @@ body.is-section .logo {
         pointer-events: none;
         transition: opacity 0.3s ease, transform 0.3s ease;
     }
-    .privacypolicy-notification-container-1-mobile.show {
+    .privacypolicy-notification-1-mobile.show {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
         pointer-events: auto;
     }
-    .privacypolicy-notification-container-2-mobile {
+    .privacypolicy-notification-2-mobile {
         position: relative;
         width: 100%;
         box-sizing: border-box;
@@ -14827,7 +14853,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    /* BARRA */
+    /* NOTIFICACIÓN - BARRA */
     .privacypolicy-notification-bar-mobile {
         display: flex;
         justify-content: space-between;
@@ -14840,6 +14866,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 4px 12px;
     }
+    /* NOTIFICACIÓN - TÍTULO */
     .privacypolicy-notification-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
@@ -14848,15 +14875,16 @@ body.is-section .logo {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.4;
-        margin: 0;
+        line-height: 1.3;
+        margin: 0px;
+        padding: 0px;
     }
     .privacypolicy-notification-title-mobile a {
         color: #FF0033 !important;
         text-decoration: none;
     }
     /* CONTENIDO */
-    .privacypolicy-notification-content-1-mobile {
+    .privacypolicy-notification-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14866,7 +14894,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    .privacypolicy-notification-content-2-mobile {
+    .privacypolicy-notification-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -14878,6 +14906,13 @@ body.is-section .logo {
         margin: 0px;
         padding: 20px;
     }
+    /* NOTIFICACIÓN - INFORMACIÓN */
+    .privacypolicy-notification-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
     /* TEXTO */
     .privacypolicy-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
@@ -14886,15 +14921,15 @@ body.is-section .logo {
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
     }
-       /* BOTÓN PERMANECER */
+    /* BOTÓN - PERMANECER */
     .privacypolicy-notification-button-1-mobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: fit-content;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #FFE0E0;
         border-left:   2px solid #FFE0E0;
@@ -14913,11 +14948,11 @@ body.is-section .logo {
     }
     .privacypolicy-notification-button-2-mobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #FFB8B8;
         border-left:   2px solid #FFB8B8;
@@ -14934,7 +14969,7 @@ body.is-section .logo {
         border-right-color:  #FFB8B8;
         border-bottom-color: #FFB8B8;
     }
-    .privacypolicy-notification-stay-mobile {
+    .privacypolicy-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -14944,28 +14979,25 @@ body.is-section .logo {
         cursor: pointer;
         transition: filter 0.15s ease;
     }
-    .privacypolicy-notification-stay-mobile:hover {
+    .privacypolicy-notification-button-text-mobile:hover {
         filter: brightness(1.1);
     }
     /* CONTROL */
     .privacypolicy-container-1 { display: none; }
-    .privacypolicy-content-2 { display: none; }
     .privacypolicy-container-1-mobile { display: block; }
+    .privacypolicy-notification-1 { display: none; }
+    .privacypolicy-notification-1-mobile { display: block; }
+    .privacypolicy-notification-bar { display: none; }
     .privacypolicy-notification-bar-mobile { display: block; }
-    .privacypolicy-notification-content-2-mobile { display: block; }
-}
-@media (max-width: 360px) {
-.privacypolicy-title-mobile { font-size: 1.5rem; }
-.privacypolicy-text-mobile { font-size: 1rem; }
-}
-@media (max-width: 320px) {
-.privacypolicy-title-mobile { font-size: 1.3rem; }
-.privacypolicy-text-mobile { font-size: 0.8rem; }
+    .privacypolicy-notification-information { display: none; }
+    .privacypolicy-notification-information-mobile { display: block; }
+    .privacypolicy-notification-button-2 { display: none; }
+    .privacypolicy-notification-button-2-mobile { display: block; }
 }
 
 
 /* ======================================
-   COOKIE POLICY - PC
+   COOKIEPOLICY - PC
 ====================================== */
 .cookiepolicy-container-1 {
     position: relative;
@@ -15005,29 +15037,31 @@ body.is-section .logo {
     margin: 0px;
     padding: 15px;
 }
+/* TÍTULO */
 .cookiepolicy-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.6;
-    margin: 0;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
 }
 .cookiepolicy-title a {
-    color: #00FF41 !important;
+    color: #7D29E9 !important;
     text-decoration: none;
 }
-/* BOTÓN CERRAR */
+/* BOTÓN - CERRAR */
 .cookiepolicy-button-1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 40px;
     height: 40px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background: transparent !important;
     border-top:    2px solid #DFFFE4;
     border-left:   2px solid #DFFFE4;
@@ -15067,7 +15101,7 @@ body.is-section .logo {
     border-right-color:  #A8FFB8;
     border-bottom-color: #A8FFB8;
 }
-.cookiepolicy-close {
+.cookiepolicy-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -15078,11 +15112,11 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.cookiepolicy-close:hover {
+.cookiepolicy-button-text:hover {
     filter: brightness(1.1);
 }
 /* CONTENIDO */
-.cookiepolicy-content-1 {
+.cookiepolicy-container-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -15092,7 +15126,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.cookiepolicy-content-2 {
+.cookiepolicy-container-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -15109,6 +15143,7 @@ body.is-section .logo {
     width: 100%;
     box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
 .cookiepolicy-text,
 .cookiepolicy-text-end {
@@ -15167,16 +15202,17 @@ body.is-section .logo {
 /* NOTIFICACIÓN - BARRA */
 .cookiepolicy-notification-bar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
     background: #000000 !important;
     border: 4px solid #FF8A8A;
     border-radius: 0px;
     margin: 0px;
     padding: 4px 12px;
 }
+/* NOTIFICACIÓN - TÍTULO */
 .cookiepolicy-notification-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
@@ -15185,15 +15221,16 @@ body.is-section .logo {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.4;
-    margin: 0;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
 }
 .cookiepolicy-notification-title a {
     color: #FF0033 !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENIDO */
-.cookiepolicy-notification-content-1 {
+.cookiepolicy-notification-3 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -15203,7 +15240,7 @@ body.is-section .logo {
     margin: 0px;
     padding: 0px;
 }
-.cookiepolicy-notification-content-2 {
+.cookiepolicy-notification-4 {
     width: 100%;
     box-sizing: border-box;
     background: #000000 !important;
@@ -15215,6 +15252,13 @@ body.is-section .logo {
     margin: 0px;
     padding: 20px;
 }
+/* NOTIFICACIÓN - INFORMACIÓN */
+.cookiepolicy-notification-information {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 /* NOTIFICACIÓN - TEXTO */
 .cookiepolicy-notification-text {
     font-family: 'Share Tech Mono', monospace;
@@ -15223,7 +15267,7 @@ body.is-section .logo {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0;
 }
 /* NOTIFICACIÓN - BOTÓN PERMANECER */
 .cookiepolicy-notification-button-1 {
@@ -15238,8 +15282,8 @@ body.is-section .logo {
     border-right:  2px solid #B3001F;
     border-bottom: 2px solid #B3001F;
     border-radius: 0px;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0px auto;
+    padding: 0px;
     transition: border-color 0.15s ease;
 }
 .cookiepolicy-notification-button-1:hover {
@@ -15250,18 +15294,18 @@ body.is-section .logo {
 }
 .cookiepolicy-notification-button-2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
     background: transparent !important;
     border-top:    2px solid #FFB8B8;
     border-left:   2px solid #FFB8B8;
     border-right:  2px solid #FF3333;
     border-bottom: 2px solid #FF3333;
     border-radius: 0px;
-    margin: 0;
+    margin: 0px;
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
@@ -15271,7 +15315,7 @@ body.is-section .logo {
     border-right-color:  #FFB8B8;
     border-bottom-color: #FFB8B8;
 }
-.cookiepolicy-notification-stay {
+.cookiepolicy-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
@@ -15281,29 +15325,25 @@ body.is-section .logo {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.cookiepolicy-notification-stay:hover {
+.cookiepolicy-notification-button-text:hover {
     filter: brightness(1.1);
 }
 /* ======================================
    CONTROL
 ====================================== */
 .cookiepolicy-container-1 { display: block; }
-.cookiepolicy-content-2 { display: block; }
 .cookiepolicy-container-1-mobile { display: none; }
+.cookiepolicy-notification-1 { display: block; }
+.cookiepolicy-notification-1-mobile { display: none; }
+.cookiepolicy-notification-bar { display: block; }
 .cookiepolicy-notification-bar-mobile { display: none; }
-.cookiepolicy-notification-content-2-mobile { display: none; }
+.cookiepolicy-notification-information { display: block; }
+.cookiepolicy-notification-information-mobile { display: none; }
+.cookiepolicy-notification-button-2 { display: block; }
+.cookiepolicy-notification-button-2-mobile { display: none; }
 /* ======================================
-   COOKIE POLICY - RESPONSIVE
+   COOKIEPOLICY - RESPONSIVE
 ====================================== */
-@media (min-width: 800px) and (max-width: 1024px) {
-.cookiepolicy-container-1 {
-    width: 90%;
-}
-}
-@media (max-width: 834px) {
-.cookiepolicy-title { font-size: 2.3rem; }
-.cookiepolicy-text { font-size: 1.05rem; }
-}
 @media (max-width: 768px) {
     .cookiepolicy-container-1-mobile {
         position: relative;
@@ -15344,30 +15384,32 @@ body.is-section .logo {
         margin: 0px;
         padding: 10px;
     }
+    /* TÍTULO */
     .cookiepolicy-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
         line-height: 1.3;
-        margin: 0;
+        margin: 0px;
+        padding: 0px;
     }
     .cookiepolicy-title-mobile a {
-        color: #00FF41 !important;
+        color: #7D29E9 !important;
         text-decoration: none;
     }
-       /* BOTÓN CERRAR */
+    /* BOTÓN - CERRAR */
     .cookiepolicy-button-1-mobile {
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 35px;
         height: 35px;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #DFFFE4;
         border-left:   2px solid #DFFFE4;
@@ -15387,11 +15429,11 @@ body.is-section .logo {
     .cookiepolicy-button-2-mobile {
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #A8FFB8;
         border-left:   2px solid #A8FFB8;
@@ -15408,7 +15450,7 @@ body.is-section .logo {
         border-right-color:  #A8FFB8;
         border-bottom-color: #A8FFB8;
     }
-    .cookiepolicy-close-mobile {
+    .cookiepolicy-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -15418,11 +15460,11 @@ body.is-section .logo {
         line-height: 1;
         transition: filter 0.15s ease;
     }
-    .cookiepolicy-close-mobile:hover {
+    .cookiepolicy-button-text-mobile:hover {
         filter: brightness(1.1);
     }
-    /* CONTENIDO 1 */
-    .cookiepolicy-content-1-mobile {
+    /* CONTENIDO */
+    .cookiepolicy-container-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -15432,8 +15474,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    /* CONTENIDO 2 */
-    .cookiepolicy-content-2-mobile {
+    .cookiepolicy-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -15450,6 +15491,7 @@ body.is-section .logo {
         width: 100%;
         box-sizing: border-box;
         margin: 0px;
+        padding: 0px;
     }
     .cookiepolicy-text-mobile,
     .cookiepolicy-text-end-mobile {
@@ -15467,7 +15509,7 @@ body.is-section .logo {
     /* ======================================
        NOTIFICACIÓN MOBILE (ROJO)
     ====================================== */
-    .cookiepolicy-notification-container-1-mobile {
+    .cookiepolicy-notification-1-mobile {
         position: fixed;
         top: 50%;
         left: 50%;
@@ -15487,12 +15529,12 @@ body.is-section .logo {
         pointer-events: none;
         transition: opacity 0.3s ease, transform 0.3s ease;
     }
-    .cookiepolicy-notification-container-1-mobile.show {
+    .cookiepolicy-notification-1-mobile.show {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
         pointer-events: auto;
     }
-    .cookiepolicy-notification-container-2-mobile {
+    .cookiepolicy-notification-2-mobile {
         position: relative;
         width: 100%;
         box-sizing: border-box;
@@ -15505,7 +15547,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    /* BARRA */
+    /* NOTIFICACIÓN - BARRA */
     .cookiepolicy-notification-bar-mobile {
         display: flex;
         justify-content: space-between;
@@ -15518,6 +15560,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 4px 12px;
     }
+    /* NOTIFICACIÓN - TÍTULO */
     .cookiepolicy-notification-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
@@ -15526,15 +15569,16 @@ body.is-section .logo {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.4;
-        margin: 0;
+        line-height: 1.3;
+        margin: 0px;
+        padding: 0px;
     }
     .cookiepolicy-notification-title-mobile a {
         color: #FF0033 !important;
         text-decoration: none;
     }
     /* CONTENIDO */
-    .cookiepolicy-notification-content-1-mobile {
+    .cookiepolicy-notification-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -15544,7 +15588,7 @@ body.is-section .logo {
         margin: 0px;
         padding: 0px;
     }
-    .cookiepolicy-notification-content-2-mobile {
+    .cookiepolicy-notification-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #000000 !important;
@@ -15556,6 +15600,13 @@ body.is-section .logo {
         margin: 0px;
         padding: 20px;
     }
+    /* NOTIFICACIÓN - INFORMACIÓN */
+    .cookiepolicy-notification-information-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
     /* TEXTO */
     .cookiepolicy-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
@@ -15564,15 +15615,15 @@ body.is-section .logo {
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
     }
-       /* BOTÓN PERMANECER */
+    /* BOTÓN - PERMANECER */
     .cookiepolicy-notification-button-1-mobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: fit-content;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #FFE0E0;
         border-left:   2px solid #FFE0E0;
@@ -15591,11 +15642,11 @@ body.is-section .logo {
     }
     .cookiepolicy-notification-button-2-mobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
         background: transparent !important;
         border-top:    2px solid #FFB8B8;
         border-left:   2px solid #FFB8B8;
@@ -15612,7 +15663,7 @@ body.is-section .logo {
         border-right-color:  #FFB8B8;
         border-bottom-color: #FFB8B8;
     }
-    .cookiepolicy-notification-stay-mobile {
+    .cookiepolicy-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -15622,23 +15673,20 @@ body.is-section .logo {
         cursor: pointer;
         transition: filter 0.15s ease;
     }
-    .cookiepolicy-notification-stay-mobile:hover {
+    .cookiepolicy-notification-button-text-mobile:hover {
         filter: brightness(1.1);
     }
     /* CONTROL */
     .cookiepolicy-container-1 { display: none; }
-    .cookiepolicy-content-2 { display: none; }
     .cookiepolicy-container-1-mobile { display: block; }
+    .cookiepolicy-notification-1 { display: none; }
+    .cookiepolicy-notification-1-mobile { display: block; }
+    .cookiepolicy-notification-bar { display: none; }
     .cookiepolicy-notification-bar-mobile { display: block; }
-    .cookiepolicy-notification-content-2-mobile { display: block; }
-}
-@media (max-width: 360px) {
-.cookiepolicy-title-mobile { font-size: 1.5rem; }
-.cookiepolicy-text-mobile { font-size: 1rem; }
-}
-@media (max-width: 320px) {
-.cookiepolicy-title-mobile { font-size: 1.3rem; }
-.cookiepolicy-text-mobile { font-size: 0.8rem; }
+    .cookiepolicy-notification-information { display: none; }
+    .cookiepolicy-notification-information-mobile { display: block; }
+    .cookiepolicy-notification-button-2 { display: none; }
+    .cookiepolicy-notification-button-2-mobile { display: block; }
 }
 
 
@@ -15674,8 +15722,8 @@ body.is-section .logo {
 .footer-brand-logo img {
     max-width: 100%;
     box-sizing: border-box;
-    width: 250px;
-    height: auto;
+    width: auto;
+    height: 250px;
     display: inline-block;
 }
 .footer-brand-allrightreserved {
@@ -15915,8 +15963,8 @@ body.is-section .logo {
     .footer-brand-logo-mobile img {
         max-width: 100%;
         box-sizing: border-box;
-        width: 120px;
-        height: auto;
+        width: auto;
+        height: 120px;
         display: inline-block;
     }
     .footer-brand-allrightreserved-mobile {
@@ -16105,4 +16153,4 @@ body.is-section .logo {
     /* CONTROL */
     .footer { display: none; }
     .footer-mobile { display: block; }
-}}
+}
