@@ -781,7 +781,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
 /* ======================================
    SCRIPT: NOTIFICACIÓN FASHION - MOBILE
 ====================================== */
@@ -805,9 +804,89 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+/* ======================================
+   SCRIPT: NOTIFICACIÓN JEWELRY - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('jewelry-button-close');
+    const notification    = document.getElementById('jewelry-notification');
+    const notificationBtn = document.getElementById('jewelry-button-stay');
+
+    if (closeBtn && notification && notificationBtn) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtn.addEventListener('click', function () {
+            notification.classList.add('show');
+        });
+
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', function () {
+            notification.classList.remove('show');
+        });
+    }
+});
+/* ======================================
+   SCRIPT: NOTIFICACIÓN JEWELRY - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('jewelry-button-close-mobile');
+    const notificationMobile    = document.getElementById('jewelry-notification-mobile');
+    const notificationBtnMobile = document.getElementById('jewelry-button-stay-mobile');
+
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtnMobile.addEventListener('click', function () {
+            notificationMobile.classList.add('show');
+        });
+
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtnMobile.addEventListener('click', function () {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
 
 
 
+/* ======================================
+   SCRIPT: NOTIFICACIÓN ART - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('art-button-close');
+    const notification    = document.getElementById('art-notification');
+    const notificationBtn = document.getElementById('art-button-stay');
+
+    if (closeBtn && notification && notificationBtn) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtn.addEventListener('click', function () {
+            notification.classList.add('show');
+        });
+
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', function () {
+            notification.classList.remove('show');
+        });
+    }
+});
+/* ======================================
+   SCRIPT: NOTIFICACIÓN ART - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('art-button-close-mobile');
+    const notificationMobile    = document.getElementById('art-notification-mobile');
+    const notificationBtnMobile = document.getElementById('art-button-stay-mobile');
+
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtnMobile.addEventListener('click', function () {
+            notificationMobile.classList.add('show');
+        });
+
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtnMobile.addEventListener('click', function () {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
 
 
 
@@ -835,7 +914,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-
     /* ---------- NOTIFICACIÓN CONTACT - PC ---------- */
     const closeBtn        = document.getElementById('button-contact-close');    // <div id="button-contact-close">
     const notification    = document.getElementById('notification-contact');    // <div id="notification-contact">
@@ -854,7 +932,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
-
 /* ======================================
    CONTACT MOBILE
 ====================================== */
@@ -879,7 +956,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-
     /* ---------- NOTIFICACIÓN CONTACT - MOBILE ---------- */
     const closeBtn        = document.getElementById('button-contact-close-mobile'); // <div id="button-contact-close-mobile">
     const notification    = document.getElementById('notification-contact-mobile'); // <div id="notification-contact-mobile">
