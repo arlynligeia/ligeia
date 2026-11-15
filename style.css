@@ -1,5 +1,5 @@
 body {
-    background-image: url("assets/ALCP. Fondo.png");
+    background-image: url("LIGEIA. 01 SW - Background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 ====================================== */
 @media (max-width: 768px) {
     body {
-        background-image: url("assets/ALCP. Fondo.png");
+        background-image: url("assets/LIGEIA. 01 SW - Background.png");
     }
 }
 
