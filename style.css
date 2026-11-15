@@ -10399,6 +10399,12 @@ body.is-section .logo {
 
 .fashion-notification-1 { display: block; }
 .fashion-notification-1-mobile { display: none; }
+
+.fashion-notification-bar { display: block; }
+.fashion-notification-bar-mobile { display: none; }
+
+.fashion-notification-information { display: block; }
+.fashion-notification-information-mobile { display: none; }
 /* ======================================
    FASHION - RESPONSIVE
 ====================================== */
@@ -10657,9 +10663,7 @@ body.is-section .logo {
         border-radius: 0px;
         margin: 0px;
         padding: 20px;
-    }
-
-    
+    }   
     /* NOTIFICACIÓN - INFORMACIÓN */
     .fashion-notification-information-mobile {
         width: 100%;
@@ -10737,12 +10741,33 @@ body.is-section .logo {
         filter: brightness(1.1);
     }
     /* CONTROL */
-    .fashion-container-1 { display: none; }
-    .fashion-container-1-mobile { display: block; }
+.fashion-container-1 { display: none; }
+.fashion-container-1-mobile { display: block; }
+
+.fashion-notification-1 { display: none; }
+.fashion-notification-1-mobile { display: block; }
+
+.fashion-notification-bar { display: none; }
+.fashion-notification-bar-mobile { display: block; }
+
+.fashion-notification-information { display: none; }
+.fashion-notification-information-mobile { display: block; }
     
-    .fashion-notification-1 { display: none; }
-    .fashion-notification-1-mobile { display: block; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
