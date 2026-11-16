@@ -287,17 +287,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    HOME - PC
 ====================================== */
@@ -409,7 +398,7 @@ body.is-section .logo {
 /* ======================================
    HOME - MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .home-container-mobile {
         position: relative;
         width: 90%;
@@ -515,6 +504,17 @@ body.is-section .logo {
     .home-container { display: none; }
     .home-container-mobile { display: block; }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
