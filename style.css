@@ -506,17 +506,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    UPCOMINGRELEASE - PC
 ====================================== */
@@ -895,24 +884,19 @@ body.is-section .logo {
    CONTROL
 ====================================== */
 .upcomingrelease-container-1 { display: block; }
-.upcomingrelease-container-3 { display: block; }
-.upcomingrelease-container-4 { display: block; }
 .upcomingrelease-container-1-mobile { display: none; }
+.upcomingrelease-notification-1 { display: block; }
+.upcomingrelease-notification-1-mobile { display: none; }
+.upcomingrelease-notification-bar { display: block; }
 .upcomingrelease-notification-bar-mobile { display: none; }
-.upcomingrelease-notification-4-mobile { display: none; }
+.upcomingrelease-notification-information { display: block; }
+.upcomingrelease-notification-information-mobile { display: none; }
+.upcomingrelease-notification-button-2 { display: block; }
+.upcomingrelease-notification-button-2-mobile { display: none; }
 /* ======================================
    RESPONSIVE: UPCOMINGRELEASE
 ====================================== */
-@media (min-width: 800px) and (max-width: 1024px) {
-.upcomingrelease-container-1 {
-    width: 90%;
-}
-}
-@media (max-width: 834px) {
-.upcomingrelease-title { font-size: 2.3rem; }
-.upcomingrelease-text { font-size: 1.05rem; }
-}
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .upcomingrelease-container-1-mobile {
         position: relative;
         width: 90%;
@@ -1276,18 +1260,18 @@ body.is-section .logo {
    CONTROL
 ====================================== */
     .upcomingrelease-container-1 { display: none; }
-    .upcomingrelease-container-3 { display: none; }
-    .upcomingrelease-container-4 { display: none; }
     .upcomingrelease-container-1-mobile { display: block; }
+    .upcomingrelease-notification-1 { display: none; }
+    .upcomingrelease-notification-1-mobile { display: block; }
+    .upcomingrelease-notification-bar { display: none; }
     .upcomingrelease-notification-bar-mobile { display: block; }
-    .upcomingrelease-notification-4-mobile { display: block; }
-}
-@media (max-width: 360px) {
-.upcomingrelease-title-mobile { font-size: 1.5rem; }
-.upcomingrelease-text-mobile { font-size: 1rem; }
+    .upcomingrelease-notification-information { display: none; }
+    .upcomingrelease-notification-information-mobile { display: block; }
+    .upcomingrelease-notification-button-2 { display: none; }
+    .upcomingrelease-notification-button-2-mobile { display: block; }
 }
 @media (max-width: 320px) {
-.upcomingrelease-title-mobile { font-size: 1.3rem; }
+.upcomingrelease-title-mobile { font-size: 1.5rem; }
 .upcomingrelease-text-mobile { font-size: 0.8rem; }
 }
 
@@ -1588,13 +1572,9 @@ body.is-section .logo {
     .collaborations-container-1 { display: none; }
     .collaborations-container-1-mobile { display: block; }
 }
-@media (max-width: 360px) {
-    .collaborations-title-mobile { font-size: 1.5rem; }
-    .collaborations-text-mobile { font-size: 1rem; }
-}
 @media (max-width: 320px) {
     .collaborations-title-mobile { font-size: 1.3rem; }
-    .collaborations-text-mobile { font-size: 0.8rem; }
+    .collaborations-text-mobile { font-size: 1rem; }
 }
 
 
@@ -3222,7 +3202,6 @@ body.is-section .logo {
     ====================================== */
 .letsworktogether-container-1 { display: none; }
 .letsworktogether-container-1-mobile { display: block; }
-
 .letsworktogether-notification-1 { display: none; }
 .letsworktogether-notification-1-mobile { display: block; }
 .letsworktogether-notification-bar { display: none; }
@@ -3234,13 +3213,9 @@ body.is-section .logo {
 .letsworktogether-window-notification-1 { display: none; }
 .letsworktogether-window-notification-1-mobile { display: block; }
 }
-@media (max-width: 360px) {
-    .letsworktogether-title-mobile { font-size: 1.5rem; }
-    .letsworktogether-text-mobile { font-size: 1rem; }
-}
 @media (max-width: 320px) {
     .letsworktogether-title-mobile { font-size: 1.3rem; }
-    .letsworktogether-text-mobile { font-size: 0.8rem; }
+    .letsworktogether-text-mobile { font-size: 1rem; }
 }
 
 
@@ -3252,6 +3227,27 @@ body.is-section .logo {
 /* ======================================
    YOUTUBE HIGHTLIGHTS
 ====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
