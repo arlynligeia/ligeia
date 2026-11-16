@@ -1426,7 +1426,7 @@ body.is-section .logo {
 /* ======================================
    COLLABORATIONS - MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .collaborations-container-1-mobile {
         position: relative;
         width: 90%;
@@ -2433,7 +2433,12 @@ body.is-section .logo {
 /* ======================================
    LET'S WORK TOGETHER - MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 1024px) { 
+    .letsworktogether-container-1-mobile {
+        width: 90%;
+    }
+}
+@media (max-width: 834px) {
     .letsworktogether-container-1-mobile {
         position: relative;
         width: 90%;
@@ -3645,7 +3650,7 @@ body.is-section .logo {
 /* ======================================
    RESPONSIVE: TIKTOK IN SPANISH
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .tiktokinspanish-container-1-mobile {
         position: relative;
         width: 90%;
@@ -4218,7 +4223,7 @@ body.is-section .logo {
 /* ======================================
    NEWSLETTER - MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .newsletter-container-1-mobile {
         position: relative;
         width: 90%;
@@ -4457,7 +4462,7 @@ body.is-section .logo {
 /* ======================================
    WEBSITECREDITS - MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .websitecredits-container-1-mobile {
         position: relative;
         width: 90%;
@@ -4894,7 +4899,7 @@ body.is-section .logo {
 /* ======================================
    ABOUTLIGEIA - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .aboutligeia-container-1-mobile {
         position: relative;
         width: 90%;
@@ -5242,17 +5247,6 @@ body.is-section .logo {
     .aboutligeia-title-mobile { font-size: 1.3rem; }
     .aboutligeia-text-mobile { font-size: 1rem; }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ======================================
@@ -5603,7 +5597,7 @@ body.is-section .logo {
 /* ======================================
    PURPOSE - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .purpose-container-1-mobile {
         position: relative;
         width: 90%;
@@ -5946,6 +5940,10 @@ body.is-section .logo {
     .purpose-notification-information-mobile { display: block; }
     .purpose-notification-button-2 { display: none; }
     .purpose-notification-button-2-mobile { display: block; }
+}
+@media (max-width: 320px) {
+    .purpose-title-mobile { font-size: 1.3rem; }
+    .purpose-text-mobile { font-size: 1rem; }
 }
 
 
@@ -6297,7 +6295,7 @@ body.is-section .logo {
 /* ======================================
    MISSION - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .mission-container-1-mobile {
         position: relative;
         width: 90%;
@@ -6640,6 +6638,10 @@ body.is-section .logo {
     .mission-notification-information-mobile { display: block; }
     .mission-notification-button-2 { display: none; }
     .mission-notification-button-2-mobile { display: block; }
+}
+@media (max-width: 320px) {
+    .mission-title-mobile { font-size: 1.3rem; }
+    .mission-text-mobile { font-size: 1rem; }
 }
 
 
@@ -6991,7 +6993,7 @@ body.is-section .logo {
 /* ======================================
    VISION - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .vision-container-1-mobile {
         position: relative;
         width: 90%;
@@ -7334,6 +7336,10 @@ body.is-section .logo {
     .vision-notification-information-mobile { display: block; }
     .vision-notification-button-2 { display: none; }
     .vision-notification-button-2-mobile { display: block; }
+}
+@media (max-width: 320px) {
+    .vision-title-mobile { font-size: 1.3rem; }
+    .vision-text-mobile { font-size: 1rem; }
 }
 
 
@@ -7721,15 +7727,7 @@ body.is-section .logo {
 /* ======================================
    BRAND STRUCTURE - RESPONSIVE
 ====================================== */
-@media (min-width: 800px) and (max-width: 1024px) {
-    .brandstructure-container-1 {
-        width: 90%;
-    }
-}
-@media (max-width: 834px) {
-    .brandstructure-title { font-size: 2.3rem; }
-}
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .brandstructure-container-1-mobile {
         position: relative;
         width: 90%;
@@ -8110,9 +8108,6 @@ body.is-section .logo {
     .brandstructure-notification-button-2 { display: none; }
     .brandstructure-notification-button-2-mobile { display: block; }
 }
-@media (max-width: 360px) {
-    .brandstructure-title-mobile { font-size: 1.5rem; }
-}
 @media (max-width: 320px) {
     .brandstructure-title-mobile { font-size: 1.3rem; }
 }
@@ -8205,7 +8200,7 @@ body.is-section .logo {
 /* ======================================
    LEGALDATA - MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .legaldata-container-1-mobile {
         position: relative;
         width: 90%;
@@ -8288,14 +8283,30 @@ body.is-section .logo {
     .legaldata-container-1 { display: none; }
     .legaldata-container-1-mobile { display: block; }
 }
-@media (max-width: 360px) {
-    .legaldata-title-mobile { font-size: 1.5rem; }
-    .legaldata-text-mobile { font-size: 1rem; }
-}
 @media (max-width: 320px) {
     .legaldata-title-mobile { font-size: 1.3rem; }
     .legaldata-text-mobile { font-size: 0.8rem; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
