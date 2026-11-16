@@ -4064,7 +4064,7 @@ body.is-section .logo {
     .tiktokinspanish-notification-button-2-mobile { display: block; }    
 }
 @media (max-width: 320px) {
-    .letsworktogether-title-mobile { font-size: 1.3rem; }
+    .tiktokinspanish-title-mobile { font-size: 1.3rem; }
 }
 
 
@@ -4544,23 +4544,6 @@ body.is-section .logo {
     .websitecredits-title-mobile { font-size: 1.3rem; }
     .websitecredits-text-mobile { font-size: 0.8rem; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ======================================
@@ -5255,6 +5238,21 @@ body.is-section .logo {
     .aboutligeia-notification-button-2 { display: none; }
     .aboutligeia-notification-button-2-mobile { display: block; }
 }
+@media (max-width: 320px) {
+    .aboutligeia-title-mobile { font-size: 1.3rem; }
+    .aboutligeia-text-mobile { font-size: 1rem; }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
