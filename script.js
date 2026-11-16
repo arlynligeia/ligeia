@@ -269,6 +269,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
 /* ======================================
    SCRIPT: NOTIFICACIÓN UPCOMINGRELEASE - PC
 ====================================== */
@@ -362,6 +364,74 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+
+
+/* ======================================
+   SCRIPT: NOTIFICACIÓN TIKTOK IN SPANISH - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const notification    = document.getElementById('tiktokinspanish-notification');
+    const notificationBtn = document.getElementById('tiktokinspanish-button-stay');
+
+    /* La X del bloque TIKTOK IN SPANISH PC (barra principal) */
+    const closeBtns = document.querySelectorAll('#home-tiktokinspanish [data-close="true"]');
+
+    if (notification && notificationBtn && closeBtns.length) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtns.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                notification.classList.add('show');
+            });
+        });
+
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', function () {
+            notification.classList.remove('show');
+        });
+    }
+});
+
+/* ======================================
+   SCRIPT: NOTIFICACIÓN TIKTOK IN SPANISH - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const notification    = document.getElementById('tiktokinspanish-notification-mobile');
+    const notificationBtn = document.getElementById('tiktokinspanish-button-stay-mobile');
+
+    /* La X del bloque TIKTOK IN SPANISH MOBILE (barra principal) */
+    const closeBtns = document.querySelectorAll('#home-mobile-tiktokinspanish [data-close="true"]');
+
+    if (notification && notificationBtn && closeBtns.length) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtns.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                notification.classList.add('show');
+            });
+        });
+
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', function () {
+            notification.classList.remove('show');
+        });
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
