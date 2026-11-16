@@ -8289,26 +8289,6 @@ body.is-section .logo {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    FOUNDER - PC
 ====================================== */
@@ -8695,16 +8675,12 @@ body.is-section .logo {
 /* ======================================
    MOVIL RESPONSIVE: FOUNDER
 ====================================== */
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .founder-container-1 {
         width: 90%;
     }
 }
-@media (max-width: 834px) {
-    .founder-title { font-size: 2.3rem; }
-    .founder-text { font-size: 1.05rem; }
-}
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .founder-container-1-mobile {
         position: relative;
         width: 90%;
@@ -9073,25 +9049,10 @@ body.is-section .logo {
     .founder-notification-button-2 { display: none; }
     .founder-notification-button-2-mobile { display: block; }
 }
-@media (max-width: 360px) {
-    .founder-title-mobile { font-size: 1.5rem; }
-    .founder-text-mobile { font-size: 1rem; }
-}
 @media (max-width: 320px) {
     .founder-title-mobile { font-size: 1.3rem; }
     .founder-text-mobile { font-size: 0.8rem; }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ======================================
@@ -9575,23 +9536,18 @@ body.is-section .logo {
 ====================================== */
 .creativeworlds-container-1 { display: block; }
 .creativeworlds-container-1-mobile { display: none; }
-
 .creativeworlds-notification-1 { display: block; }
 .creativeworlds-notification-1-mobile { display: none; }
 /* ======================================
    CREATIVE WORLDS - MOBILE
 ====================================== */
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .creativeworlds-container-1 {
         position: relative;
         width: 90%;
     }
 }
-@media (max-width: 834px) {
-    .creativeworlds-title { font-size: 2.3rem; }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .creativeworlds-container-1-mobile {
         position: relative;
         width: 90%;
@@ -10050,20 +10006,13 @@ body.is-section .logo {
     ====================================== */
     .creativeworlds-container-1 { display: none; }
     .creativeworlds-container-1-mobile { display: block; }
-    
     .creativeworlds-notification-1 { display: none; }
     .creativeworlds-notification-1-mobile { display: block; }
 }
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 320px) {
+    .creativeworlds-title-mobile { font-size: 1.3rem; }
+    .creativeworlds-text-mobile { font-size: 0.8rem; }
+}
 
 
 /* ======================================
@@ -10414,7 +10363,7 @@ body.is-section .logo {
 /* ======================================
    FASHION - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .fashion-container-1-mobile {
         position: relative;
         width: 90%;
@@ -10757,6 +10706,10 @@ body.is-section .logo {
     .fashion-notification-information-mobile { display: block; }
     .fashion-notification-button-2 { display: none; }
     .fashion-notification-button-2-mobile { display: block; }
+}
+@media (max-width: 320px) {
+    .fashion-title-mobile { font-size: 1.3rem; }
+    .fashion-text-mobile { font-size: 0.8rem; }
 }
 
 
@@ -11452,6 +11405,10 @@ body.is-section .logo {
     .jewelry-notification-button-2 { display: none; }
     .jewelry-notification-button-2-mobile { display: block; }
 }
+@media (max-width: 320px) {
+    .jewelry-title-mobile { font-size: 1.3rem; }
+    .jewelry-text-mobile { font-size: 0.8rem; }
+}
 
 
 /* ======================================
@@ -12146,11 +12103,10 @@ body.is-section .logo {
     .art-notification-button-2 { display: none; }
     .art-notification-button-2-mobile { display: block; }
 }
-
-
-
-
-
+@media (max-width: 320px) {
+    .art-title-mobile { font-size: 1.3rem; }
+    .art-text-mobile { font-size: 0.8rem; }
+}
 
 
 /* ======================================
@@ -13143,7 +13099,7 @@ body.is-section .logo {
 /* ======================================
    CONTACT - MOBILE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 /* CONTENEDOR */
 .contact-container-1-mobile {
     position: relative;
@@ -13601,18 +13557,13 @@ body.is-section .logo {
 ====================================== */
 .contact-container-1 { display: none; }
 .contact-container-1-mobile { display: block; }
-
 .contact-notification-1 { display: none; }
 .contact-notification-1-mobile { display: block; }
 }
-
-
-
-
-
-
-
-
+@media (max-width: 320px) {
+    .contact-title-mobile { font-size: 1.3rem; }
+    .contact-text-mobile { font-size: 0.8rem; }
+}
 
 
 /* ======================================
@@ -13963,7 +13914,7 @@ body.is-section .logo {
 /* ======================================
    TERMSANDCONDITIONS - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .termsandconditions-container-1-mobile {
         position: relative;
         width: 90%;
@@ -14306,6 +14257,10 @@ body.is-section .logo {
     .termsandconditions-notification-information-mobile { display: block; }
     .termsandconditions-notification-button-2 { display: none; }
     .termsandconditions-notification-button-2-mobile { display: block; }
+}
+@media (max-width: 320px) {
+    .termsandconditions-title-mobile { font-size: 1.3rem; }
+    .termsandconditions-text-mobile { font-size: 0.8rem; }
 }
 
 
@@ -14657,7 +14612,7 @@ body.is-section .logo {
 /* ======================================
    PRIVACYPOLICY - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .privacypolicy-container-1-mobile {
         position: relative;
         width: 90%;
@@ -15000,6 +14955,10 @@ body.is-section .logo {
     .privacypolicy-notification-information-mobile { display: block; }
     .privacypolicy-notification-button-2 { display: none; }
     .privacypolicy-notification-button-2-mobile { display: block; }
+}
+@media (max-width: 320px) {
+    .privacypolicy-title-mobile { font-size: 1.3rem; }
+    .privacypolicy-text-mobile { font-size: 0.8rem; }
 }
 
 
@@ -15351,7 +15310,7 @@ body.is-section .logo {
 /* ======================================
    COOKIEPOLICY - RESPONSIVE
 ====================================== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .cookiepolicy-container-1-mobile {
         position: relative;
         width: 90%;
@@ -15695,6 +15654,10 @@ body.is-section .logo {
     .cookiepolicy-notification-button-2 { display: none; }
     .cookiepolicy-notification-button-2-mobile { display: block; }
 }
+@media (max-width: 320px) {
+    .cookiepolicy-title-mobile { font-size: 1.3rem; }
+    .cookiepolicy-text-mobile { font-size: 0.8rem; }
+}
 
 
 /* ======================================
@@ -16011,7 +15974,7 @@ body.is-section .logo {
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
-        gap: 6px;
+        gap: 4px;
         margin: 0 0 10px 0;
     }
     .footer-socialmedia-icon-mobile {
@@ -16019,8 +15982,8 @@ body.is-section .logo {
         display: flex;
         flex: 0 0 auto;
         flex-direction: column;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
@@ -16055,7 +16018,7 @@ body.is-section .logo {
         background: #00B828;
         margin: -3px -4px;
         clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
-        transform: scale(0.75);
+        transform: scale(0.6);
         transition: filter 0.15s ease;
     }
     .footer-socialmedia-folder-mobile::before {
