@@ -15974,7 +15974,7 @@ body.is-section .logo {
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
-        gap: 4px;
+        gap: 6px;
         margin: 0 0 10px 0;
     }
     .footer-socialmedia-icon-mobile {
@@ -15982,8 +15982,8 @@ body.is-section .logo {
         display: flex;
         flex: 0 0 auto;
         flex-direction: column;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
@@ -16018,7 +16018,7 @@ body.is-section .logo {
         background: #00B828;
         margin: -3px -4px;
         clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
-        transform: scale(0.6);
+        transform: scale(0.75);
         transition: filter 0.15s ease;
     }
     .footer-socialmedia-folder-mobile::before {
@@ -16123,4 +16123,41 @@ body.is-section .logo {
     /* CONTROL */
     .footer { display: none; }
     .footer-mobile { display: block; }
+}
+/* ======================================
+   FOOTER MOBILE — 370px (un poco más grande)
+====================================== */
+@media (max-width: 370px) {
+    .footer-socialmedia-mobile {
+        gap: 4px;
+    }
+    .footer-socialmedia-icon-mobile {
+        width: 42px;
+        height: 42px;
+    }
+    .footer-socialmedia-folder-mobile {
+        transform: scale(0.65);
+    }
+    .footer-socialmedia-text-mobile {
+        font-size: 0.52rem;
+    }
+}
+
+/* ======================================
+   FOOTER MOBILE — 320px (más pequeñas)
+====================================== */
+@media (max-width: 320px) {
+    .footer-socialmedia-mobile {
+        gap: 3px;
+    }
+    .footer-socialmedia-icon-mobile {
+        width: 38px;
+        height: 38px;
+    }
+    .footer-socialmedia-folder-mobile {
+        transform: scale(0.55);
+    }
+    .footer-socialmedia-text-mobile {
+        font-size: 0.45rem;
+    }
 }
