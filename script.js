@@ -371,48 +371,39 @@ document.addEventListener('DOMContentLoaded', function () {
    SCRIPT: NOTIFICACIÓN TIKTOK IN SPANISH - PC
 ====================================== */
 document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('tiktokinspanish-button-close');
     const notification    = document.getElementById('tiktokinspanish-notification');
     const notificationBtn = document.getElementById('tiktokinspanish-button-stay');
 
-    /* La X del bloque TIKTOK IN SPANISH PC (barra principal) */
-    const closeBtns = document.querySelectorAll('#home-tiktokinspanish [data-close="true"]');
-
-    if (notification && notificationBtn && closeBtns.length) {
+    if (closeBtn && notification && notificationBtn) {
         // Al hacer clic en la X → mostrar notificación
-        closeBtns.forEach(function (btn) {
-            btn.addEventListener('click', function () {
-                notification.classList.add('show');
-            });
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
         });
 
         // Al hacer clic en STAY → ocultar notificación
-        notificationBtn.addEventListener('click', function () {
+        notificationBtn.addEventListener('click', () => {
             notification.classList.remove('show');
         });
     }
 });
-
 /* ======================================
    SCRIPT: NOTIFICACIÓN TIKTOK IN SPANISH - MOBILE
 ====================================== */
 document.addEventListener('DOMContentLoaded', function () {
-    const notification    = document.getElementById('tiktokinspanish-notification-mobile');
-    const notificationBtn = document.getElementById('tiktokinspanish-button-stay-mobile');
+    const closeBtnMobile        = document.getElementById('tiktokinspanish-button-close-mobile');
+    const notificationMobile    = document.getElementById('tiktokinspanish-notification-mobile');
+    const notificationBtnMobile = document.getElementById('tiktokinspanish-button-stay-mobile');
 
-    /* La X del bloque TIKTOK IN SPANISH MOBILE (barra principal) */
-    const closeBtns = document.querySelectorAll('#home-mobile-tiktokinspanish [data-close="true"]');
-
-    if (notification && notificationBtn && closeBtns.length) {
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
         // Al hacer clic en la X → mostrar notificación
-        closeBtns.forEach(function (btn) {
-            btn.addEventListener('click', function () {
-                notification.classList.add('show');
-            });
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
         });
 
         // Al hacer clic en STAY → ocultar notificación
-        notificationBtn.addEventListener('click', function () {
-            notification.classList.remove('show');
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
         });
     }
 });
